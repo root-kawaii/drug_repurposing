@@ -1,0 +1,13 @@
+ {
+  'file':[
+       'swissprot.csv'
+     ],
+ 'entities': [
+     'drug',
+     'protein'
+     ],
+  'relations':[
+    ['protein', 'Interacts withss', 'gene'],
+    ['protein', 'Interacts with', protein']
+      ]
+}

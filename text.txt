@@ -1,0 +1,48 @@
+Ciao Guido, ho iniziato a capire come scrivere il YAML e parsarlo di conseguenza.
+Ci metterei dentro le entita e le relazioni che vogliamo.
+A secondo di quello che viene specificato li, eseguiamo certi pezzi di codice.
+Non eseguiamo quello che non viene chiesto di essere aggiunto al modello direi.
+
+DOMANDE
+
+Le entita che voglio inserire sono finite e dipendono dal database, quindi gia sono state fatte.
+Posso solo selezionare se le voglio tutte o solo qualcuna.
+Idem per le relazioni.
+Quindi piu che un selettore cosa devo fare.
+
+Altrimenti l'iter e leggere XML trovare tutte entita di un tipo tree.findall(roba), a quel punto find-allare le entita dell'altro tipo e creare interazione nuova e salvarla.
+
+LAVORIAMO SU LIBRERIE BABYY
+GRAPH DATABASE
+
+capire meglio uso dei dizionari
+
+dizionari che ci consentono di passare da id ad altre informazioni
+quindi li usiamo per passare da id a qualisasi altra cosa di cui abbiamo bisogno
+
+tutte le entita devono essere univoche
+quindi usiamo id del dataset
+quindi i nomi comuni sono intercambiabili tipo tachipirina o paracaetamolo (mal di testa o cefalea)
+quindi quanddo trovo nome comune uso dizionario per tornrae all'id
+estraiamo tutte le entita e poi formo relazioni
+id della cosa ----> lista di altri nomi 
+
+drugbank lo ha gia il dizionario
+noi vogliamo relazioni tra id e non creare doppioni 
+
+POSSIBILITA[
+operare come se avessi fare il dizionario a prescindere
+e farlo prima di fare il resto 
+]
+
+download dataset and extract actual info
+we do stuff now
+use UNIPROT
+
+start at line 127 uniPROT
+
+DIZIONARIO DI DIZIONARI PER OGNI ENTITA
+
+
+
+

@@ -1,0 +1,2758 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2019-11-13" modified="2021-09-29" version="11">
+<accession>A0A5A9P0L4</accession>
+<name>A0A5A9P0L4_9TELE</name>
+<protein>
+<recommendedName>
+<fullName evidence="8">Peptidylprolyl isomerase</fullName>
+<ecNumber evidence="8">5.2.1.8</ecNumber>
+</recommendedName>
+</protein>
+<gene>
+<name type="ORF" evidence="17">E1301_Tti010109</name>
+</gene>
+<organism evidence="17 18">
+<name type="scientific">Triplophysa tibetana</name>
+<dbReference type="NCBI Taxonomy" id="1572043"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Actinopterygii</taxon>
+<taxon>Neopterygii</taxon>
+<taxon>Teleostei</taxon>
+<taxon>Ostariophysi</taxon>
+<taxon>Cypriniformes</taxon>
+<taxon>Nemacheilidae</taxon>
+<taxon>Triplophysa</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="17 18">
+<citation type="journal article" date="2019" name="Mol. Ecol. Resour." volume="19" first="1027" last="1036">
+<title>Chromosome-level genome assembly of Triplophysa tibetana, a fish adapted to the harsh high-altitude environment of the Tibetan Plateau.</title>
+<authorList>
+<person name="Yang X."/>
+<person name="Liu H."/>
+<person name="Ma Z."/>
+<person name="Zou Y."/>
+<person name="Zou M."/>
+<person name="Mao Y."/>
+<person name="Li X."/>
+<person name="Wang H."/>
+<person name="Chen T."/>
+<person name="Wang W."/>
+<person name="Yang R."/>
+</authorList>
+<dbReference type="PubMed" id="30977968"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="17">TTIB1903HZAU</strain>
+<tissue evidence="17">Muscle</tissue>
+</source>
+</reference>
+<comment type="catalytic activity">
+<reaction evidence="8">
+<text>[protein]-peptidylproline (omega=180) = [protein]-peptidylproline (omega=0)</text>
+<dbReference type="Rhea" id="RHEA:16237"/>
+<dbReference type="Rhea" id="RHEA-COMP:10747"/>
+<dbReference type="Rhea" id="RHEA-COMP:10748"/>
+<dbReference type="ChEBI" id="CHEBI:83833"/>
+<dbReference type="ChEBI" id="CHEBI:83834"/>
+<dbReference type="EC" id="5.2.1.8"/>
+</reaction>
+</comment>
+<comment type="similarity">
+<text evidence="1">Belongs to the protein kinase superfamily. CAMK Ser/Thr protein kinase family.</text>
+</comment>
+<comment type="caution">
+<text evidence="17">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+</comment>
+<dbReference type="EC" id="5.2.1.8" evidence="8"/>
+<dbReference type="EMBL" id="SOYY01000010">
+<property type="protein sequence ID" value="KAA0715513.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000324632">
+<property type="component" value="Chromosome 10"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005524">
+<property type="term" value="F:ATP binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005509">
+<property type="term" value="F:calcium ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0003755">
+<property type="term" value="F:peptidyl-prolyl cis-trans isomerase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004672">
+<property type="term" value="F:protein kinase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="CDD" id="cd00051">
+<property type="entry name" value="EFh"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="CDD" id="cd00063">
+<property type="entry name" value="FN3"/>
+<property type="match status" value="233"/>
+</dbReference>
+<dbReference type="Gene3D" id="2.60.40.10">
+<property type="match status" value="191"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR011992">
+<property type="entry name" value="EF-hand-dom_pair"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR018247">
+<property type="entry name" value="EF_Hand_1_Ca_BS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002048">
+<property type="entry name" value="EF_hand_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR003961">
+<property type="entry name" value="FN3_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036116">
+<property type="entry name" value="FN3_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR007110">
+<property type="entry name" value="Ig-like_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036179">
+<property type="entry name" value="Ig-like_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013783">
+<property type="entry name" value="Ig-like_fold"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013098">
+<property type="entry name" value="Ig_I-set"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR003599">
+<property type="entry name" value="Ig_sub"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR003598">
+<property type="entry name" value="Ig_sub2"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR011009">
+<property type="entry name" value="Kinase-like_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR040849">
+<property type="entry name" value="MyBP-C_THB"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001179">
+<property type="entry name" value="PPIase_FKBP_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000719">
+<property type="entry name" value="Prot_kinase_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR008266">
+<property type="entry name" value="Tyr_kinase_AS"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00254">
+<property type="entry name" value="FKBP_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00041">
+<property type="entry name" value="fn3"/>
+<property type="match status" value="227"/>
+</dbReference>
+<dbReference type="Pfam" id="PF07679">
+<property type="entry name" value="I-set"/>
+<property type="match status" value="154"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00069">
+<property type="entry name" value="Pkinase"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="Pfam" id="PF18362">
+<property type="entry name" value="THB"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SMART" id="SM00060">
+<property type="entry name" value="FN3"/>
+<property type="match status" value="237"/>
+</dbReference>
+<dbReference type="SMART" id="SM00409">
+<property type="entry name" value="IG"/>
+<property type="match status" value="172"/>
+</dbReference>
+<dbReference type="SMART" id="SM00408">
+<property type="entry name" value="IGc2"/>
+<property type="match status" value="134"/>
+</dbReference>
+<dbReference type="SMART" id="SM00220">
+<property type="entry name" value="S_TKc"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF47473">
+<property type="entry name" value="SSF47473"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48726">
+<property type="entry name" value="SSF48726"/>
+<property type="match status" value="173"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF49265">
+<property type="entry name" value="SSF49265"/>
+<property type="match status" value="138"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF56112">
+<property type="entry name" value="SSF56112"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00018">
+<property type="entry name" value="EF_HAND_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50222">
+<property type="entry name" value="EF_HAND_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50059">
+<property type="entry name" value="FKBP_PPIASE"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50853">
+<property type="entry name" value="FN3"/>
+<property type="match status" value="232"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50835">
+<property type="entry name" value="IG_LIKE"/>
+<property type="match status" value="120"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50011">
+<property type="entry name" value="PROTEIN_KINASE_DOM"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00109">
+<property type="entry name" value="PROTEIN_KINASE_TYR"/>
+<property type="match status" value="2"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0067" evidence="5">ATP-binding</keyword>
+<keyword id="KW-0106" evidence="9">Calcium</keyword>
+<keyword id="KW-0175" evidence="10">Coiled coil</keyword>
+<keyword id="KW-1015" evidence="6">Disulfide bond</keyword>
+<keyword id="KW-0393" evidence="7">Immunoglobulin domain</keyword>
+<keyword id="KW-0413" evidence="8">Isomerase</keyword>
+<keyword id="KW-0418" evidence="4">Kinase</keyword>
+<keyword id="KW-0479" evidence="2">Metal-binding</keyword>
+<keyword id="KW-0547" evidence="5">Nucleotide-binding</keyword>
+<keyword id="KW-1185" evidence="18">Reference proteome</keyword>
+<keyword id="KW-0677" evidence="3">Repeat</keyword>
+<keyword id="KW-0697" evidence="8">Rotamase</keyword>
+<keyword id="KW-0808" evidence="4">Transferase</keyword>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="1341"/>
+<end position="1433"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="1438"/>
+<end position="1523"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="1789"/>
+<end position="1898"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="1992"/>
+<end position="2076"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="2171"/>
+<end position="2261"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="2347"/>
+<end position="2432"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="2436"/>
+<end position="2521"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="2527"/>
+<end position="2615"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="2616"/>
+<end position="2685"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="2695"/>
+<end position="2792"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="2798"/>
+<end position="2868"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="2886"/>
+<end position="2970"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="3156"/>
+<end position="3250"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="3256"/>
+<end position="3351"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="3357"/>
+<end position="3452"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="3553"/>
+<end position="3648"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="3653"/>
+<end position="3747"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="3751"/>
+<end position="3842"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="3849"/>
+<end position="3942"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="3948"/>
+<end position="4043"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="4049"/>
+<end position="4143"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="4146"/>
+<end position="4243"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="4249"/>
+<end position="4344"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="4350"/>
+<end position="4448"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="4452"/>
+<end position="4540"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="4547"/>
+<end position="4641"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="4647"/>
+<end position="4742"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="4746"/>
+<end position="4910"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="4917"/>
+<end position="5012"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="5018"/>
+<end position="5111"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="5115"/>
+<end position="5211"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="5215"/>
+<end position="5305"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="5312"/>
+<end position="5404"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="5407"/>
+<end position="5504"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="5508"/>
+<end position="5606"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="5613"/>
+<end position="5711"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="5717"/>
+<end position="5817"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="5823"/>
+<end position="5920"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="5910"/>
+<end position="6023"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="6030"/>
+<end position="6124"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="6130"/>
+<end position="6230"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="6218"/>
+<end position="6328"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="6336"/>
+<end position="6429"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="6435"/>
+<end position="6534"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="6537"/>
+<end position="6634"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="6638"/>
+<end position="6725"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="6734"/>
+<end position="6829"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="6835"/>
+<end position="6931"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="6919"/>
+<end position="7013"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="7031"/>
+<end position="7125"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="7131"/>
+<end position="7226"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="7232"/>
+<end position="7329"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="7429"/>
+<end position="7523"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="7529"/>
+<end position="7621"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="7624"/>
+<end position="7716"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="7724"/>
+<end position="7821"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="7823"/>
+<end position="7922"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="7923"/>
+<end position="8018"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="8022"/>
+<end position="8113"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="8120"/>
+<end position="8212"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="8219"/>
+<end position="8313"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="8317"/>
+<end position="8405"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="8412"/>
+<end position="8507"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="8511"/>
+<end position="8606"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="8612"/>
+<end position="8717"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="8722"/>
+<end position="8808"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="8819"/>
+<end position="8918"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="8919"/>
+<end position="9014"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="8960"/>
+<end position="9048"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="9099"/>
+<end position="9197"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="9298"/>
+<end position="9393"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="9399"/>
+<end position="9494"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="9500"/>
+<end position="9596"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="9698"/>
+<end position="9793"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="9795"/>
+<end position="9890"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="9988"/>
+<end position="10081"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="10087"/>
+<end position="10182"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="10185"/>
+<end position="10281"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="10285"/>
+<end position="10377"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="10384"/>
+<end position="10477"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="10483"/>
+<end position="10578"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="10584"/>
+<end position="10680"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="10779"/>
+<end position="10873"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="10876"/>
+<end position="10968"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="11070"/>
+<end position="11165"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="11170"/>
+<end position="11265"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="11268"/>
+<end position="11363"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="11368"/>
+<end position="11446"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="11466"/>
+<end position="11561"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="11566"/>
+<end position="11661"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="11667"/>
+<end position="11763"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="11767"/>
+<end position="11856"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="11863"/>
+<end position="11957"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="11960"/>
+<end position="12053"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="12152"/>
+<end position="12246"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="12252"/>
+<end position="12346"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="12350"/>
+<end position="12446"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="12548"/>
+<end position="12642"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="12648"/>
+<end position="12743"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="12749"/>
+<end position="12844"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="12849"/>
+<end position="12936"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="12945"/>
+<end position="13038"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="13041"/>
+<end position="13134"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="13138"/>
+<end position="13224"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="13239"/>
+<end position="13332"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="13336"/>
+<end position="13424"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="13432"/>
+<end position="13530"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="13531"/>
+<end position="13625"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="13629"/>
+<end position="13725"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="13729"/>
+<end position="13819"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="13828"/>
+<end position="13922"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="13928"/>
+<end position="14023"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="14029"/>
+<end position="14125"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="14129"/>
+<end position="14216"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="14225"/>
+<end position="14319"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="14322"/>
+<end position="14419"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="14419"/>
+<end position="14505"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="14514"/>
+<end position="14612"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="14613"/>
+<end position="14708"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="14711"/>
+<end position="14807"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="14811"/>
+<end position="14898"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="14910"/>
+<end position="15003"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="15009"/>
+<end position="15104"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="15110"/>
+<end position="15206"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="15208"/>
+<end position="15293"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="15304"/>
+<end position="15399"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="15528"/>
+<end position="15621"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="15624"/>
+<end position="15720"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="15724"/>
+<end position="15812"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="15887"/>
+<end position="15982"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="15988"/>
+<end position="16082"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="16140"/>
+<end position="16235"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="16237"/>
+<end position="16329"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="16333"/>
+<end position="16425"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="16432"/>
+<end position="16525"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="16531"/>
+<end position="16625"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="16695"/>
+<end position="16783"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="16790"/>
+<end position="16884"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="16890"/>
+<end position="16986"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="16992"/>
+<end position="17087"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="17091"/>
+<end position="17180"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="17187"/>
+<end position="17282"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="17284"/>
+<end position="17377"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="17365"/>
+<end position="17470"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="17480"/>
+<end position="17573"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="17579"/>
+<end position="17674"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="17677"/>
+<end position="17776"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="17880"/>
+<end position="17973"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="17979"/>
+<end position="18075"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="18081"/>
+<end position="18175"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="18280"/>
+<end position="18373"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="18379"/>
+<end position="18473"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="18480"/>
+<end position="18575"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="18579"/>
+<end position="18650"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="18675"/>
+<end position="18772"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="18773"/>
+<end position="18872"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="18878"/>
+<end position="18973"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="18978"/>
+<end position="19066"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="19170"/>
+<end position="19266"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="19282"/>
+<end position="19374"/>
+</location>
+</feature>
+<feature type="domain" description="Protein kinase" evidence="12">
+<location>
+<begin position="19409"/>
+<end position="19662"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="19722"/>
+<end position="19814"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="19847"/>
+<end position="19938"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="19949"/>
+<end position="20038"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="20480"/>
+<end position="20572"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="20578"/>
+<end position="20666"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="20864"/>
+<end position="20946"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="21006"/>
+<end position="21092"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="21207"/>
+<end position="21296"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="21350"/>
+<end position="21439"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="21449"/>
+<end position="21539"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="21596"/>
+<end position="21686"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="21734"/>
+<end position="21821"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="21974"/>
+<end position="22063"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="22067"/>
+<end position="22199"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="22374"/>
+<end position="22464"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="22910"/>
+<end position="22998"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="23015"/>
+<end position="23113"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="23510"/>
+<end position="23601"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="23642"/>
+<end position="23732"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="23737"/>
+<end position="23827"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="23836"/>
+<end position="23927"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="23932"/>
+<end position="24021"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="24029"/>
+<end position="24136"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="24241"/>
+<end position="24364"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="25318"/>
+<end position="25410"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="25415"/>
+<end position="25500"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="25688"/>
+<end position="25758"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="26043"/>
+<end position="26114"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="26308"/>
+<end position="26393"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="26397"/>
+<end position="26482"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="26488"/>
+<end position="26573"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="26577"/>
+<end position="26660"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="26663"/>
+<end position="26753"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="26757"/>
+<end position="26829"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="26847"/>
+<end position="26931"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="27117"/>
+<end position="27211"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="27217"/>
+<end position="27312"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="27457"/>
+<end position="27552"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="27557"/>
+<end position="27651"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="27655"/>
+<end position="27746"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="27753"/>
+<end position="27846"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="27852"/>
+<end position="27947"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="27953"/>
+<end position="28047"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="28050"/>
+<end position="28147"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="28153"/>
+<end position="28247"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="28254"/>
+<end position="28350"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="28449"/>
+<end position="28543"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="28549"/>
+<end position="28644"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="28648"/>
+<end position="28772"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="28779"/>
+<end position="28874"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="28880"/>
+<end position="28973"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="28977"/>
+<end position="29073"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="29073"/>
+<end position="29167"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="29174"/>
+<end position="29266"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="29272"/>
+<end position="29366"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="29370"/>
+<end position="29472"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="29465"/>
+<end position="29560"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="29566"/>
+<end position="29666"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="29653"/>
+<end position="29771"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="29764"/>
+<end position="29858"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="29864"/>
+<end position="29964"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="30069"/>
+<end position="30163"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="30164"/>
+<end position="30258"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="30261"/>
+<end position="30358"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="30362"/>
+<end position="30451"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="30458"/>
+<end position="30553"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="30559"/>
+<end position="30653"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="30658"/>
+<end position="30747"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="30754"/>
+<end position="30848"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="30854"/>
+<end position="30949"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="30955"/>
+<end position="31056"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="31024"/>
+<end position="31109"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="31120"/>
+<end position="31214"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="31220"/>
+<end position="31312"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="31415"/>
+<end position="31514"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="31516"/>
+<end position="31615"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="31616"/>
+<end position="31711"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="31715"/>
+<end position="31806"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="31813"/>
+<end position="31906"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="31912"/>
+<end position="32006"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="32010"/>
+<end position="32101"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="32108"/>
+<end position="32203"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="32207"/>
+<end position="32302"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="32308"/>
+<end position="32408"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="32445"/>
+<end position="32581"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="32679"/>
+<end position="32775"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="32779"/>
+<end position="32877"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="32846"/>
+<end position="32937"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="32944"/>
+<end position="33039"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="33045"/>
+<end position="33140"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="33146"/>
+<end position="33241"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="33344"/>
+<end position="33439"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="33441"/>
+<end position="33536"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="33535"/>
+<end position="33627"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="33635"/>
+<end position="33734"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="33736"/>
+<end position="33828"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="33833"/>
+<end position="33925"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="33932"/>
+<end position="34025"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="34031"/>
+<end position="34126"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="34132"/>
+<end position="34227"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="34231"/>
+<end position="34320"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="34327"/>
+<end position="34421"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="34424"/>
+<end position="34516"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="34520"/>
+<end position="34611"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="34618"/>
+<end position="34713"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="34718"/>
+<end position="34813"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="34816"/>
+<end position="34912"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="35014"/>
+<end position="35108"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="35114"/>
+<end position="35209"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="35215"/>
+<end position="35318"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="35308"/>
+<end position="35402"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="35413"/>
+<end position="35507"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="35510"/>
+<end position="35603"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="35607"/>
+<end position="35691"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="35702"/>
+<end position="35796"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="35802"/>
+<end position="35896"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="35900"/>
+<end position="35996"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="36000"/>
+<end position="36091"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="36098"/>
+<end position="36197"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="36198"/>
+<end position="36293"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="36299"/>
+<end position="36414"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="36425"/>
+<end position="36506"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="36515"/>
+<end position="36609"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="36612"/>
+<end position="36705"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="36709"/>
+<end position="36795"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="36804"/>
+<end position="36898"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="36904"/>
+<end position="36999"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="37002"/>
+<end position="37098"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="37102"/>
+<end position="37189"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="37200"/>
+<end position="37294"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="37297"/>
+<end position="37395"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="37401"/>
+<end position="37497"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="37597"/>
+<end position="37691"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="37694"/>
+<end position="37787"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="37791"/>
+<end position="37879"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="37887"/>
+<end position="37980"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="38046"/>
+<end position="38146"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="38147"/>
+<end position="38243"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="38247"/>
+<end position="38336"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="38343"/>
+<end position="38437"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="38440"/>
+<end position="38533"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="38537"/>
+<end position="38625"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="38632"/>
+<end position="38725"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="38731"/>
+<end position="38825"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="38829"/>
+<end position="38925"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="38929"/>
+<end position="39014"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="39028"/>
+<end position="39122"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="39127"/>
+<end position="39222"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="39228"/>
+<end position="39323"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="39316"/>
+<end position="39415"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="39422"/>
+<end position="39517"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="39652"/>
+<end position="39747"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="39753"/>
+<end position="39849"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="39948"/>
+<end position="40039"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="40043"/>
+<end position="40130"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="40142"/>
+<end position="40235"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="40241"/>
+<end position="40337"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="40339"/>
+<end position="40434"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="40483"/>
+<end position="40576"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="40582"/>
+<end position="40678"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="40684"/>
+<end position="40779"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="40783"/>
+<end position="40870"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="40879"/>
+<end position="40974"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="40976"/>
+<end position="41069"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="41069"/>
+<end position="41160"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="41171"/>
+<end position="41265"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="41271"/>
+<end position="41365"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="41369"/>
+<end position="41468"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="41472"/>
+<end position="41564"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="41571"/>
+<end position="41664"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="41670"/>
+<end position="41766"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="41772"/>
+<end position="41866"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="41944"/>
+<end position="42038"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="42044"/>
+<end position="42140"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="42145"/>
+<end position="42241"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="42196"/>
+<end position="42329"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="42340"/>
+<end position="42441"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="42442"/>
+<end position="42536"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="42542"/>
+<end position="42637"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="42642"/>
+<end position="42730"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="42832"/>
+<end position="42928"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="42934"/>
+<end position="43029"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="43035"/>
+<end position="43123"/>
+</location>
+</feature>
+<feature type="domain" description="Fibronectin type-III" evidence="16">
+<location>
+<begin position="43231"/>
+<end position="43324"/>
+</location>
+</feature>
+<feature type="domain" description="Protein kinase" evidence="12">
+<location>
+<begin position="43358"/>
+<end position="43612"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="43676"/>
+<end position="43764"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="43797"/>
+<end position="43888"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="43891"/>
+<end position="43989"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="44462"/>
+<end position="44550"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="44667"/>
+<end position="44756"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="44823"/>
+<end position="44911"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="44940"/>
+<end position="45026"/>
+</location>
+</feature>
+<feature type="domain" description="Ig-like" evidence="15">
+<location>
+<begin position="45035"/>
+<end position="45123"/>
+</location>
+</feature>
+<feature type="domain" description="PPIase FKBP-type" evidence="13">
+<location>
+<begin position="45178"/>
+<end position="45277"/>
+</location>
+</feature>
+<feature type="domain" description="EF-hand" evidence="14">
+<location>
+<begin position="45277"/>
+<end position="45312"/>
+</location>
+</feature>
+<feature type="calcium-binding region" evidence="9">
+<location>
+<begin position="45290"/>
+<end position="45301"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="11">
+<location>
+<begin position="84"/>
+<end position="124"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="11">
+<location>
+<begin position="197"/>
+<end position="216"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="11">
+<location>
+<begin position="383"/>
+<end position="672"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="11">
+<location>
+<begin position="774"/>
+<end position="877"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="11">
+<location>
+<begin position="891"/>
+<end position="911"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="11">
+<location>
+<begin position="961"/>
+<end position="1074"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="11">
+<location>
+<begin position="1228"/>
+<end position="1316"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="11">
+<location>
+<begin position="4800"/>
+<end position="4859"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="11">
+<location>
+<begin position="8590"/>
+<end position="8614"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="11">
+<location>
+<begin position="8901"/>
+<end position="8920"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="11">
+<location>
+<begin position="20365"/>
+<end position="20408"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="11">
+<location>
+<begin position="20719"/>
+<end position="20772"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="11">
+<location>
+<begin position="21316"/>
+<end position="21337"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="11">
+<location>
+<begin position="24489"/>
+<end position="24637"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="11">
+<location>
+<begin position="24649"/>
+<end position="24683"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="11">
+<location>
+<begin position="24723"/>
+<end position="24765"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="11">
+<location>
+<begin position="24996"/>
+<end position="25058"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="11">
+<location>
+<begin position="25136"/>
+<end position="25157"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="11">
+<location>
+<begin position="25194"/>
+<end position="25304"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="11">
+<location>
+<begin position="29710"/>
+<end position="29732"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="11">
+<location>
+<begin position="32502"/>
+<end position="32523"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="11">
+<location>
+<begin position="42136"/>
+<end position="42168"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="11">
+<location>
+<begin position="44059"/>
+<end position="44078"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="11">
+<location>
+<begin position="44763"/>
+<end position="44822"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="10">
+<location>
+<begin position="20265"/>
+<end position="20285"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="10">
+<location>
+<begin position="21883"/>
+<end position="21903"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="10">
+<location>
+<begin position="24803"/>
+<end position="24823"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Basic and acidic residues" evidence="11">
+<location>
+<begin position="774"/>
+<end position="792"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Basic and acidic residues" evidence="11">
+<location>
+<begin position="810"/>
+<end position="853"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Acidic residues" evidence="11">
+<location>
+<begin position="1238"/>
+<end position="1258"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Basic and acidic residues" evidence="11">
+<location>
+<begin position="1290"/>
+<end position="1304"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Basic and acidic residues" evidence="11">
+<location>
+<begin position="4804"/>
+<end position="4847"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Basic and acidic residues" evidence="11">
+<location>
+<begin position="20365"/>
+<end position="20385"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polar residues" evidence="11">
+<location>
+<begin position="20733"/>
+<end position="20764"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polar residues" evidence="11">
+<location>
+<begin position="21316"/>
+<end position="21330"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Pro residues" evidence="11">
+<location>
+<begin position="24520"/>
+<end position="24536"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Basic and acidic residues" evidence="11">
+<location>
+<begin position="24539"/>
+<end position="24559"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Basic and acidic residues" evidence="11">
+<location>
+<begin position="24996"/>
+<end position="25022"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Basic and acidic residues" evidence="11">
+<location>
+<begin position="25032"/>
+<end position="25058"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Acidic residues" evidence="11">
+<location>
+<begin position="25213"/>
+<end position="25230"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Basic and acidic residues" evidence="11">
+<location>
+<begin position="25255"/>
+<end position="25275"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Basic and acidic residues" evidence="11">
+<location>
+<begin position="29712"/>
+<end position="29728"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polar residues" evidence="11">
+<location>
+<begin position="42147"/>
+<end position="42162"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polar residues" evidence="11">
+<location>
+<begin position="44806"/>
+<end position="44822"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00006692"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00022723"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00022737"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00022777"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00022840"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00023157"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00023319"/>
+</source>
+</evidence>
+<evidence key="8" type="ECO:0000256">
+<source>
+<dbReference type="PROSITE-ProRule" id="PRU00277"/>
+</source>
+</evidence>
+<evidence key="9" type="ECO:0000256">
+<source>
+<dbReference type="PROSITE-ProRule" id="PRU00448"/>
+</source>
+</evidence>
+<evidence key="10" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="Coils"/>
+</source>
+</evidence>
+<evidence key="11" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="MobiDB-lite"/>
+</source>
+</evidence>
+<evidence key="12" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50011"/>
+</source>
+</evidence>
+<evidence key="13" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50059"/>
+</source>
+</evidence>
+<evidence key="14" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50222"/>
+</source>
+</evidence>
+<evidence key="15" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50835"/>
+</source>
+</evidence>
+<evidence key="16" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50853"/>
+</source>
+</evidence>
+<evidence key="17" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="KAA0715513.1"/>
+</source>
+</evidence>
+<evidence key="18" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000324632"/>
+</source>
+</evidence>
+<sequence length="45354" mass="5047293" checksum="7BCEECC7BB60029B" modified="2019-11-13" version="1">MEEITQIKKRLSQTVRLEGKEDLLSKKDSITNLKTEEHVSVKKMVISEPKPEKKEDIQLKKKEVVAVAKKEEVLKKEVVVPSKKDEEILPLKKEVPRPPKKEEDVMPQKKEVPRPPKKEEDIVPQMRDVSLPPKEEEKIVPKKKEVPRPPKKVEEILPPKKEVHRPPKKEEDIVPQIREVSLPPKKDEEIVCEKKEVAPAKEEPSKKPKVPSLPATQREDVIEEIIHKKPTAALSKFEDVKEHEEKETFVVLKKEIIDAPTKKEMVTAKHVIVPQKEEIIPSPTQEEVVSFKRKQTVRTSKKDAVPQKKEITYTQQTLEDKEEKILKRLEVTSTPDEEEIAHIQKKLYHTVRLVEKDVFPEKEDITMLETEEFVSQEIKLVSEPKPEKEKEIQGKKKVPPVSKKEEPLHHPKMDEKIVLKQKDVTLSHRKDEETVPQKKDPILALRKDEEIVTQKKDVTPPLIKEEESVPQNKDVTRPLRKEEESVPQKKDVTRPLRKDEETIPQKKDVTLPHGKDEETVPQKKDVTRPLRKDEEIIPQKKDVTRPLRKDGETVPQKKDVTLPHRKDEEIIPQKKDVTRPLRKDGETVPQKKDVTLPHRKEEESVPQKKDVTLPPRKDEESVPQKKDTTGPLIKDEETVPQKKDVTLPHRKDEETVPQKKDVTLRKDEETVPQKKDVTLPHRKDEEIIPQKKDVILRKDEETVPQKKDVTLPHRKDEETVPQKKDVTLPLRKDKLSELTYKKKEDIIPIKEEVVAVDEKEEAILPRKKEIFLHSKKDEDIKPKKKQVAPTKVEKKPSVEPSVVPKETTVFPLEVKEHDKKAEDKDIPKPKEEKRIPTKVQSPKEAEKPRPGPKEEPVPLVQPVEAADKEPVSAPGQVKKGKVLRVKKEEEKVEMPVLKKTSRVSKDKEEDKEMIKLKKVLKTQSAEHEESQKVYVEAKTQAIITESYEAEMHLESYETIKRVEKMPSEVGKKKPIEPAQEPKQEKPESEADEKPKKEIATKVPKEDIPEEPSLALKKVKKLQLETKDEECVKLKPFEKPVKPSPEAEKAPPNDEKERKPISFEKRKEPSTSQDIEWPEKVDKTKGLDDKMVLPKKITPVKTDVTPKEDEKKPIVPQKGILPKETEEKEEITLKPIEHAKKDLKPKNIPSPRVEKTKPIETVSVEKKLSKDLAKKPKTVSPKVSLEAVTLKKVPKKVSPKEDKAKETRTISEAEKVPVMKELSPGAVELTKVPTQPEEEVFEEEAEAEAEFEAQDEDEAWGWEVASRDSYGSEGSEYLEEGALETPGMPGGRREGKPKEEVGKARQTPSPGDGGRGRGLRPGAGGDKPPGDAPIGFQLKPVPLKFVKELKDIMLQEAESVGSSVVFECQISPSTAITTWMKDGSNLRESPKHKFTSDGKDRKLAIIDVQLSDSGEYTCVGKLGNKEKTSTAKLIVEELPVKFTKDLEEEMSVIKGQPMYLSCELSKDREVVWKKDGKELKPAPGKVAINVIGLQRTVTIHDSNDDDAGVYTCECENLKTQVNVKIIEIIRDWLTKPLRDQHVKPKATATFKGDLFKDTPNWKWFKGNDEIPMEPSDKFEVKKDGKEVTLTIKNAQPGDVGEYGIEIEGRRYAAKLTLGEREAEILKPLASIEVVEKEEASFETEISEEDVVGEWKLRGQVLTRSPTCDIRMEGKKRYLTLKNVELDQAGEVSYQALNGVTSAMLTVKEIEMDFTVPLTDVTVHEKKQAKFECTITKDVPKVMWLRGSDIITSDQKYDIIDDGKKHILVINQCEFDDEGEYTIEVLGKTSPAKLTVEGMRLKVISAISDQTVKEEGDAYFTVKLQDYTAVEKDEVTLDCELSKDVPVKWFHNEAEIKASKMVSMKVDGKRRMLCIKKVEDKDKGQYACDCGTDKTAATVTIEARDIKVVRPMYGVELFDGETARFEVEISEDDVHGQWKLNGEVLSPSPDVEIIEDGAKHILTLYNCKVLQTGEISFQGANAKCSANLKVKELPITFVTPLTDVHVYEKDEARFECEVSRQPKTLRWLKGPVDITTDDKFELLQEGKRHTLVVKSAAYEDEAKYMFEAEDKKTSAKLVIQGIRLEFVRPIKDVTVKERETAEFRIELSHEKVQVSWYKNDVRLHPSKVVHLSEDGKIHTLSFKEVSLDDTSLIKVEALGKTCEAMLTVLEGEPYFTTKLQDYTAVEKDEVVLMCEVSKSAAEVKWFKDGKEIIPSKNILIKAEGKKRILTVRKAEKANIGEYLCDCGSDKTAAKLNTEERDIKIVRPLYSVEVTETETARFETEISEEDVHGNWKLKEETLHHSPDCEKKEEGTKHILILYNVRMDMAGSVDFSAANAKSRAQLRVKEPPVEFTKPLEDQTVEEEATAELECEVSRENAEVRWFKDGQEIHKTKKFDMVVDGRKRKLIIHESTIDDSKTYTCDAQKFKTSAFLNVEPPHVEFTKPLHDVEVKEKESARFECKVSRETAKVRWFKDGSEIRKGKKYEIISEGVKRILIISKSVFDDEAEYECDARTSKTSGMLTVVEEEARFTKNLANVEGTETDSVKLICEVSKPDAEVTWYKGDQELPEVGRYEHIADGKKRILIIKDLQMEDAGEYHCKLSSSQSTGSLRINELAAEFISRPQNQEVVEGEKAEFVCSVSKDTYEVKWVKGDNQLQSDDKYDIISDGKKRVLVIKSCELKDEGGFVAVIGTTRAPADLIVIEKLRIITPLKDLIANEGQETVLNCEVNTEGAKAKWLKNDETLFESSKFIMVQKDNVFSLRIKDTQKPNEGNYTIMLTNQRGEQAKSAASITVQEEDLRIIVPPEDVDTQEKRTISFSCKVNRPNVTVQWMKAGQEITFGKRILYRVDKDKHTLTIKDCTLADEGEYTVVGGADKASAELIISEAPTDFTAQLQDQTITEFEDAEFTCELSKEKAEIKWYRDGREIREGPRYQFERDGKTCRLRIKECRPDDECEYACGVDDKKTRARLFVEETPVEIIRPPADVFEPPGSDVVYEVELNKDRVEVKWLRNNMTVVQGDKYQMMSEGKIHRLQVCEIRPRDQGEYRVIAKDKDARAKLELAAVPTIKTLDQDLVTDAGKPFVMTIPYNAYPHAEAEWFFDSISLPKDNIHSSTDRTEYRLKDPKKSEEGRYKIIIQNKHGKGEAFINLKVVDVPGSVKNLQVVDTADGEVSIAWEEPDSDGGSKILAYVVERRNIKRKTWTLATDSADSTEYCVTGLQKDSKYLFRVCARNRVGSGPSIETDKAVQAKNKFDVPDPPQNVIVGNVNKFGATVSWEPPLSDGGSEITSYIIELRDRTSVNWAPVMVTKPHERTAIINDVIENKEYIFRVKAENRAGIGKPSAATNPVKIMDPIERPSPPLNLTHSEQTKDSCLLTWETPLKNGGTPITGYIIERCEEGSEKWLRCNARLSQDLVYRMSGLKFGTKYSYRVIAENAAGQSDSSNIVGPVLVDDPHFAPTLDLSAFKDGLEVIVPHPLAIRVPITGYPVPTAKWTFGETELAAGDRVSMVTKATFTELVITPSVRPDRGTYSLTLENDVTSVSGDIDVNVIASPSAPKDLKVAEVTRRHVHLMWEAPDHDGGSSITGYQVEKREVSRKTWVKVMAGLQDQEYTITDVVEGKEYLFRVIACNKCGPGEPAYIDEPVNVSSPATVPDPPENLKWRDKSASKIFLSWEPPKWDGGTVIKGYIIDKCQRGTDKWKPCGEPVPELKFEVTGLIEGQWYAYRVRALNRLGASRPCKATDEILAVDPKEPPEIQLDAKLLAGLTAKAGTKIELPADITGKPEPKVKWTKADLVLKPDDRITIDAKPGHSTLSIAKTKRDDTATYIIEAVNSSGRATATVDVNILDKPGPPAAFDISEITSESCLLSWNPPRDDGGSKVTNYIVERRALDSEIWYKLSSTVKQTTYKATKLVAFKEYVFRVYAENQFGVGAQAEHAPIIARYPFDTPGPPYKLETSDIAKDSVTLNWYEPDDDGGSPITGYWVERYEPDHDKWIRCNKLPIRDTNFRVKGLPTRKKYKFRVLAENLAGPGKPSKETDQILIKDPIDPPWAPGKPTVKDVAKTSAFLHWTKPEHDGGAKIESYIVELLKSGTDEWVRVADGIPTLEHFLRGLMEKQEYSFRVRAVNAAGESEPSEPSDPVLCKERLNPPSPPRWLLVVTSTRNSAELKWTAPERDGGSPVTNYIIEKRDVKRKGWQVVDTTVKELKYTASPLNEGSLYVFRVAAENAVGPSEYCELADSVLAKDTFGTPGPPYNLTVTEVSKSHVDLKWDAPQKDGGRPVLRYVIEKKEKLGTRWVKSGKTSGPDCHYRVTDVIEGTEVQFKVSAENEAGIGHPSEPTDIIVIEDPTGPPSPPQDLHITEAARDHISISWKAPDKNGGSPVIGYNIELCEAGTEKWMRVNSRPVKELKFRAGEEEGILPEKQYTFRVRAVNSVGASEPSEISESVYAKDSDCNPTLDFQTKDLVVVEGEKMHLPIPFRAVPAPKITWHKDGSELKADDRIFFRTEYTSCHLEIPSCLHADGGQYKVTLENGLGAASGTINVKVIGLPGPCKEIVDSEITKNSCKVSWDPPDYDGGSPVLHFVLQRREAGRRTYINVMSGENKLVWQVKDLIQNGEYYFRVRAVNKIGGGEFIELRNPVIAEDQKQRPDPPIEVETHNPTSESVTLTWKPPMYDGGSKIMGYILEKMMKGEDNFVRCNDFLVPVLSYTVKGLKEGNQYQFRVYAENAAGVSDPSRSTPLIKAIDAIDRPKVFLSGSLQSGLIVKRGEEMRLDAYISGFPYPQITWTRNNSSIWPEALKKRPEKPIRKKKEEKKEEKKEEDKEPKKEEDKKEEDKEKKEEIKEKKEEEKEQEVEQPEEPEEAYHPSLNERLTIDSKRKGESYIIVKDTIRADHGVFTIKVENDHGVASASCEVNILDTPGPPVNFSFEEVRKNSIICKWDPPLDDGGSEIFNYTLERKDNSKIELGWITVTSTLRGCRYPVTKLIEGKQYIFRVTAENKYGPGIPCISKPIIAKNPFDPPEAPEKPEIVYVTSNSMVVTWNEPNDNGSPIQGYWVEKREINSTHWARVNRIIVPDLEITVLGLLEGMTYIFRVCAENVAGPGKFSPPSEPKTAQAAIMPPGPPIPRVVETTDYSIDVEWDPPADNGGADIFGYHVDKVVAGTKDWSRATERPQKSRTFTVYGVREGAKYIVRVVAVNCAGEGAPGLTDAVIVRNPAEGPVIELDISVRNGVVVRAGEMLRIPAHVTGKPFPFLKWTKDDGDLEKDCMEVEEAGNDSTVVIKCTKRSDHGKYHIQAANPSGIKSASTRVEVMDVPGPVLDLKPVVVTRKLMMLNWSDPDDDGGSDVTGFIIERREPKMHTWRQPIETPSSKCEIVGIIEGQEYIFRVVAKNKFGCGPPVDLGPIRAVDPQGPPTSPEKFHYTERTKSSVTIEWRPPRNDGGSPIMGYIIEKKRQDQPAFQRINEELCTAQIMTIENLDELHLYEFRAKAVNAIGESEPSITMTVVIQDDEVAPSLHMLKHFKGDLIRARKNEPIEMPAEVTGLPMPKIEWLKDDVVIDMPTEKLLIETKEIDRVTSHTKLSIPGVVRLDKGTYTVNASNRLGSVSHHITVEVLDRPTPPRNIAFSNIKAESCQLTWDAPLDTGGSELTNYIVEMKDLNGEDPEKAEWVNVTNTIIERRYGVWNLETGGNYKFRVKAENKYGISEACETEEIQIRDPLALPGPPEKVTIAEYSKAHILLTWEPPMDSGGSMITGYWIEKREKGTSYWSRVNKVMVSKRGVKGWDYMVTRLIEETEYEFRVMACNAAGIGPPSATSESAIAVDPLTPPSMPAAPEIADKTRHSVTLSWTPPGKDGGRPIKGYIIEIQDEGTSEWARINDAENLHPSTLFTIPNLPELKKYRFRIIAVNEIGESEPSPRTTEVRIEDIQTAPKIFMDISAHDLLCIRAGTPFKIPATITGRSVPKVTWEFDGKAKTEKKDRLHVLPVDSQVESNDTNSTVIVPVSLRSHSGRYTITAKNKSGQKHVNVRVNVLDVPGAPKELKVTDVTRTTMRLIWKLPDNDGGERIKSYFIEKKAVNGKAWTTVSPACASMALVVPNLLEGQDYLFRIRAENRLGFGPFTETSEPVRARDPIYPPDPPTKVNINLVTKNTVTLTWVPPKNDGGAPVKHYIIERLSWDTSGPQKETWKQCNKRDVEETTFIVEDLKEGGEYEFRVKAVNDAGASRPSVTAGPVIIKDQTCPPNIDLREALEGAEGFDITIVSRIQGCPFPSLVWQKSPLDNPDDKTSVQYDKHVNKLVSDDKCTLLIQQSKRDDSAVYTLTATNSLGTASKSIKLNILGRPGVPVGPIKFEEVFAERIGLSWKPPTDDGGSKITNYVVEKREENRKTWVHVSSDPKECQYVVQRLTEGHEYEFRVMAQNKYGVGPPLYSEPEKARNLFTVPGQCDKPTVTDVALESMTVNWEEPEYDGGSPLTGYWLERKETTAKRWARVNRDPIRIRPMGVSHVVTGLMEGAIYQFRVIAMNAAGCGLPSLPSDPVVCRDPIAPPGPPTPKVTDCTKSTVDLEWIPPLVDGGSKITGYFVEYKEEGQEEWEKVKDKEIRGCKFVVPGLKELGHYRFRVRAVNAAGVGEPGEVAEVIEVKDRTIPPEVDLDASVKEKIIVHAGGVIRLLAYVSGKPAPEIIWNRDDADLPKEAVVETTSISSALVIKNCRRQHQGIYTLTAKNAGGERRKAIIVEVLDVPGPVGQPFSGENLTTDSCKLTWYSPEDDGGSAITNYIIEKREADRRGWTSVTYTVTRHNAVVQGLIDGKGYYFRIAAENIIGMGPFTETSAPVVIKDPLSVPERPEDLQVTAVTNDSISVSWRPPKYDGGSEITSYVLEVRLIGKDNFERIVADNKLMDRKFTHGGLKEGSSYEFRVSAVNQIGQGKPSFSTKPVTCKKEFEPPALDFGFRDKIVVRVGETCTLQSRYTGKPQPTIKWFKTDEELQANEEIALTSTNNILCLAIEKAKREHSGKYTVVLENSIGSRKGICNIIVVDRPQHPEGPVIFDEICRNYMVISWKPPLDDGGAAISNYIIEKRDTNRDLWMPVIESCTRTSCRVPKLIEGREYIVRICAQNIHGISDPLLSAETKARDVFRVPDAPQAPVAKEIYKDTALISWIQPADGGKPITNYIVEKKETMANTWTRAGKDRIFPNSEYWVPDILRGCEYEFRVMAENMIGVGDPSPPSKPVFAKDPIVIPSPPVLPVAIDTTKESVTLSWQPPKDSGRGKIFGYLIEYQKDDSDEWLQVNQTPDSCQETRFKVISLEDGALYRFRVKAANAAGESEPTYVPEPIRAEDRLEPPELLLDMGMPREVKAMAGTHINIIAGIKGIPFPNIIWKKNDADVPPKAEIETSGTASKLEIRYCTRADCGDYTIYVENPAGSKTATCTVLVFDKPGPVQNFRVSDVRCDSAQLSWKDPEDNGGTRITNFVVEKKDGAATQWVPVCSSSKKRSMMAKYLIEGMSYMFRVAAENQFGRSEYVETPKSIKAMNPLFPPGPPKDLHHVDVDKTEVWLQWNWPDRTGGSDITGFLVEYQEEGERDWIVVKTVSIPECHVTGLEEGKTYRFRVKTENAIGLSRPDTTVPVLCHEKLVPPIVEVDVKLIEGIIVKAGTTIRLPAIMRGLPIPTAKWVIDGEEIKSEDNIKIDTDNFSTVLTISECTRHHTGTYILTVSNSAGSKTVALNVTVLDVPAAPIGPVNILEVTPDSMVIEWRPPKDDGGSPVMNYIVEKRESSKETWGGVSSGSTATRLKISRLQKGSEYVVRIRAENKMGIGAALESAPTVARHQFEPPSHPGKPVASDISEDALTLGWTMPMFDGGSPISGYIIERRHKGGKWIRVNKTPCKELRYRVLGLFESIEYEFRVFAENIAGFSGPSPISDPAKPCRQITVPGPPINPKIKDYSCTYADIVWIKPTRDGGSPILGYIIECQKSGGEWENSNKDDLIKQCAYRVKGLTEGTEYRFRVKAVNMIGEGETREVPESVIAKDILIPPEIEMDATCRERVTVRVGHNINITGYVKARPDPQITWSKGETVLEKDKRTTLINNFPVVQMRIKEATRADHGKYTLKAVNDSGEASATITLNVLDRPGHCQNLKLTYVTKNSCMVSWDAPEDNGGTEITNYIVECREPSIRTWSMISSDCTNRMAKAKLMENHEYLFRVSAENKCGPGPTTETKTPMLAIDPLQKPGEPENFHVSDIGKHFVFLKWRKPDYDGGSPNLAYILERKSKDAEEWEKLHDGVVKDTFFMVDKCVENQTYQFKVKSTNDGGESNWVRTSDILVKEEVQKPVLDLKFAGTTVVKAGESIRLEAGLRGKPQPEVTWVKDKATGDNPRISVDTGPDYSKFLMTKTKRSDTGKFTITATNSAGTFTGYANVTVLDIPGPVRDLKISGISTDKCRVVWDPPEDDGGCEVDSYILEKCETRRMVWSTYSASVVTNYCNVTRLVEGNEYIFRVRAENKMGAGPPMESKPIIAKTQYNRPGPPDAPEVTKIGKKEMTVVWAPPEKDGGKSITGYILERKEKRAVRWVPVTKSPISERRMKVTNLIPNHDYQFRVKAENEVGLGEPSKPSRPITAKDPIEPPGPPGSLKVVDSTKTSVTLSWAKPVYDGGAPIIGYLVEMRDKVEMEGEQERDPEEGWTKCNTSGQLVITEFTMLNLDEKQEYEFRVSAQNQVGMGQPSKLKDAVTPKEIHESPEIDLDASLRKGLNVRAGCPIRLFATIRGRPAPKVTWKRMGVDNVIRRGHVDQIDTMTFLVVPECTREDSGRYSLTLSNASGEKAVFVRVKVLDTPGRVGGLEATDITKTTCQLAWLPPENDGGCPILNYVVEKREVDRKTWTNCTNDLKKTSFKITNLTPGIEYYFRVMAVNKYGIGVPQDSPKSYLATDSKSEPDPPRKMDVLEVTKNTATLGWLKPLRDGGSKINGYIVEYQEDVPPKIIMPDIVTAQAGSKLIVEALFSGKPAPVTKWKRGSEDLVTSNRLFIQKTPTTSVLMIKDATRKDGGYYSLSAENSTSAVNQILRIIIMDIPGPPEGPLEVLEVDVDSCTLAWNSPTEDGGSNITNYVVEKCDVTRDPPGKPEVLDVTRNSVSLVWSRPKHDGGSKLIGYYVESLKLPGDKWVRINASSQNVPKEEYTVPGLEEGTQYKFRIIAKTAINVSLPSEESDAIAIIAEHVPPRVEIGLEMKNLIIVKAGANVCLEADVFGKPMPKVTWKRDGVPLKLVEGIKMTQKIHRFCLELFSVTRKESGEYTIIAENPSGTKGAHIKLKVLDKPGPPASVKISHVFADRIKVRWEQPLADGGSEITNYIVDKRETSRANWAQVTANVGGQTTDCSVEKLIEGHEYEFRISAENKYGVGDPILTNSVVAKNPFDVPGPCEPPVITNITRDHMTVSWKAPANDGKATILGYMVEKRETQDLNWAKVNRRPVIDRTIKAGGLTEGSEYEFRVIAINKAGLGKPSDPSAGALALDPVYPPGPPAFPKIIDSTHSSISLSWTKPAYDGGCEILGYLVEFKRVEGEDWMKCNVPKNLQSTKFVVSGLIDNTEYQFRVSAVNRIGFGEPSDVPGNHMAKDILLPPEAELDADLRKALVLRAGVTMRIYVPLRGRPAPKATWTKVNGNLKERQGLMIKTTEWDTYLYCEDINRYDAGKYVLTLENSSGTKSYTILVKVLDTPGPPLNLIVKETSKDHASITWDAPLIDGGSPVKSYVVEKRLAERKAWTCVSPECPKTSFRITNLEEGKAYCFRVLAENIYGIGEGCETTGPVKASEQPGPVTDLKPSEVTKNSCTFSWKKPICDGGSHIVAYVLEISEGQDKWKLLMKSKLTQYTMTDLIEGNEYSFRVKAINEVAEGPPNELTVVAKDQIVLPDCNLKGFPDSSYVAKEGSTVRLNIPIIGIPAPAVIWKKGDVTLSDSGRISVESTATNTTLLIRDCHRNDACRFTIILRNSAGTKESAIDFNVVGKPGICTGPIKFDEITAEGITVEWAPPIDDGGSEVTNYFLEKRQSTANKWATVASAIQKNTMRVTRLRDGTEYIFRVCAENKYGVGEFLRSAPVIAKHPFNAPEAPAPPDVVSIRHESAILTWSDPKETGGSPITGYYVEFKDRNSLMWKRANKTPLRVKECRVTGLMEGLEYEFRVIAMNIAGLGKPSKQTESLVALDPIDPPGKPEVISITRNSVTLIWTEPKYDGGHKLTGYMLEKLEHPGKAWMKANHVNIQSCAYTVTDLQEGCTYEFKIRAKNAAGAISAPSEKTEALLCKDEYDPPTITIDPAMKDGVTVKAGETIVITASSVLGKPPPKAVWSKGGREFKSSDVVQITSTPTSSTLSIKYANRKNTGEYIITASNPFGIKEEKVKVKILDVPGPPGPIEPTSVSAEKCTLTWLPPEEDGGSSIKSYVIEKRETSRLLWTKLAENVMDCRYVASKLIKGNEYIFRVSAVNLYGVGDASQSGPVQMVDSFGPPGPPSKPEIDHVSGTAVTISWKRPIVDGGCDIRGYSVERKERRGLRWVRASKKSISDLRYKVSGLTEGVEYEFRATAENKAGFGEPSEPSQPVMTKDIAYRPGPPSNPRITDTTKTTATFNWGRPFYDGGLDITGYIVEHKKEGEDDWVQDTPTPLRITEFVVSNLQSGGKYNFRVSAINSEGLGEPSQVENLVELVDREEIPDFELDAELRRTLVTRSGTSIRIFVPIKGRPAPEVTWYKEDAPLKGRAHIDTTESYTLVVIPECTRYDAGKYVLTLENVAGKKTGFVNVRVVDTPGPPINLKPREITKHSISLQWEIPIIDGGSKIKNYIIEKREATRKAYSVLTTNWQKCSYKIPDLEESAEYYFRVSAENEIGIGESAETPEPIRASQAPSAPDNLIVSDVSRDTATLAWTKPKYDGGTRITGYVIEAQQKDSDQWIHVTTIKALDFTVTELVENAEFVFRIFAVNSSGRSQPRESRPVVIREQTTAPSFDLRGVYQKTVVAKAGDNVKVEIPVMGRPRPLVVWKKENQELKQTQRINTESTTTSTILNIDEIKRKDGGQYSITGKNILGTVTETITVKVHDIPGPPTGPIKLDEVSCDYVVISWEAPESDGGVPINNYIVEMRETIGTSWMELAATVIRTTFKAARLTTGTEYQFRVKAQNRYGVGPYLTSEAVVAAYPFDVPGQPGIPQIVAFTKDSMTISWNEPSSDGGSPILGYHIERKEKNSILWQRISKALVVGNMYKSSGLIDGIAYEFRVIAENMAGFSKASKPSEMTYALDPVDPPSQPVALNITRHEVTLQWTKPENDGGFSITGYTVEKRELPKGRWLKANFSNIHETSFTVSGLTEDASYEFRVLARNSAGAVSKPSKHSEVIVCRDDIEEPKINVDASFSSVVVVKAGEVFNLDANVTGRPIPSLVWTKDGKELEDTGKLEIKTGDFYTCLIHKDSLRRDGGAYTLTASNPGGFAKFVFNVKVLDRPGPPEGPLHVTDMTTEKCILSWLPPLHDGGAKIEYYIIQKRETSRLAWTNVATDLQVNRYKVTKLLKGNEYIFRVVAVNKYGVGEPLESEPAVATNPYVPSDPPQTPEVTAITKGSMVVCWGHPENNGGSSISTYIIERRDKTGLRWVKCNKRTVTDLRFKVSGLTNGHEYEFRIFAENSAGLSAPSPSSPFYKACDTIFQPGPPGNPRVLDTTKSSVTIAWNKPVYDGGSEITGYIVETCLPEEDEWTIVSPRAGLTATSFTITNLVENQEYKINISALNCEGVGEPVPVPGSPKAEDRLLPPEIELDSDLRKLVNIRACCTLRLFVPIKGRPAPEVRWSRENGEPLDRVAIEITPSFTTLRIENVDRFDGGKYMLTVENSSGIKSAFINVRVLDTPGAPQNLTIKEITKGSVSLIWDPPIIDGGSRIRHYIVEKRESTRKAYAIVNACCPKTSWRIGDLKEGNLYCFRVLAENEYGVGLPVETPEAIKVSERPLPPGKVTLNGVTGNSVTLSWEKPDHDGGSRITGYIVEMQGKNSEKWTQVMTVKITEAVVVGLTRGEEYSFRISAINEKGSSDPRPLSVPVVAMDVVITPCFKHLFSTYSVFAGDDLKIDVPYVAQPKAAVTWHKDGVALKETTRVNAEVTEKHLHLVIKEATRDDVGKYTIKLINPVGETTTDISVIVLDKPGPPTGPIKVDEVTADSLTLSWQPPEYDGGCSINNYIVEKRDTSTTNWQIVSATVARTTIKAARLKTGYEYQFRVAAENRYGKSSVLLSESVVAQYPFEFPSPPGTPSVQSPTKESMVIVWNKPNNDGGSKILGYHIETKERNSLLWVKQNKTIIPDTRFKIGNLEEGIEYEFRVYAENIVGLSKASKVSEIQVARDPCDPPGKPEAVIVTRSSVTLRWTPPQFDGGSKITGYLVEKKELPTGRWMKASFTNIIETEFVVSGLVEDQRYEFRIIARNAAGVSSGPSDSTGAITAKDEVDPPLIDLDAKYSQTIVVNASESFKIEAGILGKPIPSVHWIKACEELSNTARLEIKNTDFTTILSVKEAIRVDGGQYTLLLKNVGGEKSVTVNVKVLDRPGPPDGPISVYGVTSEKCCIAWKAPLHDGGAEVSHYIVERRETSRLVWTVVESKVQTLNLKITKLLPGNEYIFRVIPVNKYGFGEPLESDAVIAANPFVPPDAPSNVEVSNITKDSMVITWDRPTNDGGNTISGYIVEKRDKEGVRWTRCNKRVVSELRFRVTGLLENRSYEFRVSAENAAGVGKPSPPTVYFKAVDPVFKPGPPNNPKVIDVSRSSVVLHWGKPIYDGGCDIQSYIVEACEGTSVEWIMCTPPSGITETRFEVKKLLEKHEYKFRICAVNKVGVGETADIPESILLEDKLEAPDIDLDADLRKMITVRAGGSLRLFVPIRGRPTPEVKWGKTEGEINESASIDITSSYTSLVIENVNRFDSGKYTLTLENANGTKSAFISVRVLDTPDAPDNFRVKEITKNSVTLTWEPPLLDGGAKIKNYIVEKRESTRKVYSPVATCNKMTWKIEPLQEGSIFFFRVLAENEYGVGLPAKTLEPIKISEVPQPPGKVSVVDVTQKSVSLTWEKPEYDGGSRITHYQVEMQAKDQEKWSLCAQVKSLDTVVTNLAQGGEYNFRIIAVNEKGKSDPRLLANPVVAKDLTIHPSVRTKLSSFNVQVGQDLKIEARITGHPKPTITWNKDGSDLKQTTRVNVADTAHHTTLIIKDATREDRGMYNIAVANVLGQAEATVEIIILEKPGPPTGPVRIDEVTLTDVTKTTASLSWDKPDHDGGSRILGYYIEMRPKGTDEWTAAAVTKTCEGTVTGLSSGQEYHFRIVAFNDKGRSDPRPLAAPVIAKDITIEPSLKLLFNTYSVQAGEDLKVEIPFNGRPTPKIAWSKDGQALKETTRLNVSSTPKLSVLKIKEANREDSGKYTITATNNVGSVTEEIGIIILDKPGPPVGPIKIDEVSATYVILSWEPPVYTGGCQINNYIVEKRDTGTTNWQIVSATIARTTIKISKLKTGSEYQFRVFAENRYGKSTSLDSILVVVSYPFTEPAAPSAALVSSVTKDHMVIEWKPPVNNGGSPVIGYHLERKEKNSILWTKLNKLLITDTRLRTNGLEEGIEYEYRVYAENIAGISPPSKVSESVVARDQCESPGTPEAIVITRNLITLQWDKPQYDGGSVITGYIIERKKLPEGRWMKASFTNIIDTQFTITGLEEEQRYEFRVIARNAAGILSVPSESTGPITAQDEIEAPSVSLDSRFKDALIVKADETFAIDADIAGKPLPDIMWFKDGKEIDSTTPRMEIKSTITRTVLTVKDCIRVDGGHFILSLSNVGGTKQVPINVKVLDRPGPPDGPMKVTGVTAEKCYLHWSHPSHDGGASISHYIIEKRETSRLSWTVVEPNIQAISYKVTKLLPGNEYIFRVMAVNKYGIGESLESDPVLAKNPFNKPSPPLTPEASAITRDSMVLTWERPEDDGGSQIDGYVLEKRDKDGIRWAKCNKKRLNDLRFRVTGLTEGHSFEFRVSAENAAGVGKPSEPSEYYKACDAIYPPGPPNNPKVTDHSSTTVSLAWSRPIYDGGAPVSGYIVEKKETTEDDWTGCTPPTGVQTPHFTVKKLKENAEYNFRICAINIEGAGEHVDFPGSVIASEKLEAPEIELDADLRKCVTVRASATLRLFVTIRGKPEPEVKWKKTDGTLTERAQIEATSSYTMMVIDNVNRFDTGKYVLSLENNIGTKSAFINVKVLDSPSAPVNFEVKDVKRDSVQLSWEPPQIDGGAKITHYIVEKRESKRMAFTTLTNNCVRNSFKVDDLQEGGHYHFRVLAVNELGVGLPAETTEAVKVSQAPLPPGKISVVDVTRHSVTLSWEKPDHDGGSKITGYTVEMLTKGLDKWTVCATVKALEAKIEALTTREEYSFRVTALNDKGKSDPKPLGEPVVAKDITLEPIINLSFNTYSVKAGDDLKIDVPFRGRPQPEVTWKKDGHLLKQTTRVNVLTSKTSSKIVIKDATREDVGKYEITLTNSIGVKSAEISVIVLDKPGPPGSIRMDEVSADFISLSWDPPIYDGGCQINNYVVEKRDTTTTTWQIVSATVARTSIKVIRLTQRTEYQFRIAAENRYGKSQAVDSLPVVAQYAFTPPGPPTSHQVSHATKLGMLVTWNRPASDGGSPVIGYHLECKDQSSILWTKLNRGLITESQFKVTGLEEGLSYQYRVYAENLAGIGPCTKACDPVAARDPCDAPGQPIVMDITRTSVYLSWNKPEYDGGAKVTGYIVERKELPEGRWLKCNFNNLQETFFDVTGLIEDQRYDFRVIARNAAGLLSEPSEGTGPVTVKDDVDPPRITIEDKLRQLVVVKTGDILKIDAEISGRPIPVISWAKDGKEIEAKARVEISSTLTSTTLVVRDTIRRDSGQYVLTLHNVAGTRSLAVNCKVLDRPGPSSGPLEVTGLTAEKCTLTWGPPQENGGAEIQHYIVEKRETSRLAWTLVYADMKATTCKVTKLLKGNEYILRVRGVNKYGTGEVLESDPVKAMDPFTVPTAPANVEVTSVASEAMTICWERPVSDGGSSISGYVIEKREKSGLRWVRVNKKPVYDLRVKASNLREGCEYEYRVFAENAAGLSAPSVPCPLTKADDPLFLPSPPAKPKIIDSSKTSITLSWIKPLFDGGSPVTGYMVEYRNTNDEDWTVGVNNTTSTEFTVVGLTSGAEYVFVVKSINKIGPSEQSPETDPQIAKDREDEPVFLISNEMRKTLTVKDGSSFTLRVPFKGKPVPHVMWNKPDVDLRVRGTIDTTDTCTSATIEQATRDDSGKYTVTLQNVAGTATLTLSVKVLDSPGPPARLEVKELTKSSATITWDIPENEGGAPVKNYLVDLREATKMGWTRVTDSCPRLTYKVNDLQEGCVYYFRVTGENEYGIGVPLETKEGTKITEKPSPPPKLGVTDVTKDCVSLAWLKPEHDGEAPEIIMKDFQRNTAYVKAGSNLKIEIPLTGKPLPKISLSKDGQVLKSTMRFNSEVMANSLIITLRESVALDAGRYDITASNSCGTTKSFVNIVVLDRPSPPVGPVEMCDVTEDSASLKWLPPTYDGGSPITNYIVLKRETTTANWIEVSSAVARCTIKIMKLITGVEYQFRIRAENRFGISDHIDSPIVNVSLPYKPPSNLRVTDITKSSISLAWQKPSFDGGSRITGYLIERKDTPKGRWSKANLTNVADTKYSVSGLTQNESYEFRVLAKNAVGSISNPSSSVGPVTCIDTYGAPEIELPQEYLDVVKYKAGANIDLKVGVIAKPQPTIEWYKDGKELEPGAQISISSTSDSACISVKDATRLNTGTYELKIKNSLGSAYCAIRVLVQDKPGPPAGEIQFKKITADTITIMWDPPADEGGAMGNEYIFRLRGVNKYGVGDPLESQPVIAQNSFVRPSHPSKPQVTMITKSTMTVVWERPSLDGGSDIDGYYLEKREMKSLQWFKVIKDPIRDTRQKVSSLTEGNEYQYRVCAINKAGAGPYSDTSIFYKAYDPIDPPSEPTKLRVVDSTKTSITLDWVKPVYDGGSEITSYIVEQRIADEMEWVTISSKEEADVDLDISMSTQYVAKAGRDVEIVIPLKGRPAPNVTWRKGDKNISSDTRYNIKNTEYSTTLIIPKVTRDETGKYFLEIENGVGEAKTITVSVKVLDTPSACNKLIVKNVTRSKLTLSWEPPLIDGGSPITNYIVEKKDAKLKAFTVVTNECANTTYKVDGLVDEISYFFRVSAENEYGVGDPCETVQPVRATEMPGPVKDLVLVDQSNTSVTLAWTKPDHDGGSHISEYIVEKKTKEEETWSIGGTCRRCQCEVIQLKELSEVIFRVFAQNEKGRSDFSQIGPITVKDFIIPPEANLIDYPNGELSVRIGQNVNIDLPYKGKPRPAIQWMKDDVVLKESEQVRFRQTENKASLIVRSSRKENAGKYTLVLDNKLVKSFFDIKVITLGPPSVPVGPIRFCEIKAQSIIISWDEPQEDGGGEITCYSVEKRETSQAAWKMVCSSVVRTTFKIPNLVKGTEYQFRVRAENKYGVSEPLNSSDVVAQHQYKAPGPPGKPVVYNVTSDGMTVQWDAPSFDGGSPVTGYHLEKKDRNSLLWTKVNSNVISGREYRVIGLIEGLEYSFRVYAENNAGMSPLSEQSKHKLAISPVDPPGTPNCIDVTRDSVTLQWVPPKRDGGSLASGDRFEFRVIARNAVGTVSPPSQSSGYIMTKDESVIPEIEFAAEKCLTIKAGENIKLNSSISGRPVPQVIWYKDGKEVDKMLVDITTVIGSSSLFIRDADRNDRGIYTVEAKNSSGTTKVDVLVRVQDTPGPPEGPLRFTNISAEKATLWWSPPENDGCAPITHYVIEKRETSRISWALVTSKCEACSFNATKLIKGNEYQFRVSAVNKVGVGKPLESDPIIAQMQYTVPEAPGTPDCTHVTGNSITLCWTRPRHDGGNEIKQYILERREKKSLRWVKVSAKRPITELRHRVTNLTEGNEYEFRVMAENGAGIGPASGTSRLFKCREPTSEPSAPIAVKVIDSTKTSVTLEWTKPVFDGGLEIIGYIIEMCKASLEEWHRVNNQTCIHTKYTVTDLEPGEEYKFRVCAINGAGKGETSETPNVVQTVDRLTSPEIDIDADFKQTHVVKNGGTVTLHIPFRGKPAPLATWTKADGELGVMVDINTTETFSTLTIENCIRYDAGKYTLSLENNSGRKSITLTVKVLDTPGPPGPLSFKDVTRGALTLMWDAPTNDGGARVHHYIVEKREASRLSWQEVSEKCTRQILRVTNLAVGVAYCFRVTAENQYGKGEPYEMTEPIIATEEPAPPKRLDVIDTTSSTATLVWMKPEHDGGSRITGYIVETRKKGSDRWVVGGHTKSLKMVLEGLVENTEYEFRVKAQNDAGVSHPRDALASVIIKEPRIEPTADLISIEKQLISCKTGNSFTIDIPISGRPVPKVTWKLEEMKLKETDRISIKTSKDRTTLLVKDAKRGDSGKYYLTLENAAGSKTFTVTVIVIGRPSQPTGPVEISGISSESCVLNWGEPADDGGTDITNYIVEKRESGSTTWQVVNSSVKRTTIKVTHLTKYMEYTFRVSAENKFGVSKSIDSQAIVAEHPFVSPSPPTRPDVVSVSANAISIRWEVPYHDGGSKVTGYLIEKKERNTILWVRENKIPCLECHYKVSNLIEGLEYQFRAYALNIAGLSKASEPSRPVLALNPVDPPGKPEVYDVNKTSVSIRWSVPFNDGGSKIVGYVVERKATSDDNEARWLKCNYTTITENFFTITSLSEGEAYEFRVIARNGAGVHSTPSESTGPITCKDEYSPPKAELDSKLVGETITIRAEADLVLDAAVGGKPEPKVFWSKGDKELELGEKYSLTYTSTRAMAIIKSCDRNDTGKYILTVKNASGIKTAAVNVKVLDTPGPPEGAITVSRVTEEKCTVSWNIPLEDGGDTVTHYIVERRETSRLNWVIMETECKSLSCVSTKLIKNNEYIFRVRGVNKYGPGVPLESEPVIARNAYTVPTPPGAPEITAIGKEHAVIEWLKPESDGGSEIKNYLVDKREKSGVRWTRVNKTYTIYDTRLKITGLLEGSDYQFRVAAVNAAGTSLPSDASQYAHCSEPTYTPAPPSVPRITDTTKHSIRITWTRPMYDGGSDVTGYIIEILEEGTEQWYRATQKIQSSTEYTVTGLTSTKKYSFRVAAVNKMGTGEFSEGSVETAPSERVVMPKIDLAGIPQKIVNVPAGKPIVLNIPIKGRPAPVCSWFFGGVKMKDKLDRIKIETTAKFTKLTVRETTIDDTGDYTLEVKNVTGTATEVIRVIILDKPGVPVGPMRIEEVDATSVTCSWEPPKKDGGANVSGYVVEQRDAHQPGWLPVSESVTRPTFKFTRLIEGTEYVFRVAATNRFGISGFLQSEVVECKSAKTVPGAPSTPEIFDVSHDGMTITWRAPEDDGGSSVAGFIIDRKEVGSDRWVRINKNPVTMTRYRATGLIEGLEYEYKVTAINSRGTGKPSANSKAAIAMDPVEPPGIPLNPRVTDTTRTSVSLAWFPPEEEGGAAVTGYLIEMQKVDQVEWTKCNTTPTKICEYTLTHMPQGAEYRFRVVACNAGGTGEPAEIQGVVKVIEMLEYPDYELDKTYQECYIVRQGGVIRLSVPIKGKPYPTCKWTKEGRDISHRAMIATSDERTELVIKEAHRDDTGTYDLVLENKCGKKAVYIKVKVIGRPDPPEGPLEFDDIQARSVRVSWRPPSDDGGSDILGYLVERREVPKAAWYTVDSRVVDTSLVVKGLKENVEYHFRVSGENLFGISRSLKSDESVTPKTPLCPPEPPSFPPEIMDVTKTTVGLSWSRPKDDGGSRVTGYYVERREISTEKWVRHNKTHITTTMYTLTGLIPDAEYQFRVVAQNDIGQSEPGPVSESVVCKDPFDKPGQPGEIDIISIAKDCITIHWLRPESDGGKEILGYWIEYRQAGESAWKKCNKERSKDRQFTMGGLMEATEYEFRVFAENETGLSRPRRTAMGIKTKLSVGEAPCLKEEIKETTTKLGESGTLTCQIIGRPLPEIRWNRYGKELIQSRKYKMSSDGRNHSLTVLTDEQEDEGLYTCRAINEAGEIETSGKLLLQAAPQFHPGFPLKEKYYSGCGTSLRLHVVYIGRPIPQIMWFYGKKPLNPSENVIIENTESYTHLVIRNVQRKTNAGRYKVQMSNKFGTVDTVLRVEIQDKPLMPEGPVIVDALLKNSVIISWKPPKDDGGSMITNYIVEKREAKEGEQWHLVSSAISGTTCRVPNLIESSGYYFRVSAQNQYGISESLEIPSVVIIKSPFDKQTVELDVADVPDPPKDVKVSDIGRDAITLTWTPGNDGGSEIINYIIEKCPTTGDRWIRVAQTSESQYTVISLFGKTKYQFRVIAENRFGRSGPSAPTDPVTTKEDKLAIRNYDEEVDETSEVTKEDAPHSKVKNVSSLYSISEELARNGQFGIVHRCVEISSKKTFLAKFIKVKGADRELVAREIETLNIARHKNILSLHECFDSLEEYVLIYEFMSGMDIFERLGTNFDLTEQEIVRYMRQVCGALKFLHSHNYCHFDIRPDNIVYSTRKSSTIKIIEMGQARLLTPGENIRIQFTAPEFYAPEIHTSDFVTSATDMWSVGVLAYVLLSGLNPFAAESSQKRIEHISNAEYVFDSEAFKETSLEAMDFVDRLLTKDRKLRMTASEALEHPWLKMKLEHVSSKVIKTLRHRRYYQTLVKKEWSTVISAARVAYGGGYRNQKNILIGRVKVGHPEEGLRAGPVMHGSTEEGGHVRFVCCIENYDRNTEVTWYFGSRKLTASHKYEINYANGFASIYVKDIEECDDGLYRCKVVSEDREDNAYAELFVETVRSHREYYLGRSLKKPKRRIDKTKLLQRPPEFTLPLYNRTAYIGEDVRFGVTITVHPEPSVTWLKAGHRIKPDPAKYTFTSDKGLYQLMFHNVELSDDAEYTVVANNKFGEDSCKARLTVTPHKVVEDTMRPMFKRLLANIECIEGQSVHFDLRVSGTPQPALKWEKDGKPLEFRPQVEVVQEDVDYHVLHIRESLIEDSGTYRVTATNTAGSATCQATLKVERLTYTRREFKSEEERHKYVHNQIEKTLKMAQHFSKAEVITFNPVAQEALKEAAELYKPAVSTKNVLGEFDISDKEDQEIKKIKEEDKRIRMPYEIPEARAHDPSVLSEDKMIKHFVPLSDMKWYKKLRDQFEISERMERIVQKRQRRIRLSRWEQFYVVPLPRITDQYRPKWRIPKHTQDDLETVRPAKRSPSPMSELSFRQRRRSLGDLSDEEFLEPVEDYMALRRSEKERQELEDELELGFSASPPSGSPVRFELSALLHASPRPVQKTEVRSKVEIKHVTTTEQARGSPPPISHFMRRRRSLSPTYIELMRPVSELIRPPRPRVSTEAEGEVIERRSPTPERTRPRSPSPASSERRSSRSSSRFERSARFDIMSRYEARKAALKSERKYQVVTQQPFSLDHAPRITEKVSHGTNTLLNLKLNSVPQQAPFIMSTQAPTFTQPLQSVVALEGSAATFEAQVSGNPAPEVSWFRDGQVLTAAALPGAQISFSDGRAVLMIPAVTAAHSGRFSVRATNGAGQATSTAELLVTAETAPPTFIQRLQSVNVRQGSKVKLDVRVTGIPTPVVKFYREGAEIQSSADFQIVQEGDLYSLLIAEAFPEDSGTYSVNASNSSGRATSTAELLVQGEELAVPAKKTKTIVSGSQISQTRVEKTMEASFESTAMMEMQIEDSDLAHKAPPRVPPKPTPSTGAPKVTSTRHQSPSPVRSVKAPSQTPHRPASPSRLSVSPIRPVKSPLTTNRQISQGADVLPPWKQEGFVGESSYTSMTTGTSYVQTSSTFSHKEQQWEGSFTLQQQGGGVAVQQIVETAAIPSYTKEQVMPPTIVAGLKNVTVTEGECVTMECQISGHPTPAIMWFREDYRIENSIDFQITYENSFSRLVIREAFAEDSGRFTCTATSEAGTISTSCYLLVKVSEDIDSQENFTTVSEHVEMTAQERQFEAREETMSEISAVSESVEAGGSVTPFFVKKPTVQKLVEGDSVVFECQIGGSPKPHIYWKKSGIPLTTGYRYRVSYNKDTGACKLEISMTFPDDAGEYTIFARNQIGESSASAFLLEEEAYDAYMKKQDETYRTELITTVEEPKLADVPTVVESVTEKEMIMQRRMAQQSQMMQSFISEQEFQISNFEQRCIQEIEFRLLKITYQELVTEDGELMDMSISEHDAVSPVFNTPVKSYRLREGMSATFHCRVTGTPLPKITWYKDGKRITHGGRYQMEVLPDGRASLRLPVVLPEDEGVYTALVSNIKGNAVSSGKLSVEPTGPAQTLYPQQGAVQRIRSTSPRSTSRSPGRSPARRLDDTDEAQLERLYKPVFVQKPSSFKCSEGQTARFDLKVVGRPMPDTYWFHNGQQVVNDYTHKIVIKEDGTQSMIVVPAMPQDSGEWTVVAQNRAGKTSVSITLTVEAKENLVRPQFVEKLRNISVKEGTLVELAVKAIGNPIPDIVWLKNSDIISPHKHPNIKLEGGRGEACFKIPSSSGSDSAWYTATAINKAGRDTTRCKVNVEVDSVQPQPEKKLVIPKGTYKAKEIAAPVLEPLHLRYGQEQWEEGDLYDKEKQQKPHFKKKLTSVRLKRFGPAHFECRLTPIGDPTMIVEWLHDGKPLAAANRLRMVNEFGYCSLDYEAAYSRDSGITTCRATNKFGVDQTSATLIVKDEKSLVEESQLPEGRRGQRIDEIERISHEGGPSGVTGDDVYEKTKPEIVLLPEPLRVMEGETAKFRTRVTGYPSPKVNWYLNGLLIRKSKRFRLLYDGIHYLEIVDTKSYDTGDVKVMAENPEGAVEYVVKFEIQQREDFRSILRRAPENKTAAPAPTQEHGRVSFDVVKSEKSSEPSKDPKEVVKLRKTERVIHEKLTEETEELRSKFKRRTQEGYYEAITAVELKSRRKDESYEGMLKKRKDELLHRNKELGPDGEITKEEEQKLTIPKFKPERIMLSPSMEAPKIIERIQSQTVSLGDEIHFRCRITGKPDPECQWFKNGIILEKTDRIYWFWPEDQVCELVILNVSAEDSASVMVKAMNVAGETSSHAFLLVQAKQVLSFTQELEDQNAKEKDTMVTFECETNEPFVKVKWLKNNAEIFSGAPLEILKNLENTEVPETYSGEFECALSREDAEGTWYFENKEITPSLKYAVSARRGRHSLSVKDVKKEDQGKYTFKVGDLKTSASLKMKLRPVTLMQGLSDLTICEGDIAQLEVRFSQENVEGSWMKNGQDISGSSKIHMVIDKVTHKLLIEDASKDNAGIYSFVVPAQDISTSGKLTVQKISIVKHMGDCVCTETQNVTFEAEVSHPGIDPLWTFKNQALKSGAKYKIEAKGTHHSLTVSNAMKDEEGEYIFMAGEKESRAKLIVSGGAINRPLHDVTVAESQTAELECEVANPNTEGKWLKDGHPVDFSDNVRSENDGAVRRLVIVITRPQDVGEYTYQVANSKTSANLKVEAVKIKKTMKNQTITETQEAVYSLELTHLDVKGSQWIKNGIEIVPSDKYEITVEGVMHTLKIKNCNTQDESVYGFKLGKLSANARLNVETIKIVKKPKDVTSLLGATASFELSLSHDDIPVQWMFNNQELKPSSNIQILSERKAHKLVIQSVEDHTAGEFVAMVGHLQCSAHLHVESLRVTKPLKNIEVPETHVATFECEVSHFNVPSVWMKNGEEIEMSEKFGIVVQGKLHQLKVMNSNQKDVAEYTFVCGNDLVSATLAVNTIIVTSELQDLKAKEKDTVTFEVTVNYESVTYKWLKNGVEIRSSDRCQTRCKQLAHTLTIRNVHFGDVGEYKFVAGSAETSANLFVDARVIEFTKPIKDIKVVEKQRATFEFEVNEDEIEARWMKNGVEIQSFEERFSYVTVRKTHRLTINETYRSDAGEYTFIAGKNSSSVNLHVKIPEPPQIIRHIQPLSVEAGKPARFSVEVTGIPQPQVSWYKNSQALSGGFKCKFLREGDEHILLLIEVFPEDAAQYNCEAKNDYGVVTSSATLNVEVSEVVSPDTVCPASPPVIITSLQDTSVEEGESVKFHCRVSGDELTKVCFALADMKITWYFRDKEIMQSDKFRISQFDDTCQLEISRAYTTDAGEYMCVARNSGGMVSCSGVLTVNEFKVEEEPSNEKELEEVKEEGLADSFKGVEKFPCGTGVEPRVPFQSFHIEKKDISTESCVALEAAQQDFAVWIQEGQSVRQAVLMEEKHTMMGERSQSITRSEAKQIHITAHPTEPVLITESQECKTLPKELTFVIPAPKVHSLDIKQLKTTLQFAVALDQPLIFADVVGSLEAVEVREVKVLQEPKYAIFTYLVTSKGPPLEITIGFEGEYPQIAVLKNELLAAFYCILHQEQPILSSEQPGPMPLDRPGRLQVSRASSTPLLSAVSTENVEVFETPKKQSAALQTEAKVSFQATVAKKQADIQESKHLVAQKALESKLEIQSFAKTESKEIQYKILIKSGKEFKCLKDNDTYTLVIYKVTKEKHEGEYTCEAVSEAGKMSSSSSRLTVVSRVPPVFKRKIIDVESNIGSPVKFECEIEDAPNVTFKWFMSDSEIKQGDKHRIISKLSTSSLEFLNPTKADAGEYSCHVSNKHGSDSSTANLKITESPSITKEFPMLDIVETCALFGSELIGTAAFEMDVLKTQEPVRFVKKLSDISIPMSQMLRLECTFAGSQKIFVTWYKDGKQLYASYRYNTKVTKNSCVLECLHSCTAETTGSYSCVVSNVYGTDICHANVTAVTEPARFEQKLKDIEIAMDEKVKLECTFTGAPKLFFTWYKDGKQVYASYRYNTKVAGNTCTLECLHDCNQDTPGKYSCEVSNSYGTDICHAQVTTVSERKIPPTFTTKPSEHIEDSEGKSVKLEGRVSGSQPLSVSWYKDNGEIFTSDIYDIFLKSNMAVMCIKNAKATESGIYMCTASNEAGSASFQVEVNITEQKMPPSFDVPLKPMTINEEERLNLSCHVCGSCPLNIQWMKDRREVTSSANTKITFVDGTANLEINKASKTDAGDYLCKATNDAGSEFTKAKVTIKEKSGTPQVPIAPTERHAVKKLDNLFFIEEPKSFHVVEKGTATFIAKVGGDPIPNVKWMKGKWRQMTHGGRINIQQKGQEAKLEIKEVTKSDSGQYRCVASNKHGEIESSSDLNVDKKQEAGPEVVKLKKTPSKQKSPKEDKDIDIVELLRNVDPKEYEKYARMYGITDYRGILQAIEILKREKEQESGRTGSELGREYDEDLEKLVSDLQSRMEHTEPVTLVKDIEDQTTQPNKDAMFECEIKINYPEIALSWYKDTKKLETSDKYNVQIVGDRHILKIKNSQSSDQGNYRVVCGPHISGARLTVMADQIQFTKRIQNIVVNERQSATFECELAFDNAVVTWYQDAWELKESPKYTFRCEGRRHFMIIRNVTSEDEGVYSVIARLEPVGETKSTAELYLSGKEVKKPIEETITKTIVEKTKEVPMKVLEVMKQPEATPATTFVQSTLVPEKEPEVKKPVEEKVPSLKVTERTEQPPAKASEPKPQVPAEPEETPVVLAKPEPKPQPKPEPKVIPQTEPKAARKPEPEPEPKVLPQPETKPEPKATPKPVGKPNTELMPAVTKKVESASVKEPESVKEPEPVASKPTMAPVEQKILPPPKEPTVEKKPAPEIPKPSVAPVEKKIIHSKEPTVEKKPVPEPPKSTLTQVEQKTLPPPKDFDCGIVSFKEPAVEKKPVSEAPKPTVAPVEHKIVPPLKVPTVEKKPVPEAPKPIVAPDEQKTVSSKEPTIEKKPVPEASKPTVTSVEKKMLPLKETTSTTQALLKQKSKIYLKEEERMETPAKKKVTRKLKEHEEEREVISLKKVSKIEREESPSGAGPLLRKTEKAQIVGEEMVFSKAVTEVKITNSCEVTEDTWSYETATIKERTYEEEGKKTEVYEVKVKAEIVSEVDGREKGIMVSLNNEHKVDAVAKDDISKESKKFIKKSGKITTQADESENVQLKPFSKACVSAEKIPLEQTKKPKDIKHPEMSVIPKDTDIQVKRPEQTQKASKEPEHVEKQDVPIKTASTAKTTEDTTKEEEKAPINKSGIIPKEASKTEKVALKPAKVKKTSSPKVDKPSPLIKTSLKEEKPAIYKKITSPSKKMEKEEILLKPVETGELKKALSPKADIAELKPTESIPMERKPSAKLPKKLSPKDSIESVTLKKVQKKISPQEETTTQKTEEIRAVMKEMSPSALHLQKIPTQQEEEVSEYEREVEHDDDDEEEETWGWELTPRDSYGSENVDDLLEDGAVETPGMGDKRDGKPKDEPAAGRGRGLKPRQTPSPGDGGRGRGLKPGGGGDKPPGESPFGFQLKAVPLKFVKELQNIVLQEAESIGSSAVFECQISPSTAITTWMKDGSNLRESPKHKFTSDGKDRKLQIIDVQLSDTGEYTCVAKLGNKEKTSTAKLIVEELPVKFTKNLEEETSVIKGQPMYLTCELSKDKEVVWKKNGKEIKSIPGKITINVIGLQQSITIQDSNDDDAGVYTCECENIKTQTNVKIIEIVRDWLVKPLRDQHVKPKASATFKGELFKDTPNWKWFKGDEEIPIPDPTGKAEVKKEGKEITLTIKNVQPEDIAEYSVEVEARRYAAKLTLGEREAEILKPLASVEVIEKTEANFETEISEDDVVGEWKLQGQVLTRSPTCDIKSEKTKRFLTIKNVQLDQAGEVTYQALNAVTSAMLSVKEGDAYFVVKLQDYTAVEKDDVTLDCELSRDVPVKWFHNEIEIKSSKMVTIKTEGKRRILSIKKIEAKDKGLYVCDCGINKTTSNMNIEARDIKVVRPMYGAELFDGETARFEVEISVDDVHGQWKLKDEVLSASPDVEIIEDGAKHTLTLYNCKVSQTGEVVFQGANAKCSANLQVKELPITFVAPMSDVHIFEKDEARFEIELSRVAKSFRWLKGSQELQTDEKFEIFTQGIRHTLVIRSAAYEDEAKYIFEAEDKRASSKLVIQGIRLEFVRPIKDVTVKERETAEFRIELSHEKVQVTWSKNDVRLHPSKVVHMSEDGKIHTLSFKEVSIDDTSLIKVEALGKTCEAMLTVLEGDTYFTTKLQDYTAVEKDEVVLMCEVSKSDSEVKWFKDGKEIIPSKNILLKIEGKKRILTVRKAERNNTGEYVCDCGSDKTVAKLNIEERDIKIVRPLYSVEVTETETARFETEISEEDVHGHWKLKGDALHQSADCEIKEEGTKHMLILYNICMDMAGSVDFSAANAKSSAQLRVKARTIGLLRPLRDVAVTAGETATFDCELSYEDIPVEWFVGSTKMEPSDRVVTRAEGRLHSLTLRDVLMTEAGEVKLTAKDFVTQAKLTVNEPPVEFSKPLEDQTVEEEATAILECELSREKADVKWFRDGQEIRKTKKYEMVAEGRIRRLIIKDCSLEDSKTYTCDAKNFKTSAFLNVEAPFVEFTKPLHDVEVKEKESAKFECEVSRENTKVRWFKDGSEIKKGKKYEIVAKGLQRILIISKAVFDDEAEYECDARTSKSSGMLTVVEEEAKFTKNLTNVEGTETDSIKMICEVSKAGVDVMWYKGDQEIPEGGRYEHILDGRKRILIIQDLRMEDAGEYHCKLPSSETTATLKISELAAEFIARPLNQEAIEGEKAEFSCSVSKETFEVKWFRGDTELTTDDKYEIVSDGKRRVLIVKNCELKDVAAFTAHIGSVEASADLVVIEKLRIITPIKNIQVKEGQEIVLNCEVNSEGAKAKWLKNNETMFESSKFVMVQRDTVFSLRIKSAGKSDEGSYTITLANQRGEQAKCTADVSVLEEALRIIEPIEDCEIEEKKTITFTCKVNRPNVTVQWMKAGQEITFSKRIVYRVDKDKHTLTIKDCTLADEGEYTVVGGADKSSAELIISEAPTDFTAQLRDQTITEFEDAEFVCKLSKENAQVKWYRNGREIREGPRYHTEKDGKGCKLIIKECRPDDECEYACGVEDRRSRARLFVEEVPVEIVRQPTDVFEAPGSDIVFEAELNKDRVEVRWMRNNMIIVQGDKYQMISEGKVHRLQVCEIRPRDQGEYKIVAKDKDARAKLELAAVPKIKTTDQNLVTDAGKPFVMTIPYDAYPRAEAEWFYEDTSLPTQNIDTSNDRTEYRLKDPKKSDKGRYKVVIKNKHGTGEAFINLDVIDVPGPVKNLQVVDTADGEVSLAWEEPESDGGSKILAYVVERRDIKRKTWTVATDRADIPEYCVGGLQRENMYLFRVCARNRVGNGDPVITDKPVQAKNKFDVPDAPQNVRVGIVNRFGATVSWEPPVSDGGSEITAYIIELRDRTAVKWEAAMVVKAEDRTATLNDVVENKEYIFRVRAENKAGVGQPSAATDPVKIMDPIERPSPPLNFNHTNQTKDSVQLSWETPMNNGGSMITGYIIEKCQDVGPTMDLSGFKNGLEVIVPNALQIRVPITGYPVPKPKWTFGDKELVAGERVSMVSKHTYTELVIAPSVRPDRGTYTLQLENDVTSVTGEIEVNVIACPSAPKDFKVAEVTRHHVHLMWEGPEHDGGSAVTGYNIEKREVSRKTWVKVMSGIQDLEFTVTDVIEGKEYLFSVIACNKCGPGEPAYIDEPVNVSSPATVPDPPENLKWRDKSAKSIFLLWEPPRYDGGAPVKGYIVDKCQRGTDKWEACGDPIPELKFEVKGLIEGQWYAYRVRTVNKLGASRPCKATDEILAVDPKEPPEIQLDVKLLAGLTARAGTKIDLPADVLGKPDPRVKWTKADHVLKPDDRVTIDTKPGHSLLSIANTTRSDTSTYIIEAVNTSGRATATVDVNILDKPGPPAAFDISEITNESCCLAWNAPRDDGGSLVTNYVVEMRPTDKEEWQKLSATIKQTAFKASKLVPMKEYVFRVSAENQYGIGTPAEHVPIIAKYSFDTPGAPSRVQPSDITKDAVTLTWYEPDEDGGNPITGYWIERFDPETDKWIRCNKLPIKDTTFRVKGLPTKKKYKFRVLAENLAGPGKPSAETEPVLIKDPIDPPWAPGKPFIKDIGKTTAHLQWTRPEHDGGAKIESYIIELLKSGTEEWVRVAEDVPTTEHLLKGLMEKQEYSFRVKAFNVAGESEASDPSDPVVCKERLYPPSAPRWLEVVNISKINCDLKWTEPESHGGSPITNYVIEKRDVRRRAWQTVDTTVKDTKYTVTPLNEGSLYVFRVAAENAAGIGEFCELEDSVLAKDTFTTPGPPYALSVVEVSKRHVDLKWEAPNNDGGRPISKYVIEKKEKVGTRWVKSGKTSSPESMYRMTDVDEGSEVQFQVRAENEAGVGHPSEPTDIMTIEDPLSVPSPPTDVKIVDASREHINMTWKVPEKNGGSPVTGYHVELSEAETEKWMRINARPVKELRFKAEEGIIPEKQYVLRVRAINAIGFSDPSEISDSVFAKDPDCKPTIDVETQDIVIVEGEKLDLKIPYRAIPKPSMVWKKGDTELKTEDRLTLTCELNHIHLELLKCKHEDAGTYTVALENTLGSVTGTINVKVIGLPGQCKDISASEVTKNSCKISWEPPESDGGSPILHYILERREAQKKTYLPVMSGDNILNFVVKDLMLNREYYFRVKAVNKIGSGEYVELRNPVITEEQKQHPDPPVEVEAHNPTSNSITVTWMAPPVDGGCPITGYIIEKIEKDGDRFERCVPNLIPGFSYTVTGLTEGKEYQFRVRAENIAGASDPSRSTPLIKAADPVEPPKVSLHPRVASGLSIKKGEEIKVDAYISGSPYPTVTWLRNDENVRQEPAKKKTDFTVKNKKKTKTARPEPEEEFHPPLLDRLSFDQSKRDETALMVRDAIRTDHGKFTIRVENTHGFATASCDVNVLDKPGPPVNFGFEDIKNISVTCKWDAPLDDGGSEIINYILEKKDNTTDDIGWITVTSTHKGYNYPVTKLIEGKEYILRVTAENKYGCGPPCYSEPLIAKNQFEPPDAPNMPRIGEVTSSSAALSWHEPKDNGSPILGYWVERREVNSKYWTRVNRNLLSSLAVKVEGLMEGLVYVFRVCAENLAGPGEFSVPTDPQTAMDAILPPGPPVPKIVDVTNTTIDISWVPPLYNGGGDILGYHVERCLVGEKEWVRCTESRCKDRKFTITGLTQGADYNLRVFGVNDAGHGAPGMTEPVQAKEPEEAPVVDFNISVRNGVIIKAGETLRLPAFVTGRPIPELKWTKDEAEPDKERVVIDTEGKNSILSIKNALRSDHGQFQITGTNPSGTKSASVKVDVMDVPGPVVDLKTVHVSKKMISLTWSDPLDNGGSDVMGYVVERKDAKMHIYRQPLEVAACKCDIVGLLDGEEYMFRVVARNKFGLGAPVELGPVLAVDPKGVPSAPEKLHYTERTKNTITLTWQPPRSDGGSPIRGYYVEKMRQDSTEFDVANCQICKDCTLKLENLSENLMYDFRVKAVNEIGDGEPSKPINVNIQDDEHVPNIKWLKFFKSDAIVVKKGAAIEIPAEILGLPLPTFEWTKNGVVIDAPTETMTLESEEINRQTINTKIGIPETVRQDTGFYKLTATNIRGTDRPLPPRNIVVSDIKAESCYFTWDAPEDNGGSELLNYIIEKRDATKKKSDWEQLTCCVIDRRYGVYKLEAYSTYQFQIKAENKYGVSDGCESEKVVLKDPFGLPGPPQRPRIIGHTRSSMLVTWQPPKDNGGSTIQGYWLEKRERGAVYWSRVNRAPVTKPAVKGLEYNILHLIEGAEYKFRVMAQNAAGVGPPSEATECVFALDPRKEPIITLEVIAHELLNCCAGTTIKIPATVSGKPIPNVTWDFDGTAPTEKKNERHTLPEDSEISSTDTKSVVTIPECKLNHSGRYIITANNQADLPGPPKDLKISDITRGTCRLTWKPPDCDGGDRIKSYFIEKKTVEGKAWTKVNPACATQSFVVPDLFEGQEYLFRIRAENRFGLGPHIVTIQRTRARDPIHPPDPPIRVKIVDVSKGIVTLTWKPPRNDGGAPVTHYNVERLWWDSSGNQQESWRQCNRRDIEGTTFQVEDLHQGAEYEFRVKAVNEAGASRPSSTAGPIVVKDQNRAPSIELPEFMEVEQGTDIHIVAKINGCPFPTLTWQKAPPHKRDNKVDVEYDEHINKLVSDDSCTLLIQQGKRSDTSLYTLTAINSLGTVSKEMRLNVLGRPGPPSGPIKFEEIRGEQISLSWLPPVDDGGSKITNYTIERRVAKRKNWIPVTSEPKERFYTIGGLMPGHEYIFRVRAQNKYGVGDPLDMPPGQCEKPTLSSITIDSMTVNWEEPDSDGGSPITGYWLERKETTSKRWNRVTRDPIRPMPLGVSHTVTGLIEGSQYLFRVTAINIAGCGPPSEPSDPTFARDPIAPPSSPTPKVTDWTKSSVDLEWIPPLKDGGSKIMGYYVEYKEEGTEVWVKAKDKEVRGNKFVITALKPNAFYKFRVLAFNAAGLSEPGEIVDALEMKDRIITPVLELDISVKDRMTVHTGGVIRILAYVSGQPSPLITWDRDQGAVPAEAVVETTAISCSLVIKECTRKQQGVYTITAKNDGGEVKRSVIVDVLDVPGPVGGPFSAENLTSESCKLNWHFPEDDGGSAISNYVIEKREAERKAWTSCSYTAGRQHAIVNNLVQGKEYFFRVAAENAIGAGPFCQTTCEILVRDPITVPDRPEELEVTAVTKDYISVTWKPPKNDGGSELTSYVIEARMIGKDKFVRLTKDKLMDRRFTYDGLREGDSYELRVSAVNEIGPGKPSFPTKAITCRDELEPPTIELDFRDKVIVRVGESFALVGRYTGKPAPSVTWSRDDNELKADSHIQFKNTLTTMSLSIIKAQREHSGKYCVTVENCTGARKGICNVTVVDRPSPPEGPVVFEEVHRDHMVISWKPPLDDGGCEISNYIIEKRDVNRDMWTTVTSANTKTTCKVPKLQEGREYIMRISAENMYGISDPLESGEMKAKDLFRVPEAPEQPIVKDVYHDSALVIWNRPRDGGKPITNYILEKKEPSSKRWSRATRDPIYPATQYRVQELVEGCEYEFRVMAENELGNGDPSPPSKPILAKDPIVLPSPPVLPEAVDKTKDSVSLSWRVPRHDGKGKIFGYVIEYQKPGAIEWIQANETPESCPDTKFVVKNLPEEEPELLLDGNMARDHLAMVGTDITLSAKIRGMPIPTVSWKKNDGEVPAHCLIEVTASGSKLHIKKCTRADSGNYTITIQNTVGTKSATCNVLTLDKPGPPRNLTLSEVTIESAYLTWQKPEDDGGAVISHYIVHKKDVASDSWVPVCAASKKLSLMAMYLMEGTQYLFRVAAENQFGRSAFIETTKPIKAVDPLYPPGPPKNLHHVDVDKTEVWLQWEWPDRTGGSEITGFIVEYQEEGATDWVSFKTVSNPQCHVTGLAEGKTYRIRVKSQNAMGISRPDTSVPITCQEKTLAPTIQVDVKLIEGLVVKAGTTIVLPAIMHGIPTPTPKWQSEGNELKTEGKYRINTEGNSTVFNISECVRTDSGEYVLTAANPAGSKSVALHVTVLDVPSAPVGPVNILEVTPDYMIIQWRAPKDDGGTPLMNYVVEKKDVKKPWEPWSVVSSGSTSTKAKVPRLEKGREYIVRIRAVNKIGIGAALESPPTVAKHMFDPPGPPGRPTCSDITENAVTISWTEPETDGGSPVSGYIVERREMTGKWIRVNKTPVLDTRYRVCGLFEGNSYEFRIFAENIAGVSEPSYPSDPVKAIRPITPPGPPSNIKLKDWSKSYADLLWTKPSRDGGSPILGYVVECQKSGSAQWGKINKDLIKFCAFRVPGLFEGTEYRFRIRASNKVGDGEPRELTETVLAKDILVPPEVTVDIACRDLLTVRAGQIINLVTRVKGRPDPEITWTKDARAFGRDKRAEMNNNFPLVELVIQDAVRADYGKYTIHAKNSSGQAQATIIVNVLDIPGACQNVKVAYATKDSCMVSWENPEDNGGSEITNYKIECRQPNQRGWTVVTSDCTKRLVKAPLVENCEYFFRVSAENKIGAGLPTETKTPVLAVDPVDKPGEPENFQLAEIGKTFVFLKWKKPENDGGSRNLAYHVEKKPKAAEEWERLHKGAIKETYFMVDRCIENQIYQFRVQTKNEGGESNWVTTAEVLVKEELVQPELKVKLEGTLVVKAGESIPIEADLKGKPQPDIKWSKENYTGDIHKSPRVQIETGTNFTKLLLTNSKRGDTGKYIITATNAAGSCSAEAKINVLDKPGPVRDLKVSDISVDRCKLTWEIPEDDGGCEIYNYIIEKCETKRGVWSIHSAAVITNSAKVTRLIEGNEYIFRVRAENKMGAGPAVETESFVARTQFSRPGAPYTPEVTKITKDEMVVMWCSPDYDGGKPITGYILEKKEEHAIRWGSVTKSPIAGQQMTVTGLLPNHNYQFRVKAENEIGVGDASKPSRSLTARDPIEPPGPVGNLKVADSSKTLITLSWTKPTYDGGAPLIGYVVEMRVKGTGKKDDEVWKRCNVAAQLIGTEFTVSSLDEKFEYEFRVSAQNQIGMSQPTYLQGAVSPREVLEYYFRVIAVNEYGPGVPKATPKSYLASDPISKPDPPQKVDVLEITKNSATVGWVIPLCDGGAKIDGYIIDYLELPMPKPPKEPVKVEGEVEGEPEPAVDPVPPSATEPEVEEEKEKEKELEWTPYTVVKGLSISVVGLKEGRKYRFRVAARNSMGSSLPTETREVYDIKEQIMEPKIILPELVTAKAGAKLRVEALVSGKPAPICQWKRGEDNVVSSSRLAVHKSQNMCVLIIKDVSRHDSGQYSLVAENVSGKVDQILKIVIRDIPGPPEPPFEISDIDSDACTLSWNKPLEDGGSNITNYVVEKCDVSRGDWVSALSSCGKAGCRIGKLVPGKEYVFRVRAENRFGISDPLTSDRMVAKFPFDVPGEPLNCRINKVNKDCMFVAWDKPESDGGSPVTGYYIERKERNSLLWVKANDSVVRTTEYPCAGLIEVPPRIELSIQMKKMSPVNAGSDVCLEAEVYGKPMPKVRWTKEGEVLKADKVFKISQKRHLFSLSIDAVTKLNTGNYGILAENASGSTTAEIQLKVLDIPGPPLSVKFDEVLSDRIKLSWTAPLSDGGSPITNYVVDKRETSRANWAQVSAKISGNTTEILVERLIEGHEYQFRVRAENHYGAGDAIISDPVIARNPFTVPGPCDPPVITNITKEHMTVSWKEPSDDGKSPILGYMVEIRVTKEINWIKLNRKPLLERTLEVGELSEGTQYEFRVIAVNKAGQGKPSEPSTGASALEPLYPPGPPVSPKVSDTTNSTISLNWTKPVSDGGSEILGYLIECKRTNATDWIRCNVPKNLKDTHYVVTGLLDNSEYQLRVTAVNKVGFGQPCEVPDKHVAKDVFAAPEAELDKELKDTLVLMAGCKMKLHAKIKGRPTPRVTWAKMNTNIKDRQGIIIKTTDSDTSVFVEKANRNDAGKYILNLDSVSGMKMYTVIVKVLDTPGPPMNLMVKETSKDSASILWDAPLIDGGSEIKGYIVEKRDAERKAWSTVSSTCTKTSFKIDGLEAGRSYCFRVMAQNEYGIGEPCETADAVRATEQPGPVMDFKTLLVTKDSCALSWKKPISDGGTRIIAYVLEVLNGGDKWKELLRSKNMQYSAKDLIEGREYKYRVKATNDFGDGPEKELSVIAEDVNVLPSCDLRELPNLNYIAKEGSNVRLKIPISGKPVPVVTWKKGEEENLTDTGRVCMESTAVNTTLLIRDCQRADASKYTITLRNTAGTKESSIFVRVVGKPGIPTGIIKFKEVTADGATLKWGAPKDDGGSEVTNYILEKRDSITNMWVTVSSAVDTNSFRVAGLHEGTEYIFRVSAENKYGIGEGLKSEPMIAKHPFNVPDAPPPPQVMSMRHDSATLEWSDPRKTGGSSITGYHVEFKEKNSMLWKRASPTPLKMRDFKVTGLTEGLEYGFRVMAINLAGVGKPSLPTEALVALDPVAAPTITIDPTVKEGLTVRAGDIIVITATSIVGKPQPTSVWSKGGKYFKPSDVCQIETTPSSSTLSIKYASRKETGEYTITANNPFGVTEENVKVTVLDVPGPPGPVEASGVSSEMVTLTWTPPHEDGGSPIKYYTLEKRETSRLLWTILAEKVIDCHFVANKLIQGNEYIFRVSAVNSYGAGDPCHSEPVKMVDSYGPPGPPARPEVENVGGNSVTIAWKRPSDDGGSNITGYMAERKEKKGMRWTRVSKTAITDLHFEVKGLKEAVEYEFRVAAENKAGFGEPSEPSLPVRTKLVADVPAPPINPRVTDTTKTTAELHWGKPLSDGGMEVTGYLVEHKKEGEEEWVKDTATYLRITEFVVPDLHAGAKYHFRISAVNAMGVSEPAQTEDLVEVIEREEVPDLELDVELRRTLVVRAGASIRIFVPIKGRPTPTVSWTKEDAPLRTRANIDNTESYTLLVIPDCNRRDAGKYDLMMKNAAGTKTASVNVRVLDSPGPPLNLKPTAIDKESITLQWEMPLIDGGAKITNYIIEKRESTRKAYTAVITQCATCSVRLPDLGEGLEYYFRVYAENEYGIGEAVETPDPIRVSQAPTPPQNVTFADVTKNSVNLAWTKPQHDGGSRVTGYVLEAQKKGTDQWAHVTTVKTLDFTVKNLNENEEYVFRVMAVNSSGRSQPRLSRRVVIREQSSEPEFDLRGVCQKTVIAKAGEDIKVEVPVYGRPKPTVSWQKDNQHLKVTQRTMTENTSNSTILIINECLRSDSGVYSMTGKNIVCSVTDSITVKVHDVPGPPKGPIKLDKISRTFIEFSWEAPENDGGVPINNYVVEIRETTSQTWIELSSLIIRTTFKATRLTTGVEYQFRVKAKNRYGTGPPITSEAVVAAYPFKVPGPPGTPNVVAFTKDKMTIGWNEPVSDGGSEVIGYHVERKERNSIIWHRISKSLVVGNLFTSTGLEDGVAYEFRVIAENIAGIGKPSKASEPMLALDPVDPPGQPVPVQVSKNAITIQWTKPEYDGGFKITGYTVEKRDIPAGRWIRANFTNIIETTFTVSGLTQDSSYEFRILARNSAGAVSNPSESSDPIICKDDIVEPRIMVDAKFKDVVLVKAGDIFKLEADVAGQPLPSMVWTKNGNDVEKTSKLQIKMTDLTTGLINKDSVRRDGGEFVLTATNVGGFAKHVFNVKVLDRPGPPSGPLAVSGISAEKCTLTWNPPEDDGGANIEHYIIEKRESSRLAWTVVASDLQVNQYQVTKLLKGNEYIFRVVAVNKYGIGEPLESEATIAENPYLPPSPPQTPEITAVTKDSMVLCWRPPSSNGGSEITTYRIEKRDRIGLRWVKCNKKNVTDLHFKVTALVPGHEYEFRVFAENAAGISEPSPSSPFVKATDALFKPGPPGNPRILDSTSSSITLAWNKPVYDGGSEITGYIIETCLPGIEEEEWTIVSPKEGVKGTSFTITNLIENQEYKINVSALNSEGIGEAGSVPGSPKAEERLIAPDADLDAELRKIVNIRACTTLRLFVPFRGRPTPEAKWSRENDEPLDRATIETTSSFTSLVVGNVNRFDSGKYSLTVENSSGAKTVSVIVKVLDTPGAPQNLKFSKVTKESVSLVWDPPLNDGGSKIKNYVVEKREATRKAYATVNALCQKTTCTIDLLQEGCNYYFRVLAENEYGIGLPIETGESVKVSEKPLPPGKITLQDVTKTSVTLSWEKPEHDGGSRVVAYVVEMQSKGIEKWTQAVIVKVPEAVINGLVPGEEYMFRVSARNEKGTSDPRQIGVPVIAKDLVIVPSAKLLFSTFSVLAGEDLTIDVPYVARPKATISWLKEAAPLKRTTRVNFSSTDTQLSLVIKEACRDDVGQYSIKLSNTAGETTVDIGIVVLDKPGPPTGPVKVEEVTSDSVTIYWKPPEYDGGCVINNYIVEKRDTSTTNWQIVAANLARTQIKAGRLKTGSEYQFRIAAENRYGKSPLLVSECVIAQYPYKLPGPPGTPFIQSSKKDSMVVVWNEPVIDGGSTILGYHLERKERNSILWIKLNKSLIQDTTFKTTGLEEGLEYEFRVYAENIVGTGKASKISEGYIARDPCDPPGTPEAVKITKSSITIEWTKPEYDGGSKVTGYIVEKKELPEGRWMKANFTNVIETEYIATGLTEDQKYEFRVIARNAAGVFSDPSYSTGTIVAKDEIEPPRISINPEYTQTILVNAKENFKIDADVHGKPAPTIHWMKCEQELGNTIHREIKNTESFTCLTVKEAKLADGGQYTLLLRNPGGEKAVQVNVSVLDKPGPPEGPISIAGVTSEQCFLAWKPPKQDGGSKITYYIVEKRETSRLLWTVVEPKVQAEHLKVTKLLEGNEYIFRVLPVNKFGIGESLQSSAVIIKNPFTPPDAPKGVEVSEVKKDSMVLTWEVPTNDGGTPITGYIIEKHDKEGVRWTRCNMHTVTKLTLKVTGLLENHLYEFRVTAENAAGVGETSSATVFYKAVDPIFKPGPPNNPKLIDMTKSTVILTWGKPIYDGGCEIQGYIVEACEVKAAVEGVKAPEEIKSMEELAVAEEWIMCTPPTGVKPTRFTVENLKVKQEYKFRVCAVNKVGVGEQADVAGPILPEDKIEEPDLDIDPEFRKLVRIKAGGSLRMFVPFRGRPTPQIKWEKDGGQIKETAQIETTSSHTFLVIDQTNRADSGKYTVTAENSAGAKSETISVKVLDTPSAPLQLKVKEIKKESVTLTWEPPSMDGGAKIKNYIVEKRESTRKAFSAVATNCHKVSWKIEPLQEGCSYYFRVLAENEHGVGLPADIIDPIKVSEVPQCPGKLSVVDVTKTSVSLAWEKPIHDGGSRILQYLVEMQVKGNEKWSGCANVKTLEAVISNLNPGEEYTFRVIAVNEKGKSDPRTLAVPVQAKDLVFGPDVRPAFSNYSVLVGKDLQVEIPIFGRPKPKITWTKDGAPLKFTTRVNICSTMHRTILSIKEAAREDGGMYGINVSNTVGQKDATIEIIALDKPGPPTGPVRFEEITVSSVTLSWDPPKFTGGCPISNYIVQKRDTTTTAWENVAISLARTTLKVPRLKIGAEYQFRIIAQNRYGKSYALDSSAVVAQYPYREPGPPGTPFVSSLSKDHMIVEWHEPVTDGGSNIIGYHLERKERNSILWTKINKTLIQETRFKTCPLEEGVEYEFRVYAENIVGIGRCSKISEGFVARDPCDPPGTPEAIHVSKSSITIEWTKPEYDGGSVIIGYTVEKRDLPEGRWMKASFTNVIETNFTVTSLTEGAKYDFRVIAKNAAGTISKPSYNSGPIAALDEVEPPKFSIDPEYTQALIVNAGDTFKLDADVYGKPVPTIQWFKNNRVLENTLRCDIKNTDNRAFIMVKDATRQDGGTYNLQITNIAGSQTVLFQVKVLDKPGPPEGPLHVTGVSSNKCTLSWHAPQDDGGNSITHYIIERRETSRLAWNVVSNDCRTTVYKVTKLLEGNEYIFRVMAANSYGVGEPITTSSIVMKDPFGHPGSPQIIEVTNIARDSMTVCWNAPDTDGGSEILGYIIEKRDRSGIKWTRCNRQKVTDVCFRVQGLIEDHEYEFKVSAENAAGNGEPCLPTSYYKACDPKYKPGPPVNAHVIDTTNSSITVAWGKPLNDGGCEIQGYIVEICKAEEEEWVMCTPPTGLRVNKFEITKLTEQHEYKIQICAINKMGVGEPSAIPGTAKPEDKLEVAEIHLDSELRKGIVVRAGGSVRINVPFKGRPIPNVKWTKDEGELSEKTVVEKGINFTQLSMDSCDRRNSGKYAVILKNSSGSVSDFVIVKVLDTPGAPLNLAVKDIKTDSVTLVWEPPLIDGGAKIKNYVVDKRESTRKAYANVTAKCSNTTYKVENLAEGGMYYFRVMAENEYGVGLPVETKTASKASEVPHPVGKVMLTDVTKGSASLAWEKPEHDGGSRIGGYLIEMQPKGTDKWGVATNVKTCEGNVTGLTAGQEYMFRVLAYNEKGKSEPKPLAAPVIANDLTIEPSFKLQFNTYSIKAGADFKLEIPIFGRPKPKIAWTKDGQSLKVTSRVTTKNTSTSTILQITEACKDDLGKYAVAATNSVCAVTEDIGIIILDKPGPPIGPVKVNEVSNNSVSISWEPPEYTGGCQVKHYIVEKRDTTEITWQVVAGSVARTSLKITKLKTGAEYQFRVIAENRYGKGSPLDSKSIVVQYPYKTPGPPGTPNVKTATKDQMVIEWNEPVNDGDEYIFRVMAVNKYGIGEALESQAVIAHNPYKPPSAPSTPEARETSKDSITLSWNAPETDGGTEITGYHLEKRDKDGVRWTKCNRQKLTDLYFKVTSLSEGHFYEFRVAAENEAGIGELSDLSLFYRAINAITPPGPPHHPKVTNHTSSSISLSWGKPSTDGGSYVKGYIVEMKEVSSEDWIICTPPAGIQATRLTIENLKENAEYNLRVCAINSEGVGEPADVHGSVTASEKIEAPEIELDADLRKVVSVRAGGSLRLFITIRGRPEPSITWEKEDGALTERAQIESTGSYTMLVIDHVNRFDSGKYVLSLENKSGTKSAFVNVRVLDTPSAPQKFEVKDVKKDSVSLCWEPPLTDGGVKITNYVVEKRESTRKAYTTVTSNCTQTFFKADELQEGGIFYFRVCAVNEYGFGMMAETKSPIKVAQPPKSPGKVSLVDVTKNSVTLCWVKPVHDGGSKIICYNVEMQHKGSDKWGVSCTVKVPEATVSNLTPNETYSFRVIALNEKGKSEPQELGVPVVAKNIEIEPSVHLLFNTFSVKAGDDLTVEVPVRGRPKPVVSWKKDGLPLRQTTPLSIINTLVSSKIVIKEAAIEHVGKYELTLANTAGTISTDIAIVVLDKPGPPASVKVDAVTSDSITLSWTPPEYDGGCSINNYIVEKRDTNTTEWQIVSTNVARTSIKVPRLTQGCEYQFRIYAVNRYGKSKPIDSPGIIAAYTFKQPGPPSTPRVAHATKVFMLVTWNEPVNDGGSTVLGYHLERKERTSILWTKVNRTLIKDTEFKVTGIEEGMMYEFRVYAENIAGIGKASKASEAIAARDPCDPPGQPVVTSITKSSVSLSWEKPEYDGGAKVTGYTIERRDLPQGRWVRCNFTNVAETYFDVTGLTLDEQYDFRVIAKNAAGLFSEPSDNTGPITVKDNVDPPRIMMDVKFRDVVEVKAGETLKINADIAGRPLPVGSWSKDGHEIEQKARIQITGTDTNTMIVIKDCKRSDSGQYSLTLQNVSGSVTTPVKCVILDKPGPSAGPLSVTGLTAEKCTLSWGPPQEIGGSEITHYVVEKRETSRLAWTLVHGEVKTTTFKVTKLLKGNEYIFRVMAVNKFGLGEVLESEIVNVTDPFTIPAAPTNVEIIIVSSESMTITWAKPCSDGGSEILGYIIERREKSGLHWVRVNRELVTDLTAEISKVRRGCEYEFRVYAENVAGLSSASDLSASARAEDELIVPSPPTKPKILDYTKNSITISWKKPSSDGGATILGYSVEYKKSEDEEWVVAIQMTKSNEFTVSGLTPDAEYVFAVKAINKIGVSEQSPIAEPQVATERKEEPVFDVDIEMRKTLIVKHGNSFTLTAPFKGKPVPSVTWSKEDVDLKARASVETTKNCTSITIEKATRNDSGQYIVNLDNGVGTASLPMVVKVLDSPGSPTNVKIKEVTIDSATVTWEAPENDGGDAVKAYHVEKREASKKAWVCVTSNCHSLTYKVEDLQEGAIYYFRVIGENEFGVGVPTETKDGTKITGLTQDQSYEFRIFAKNAVGSMSNPSLIAGPANCVDISGAPVIDLPPEYLDVVQYKAGASVKIKVGIAAKPLPAIEWLKDGKELVSSAQLSIENTTDSSAILIKDSTRLNTGTYEIKIKNVFGTASASIRIQILVTPGQPSTPIATDITRTSMQIVWDKPGVDGGSMVTGYYLERRDKKSLRWVKAYKDPIADSKAKVHHLTEGNEYQYRVCANNKAGEGPHSDVSDFYKAADPVDPPYEPTKLKVVDSTKTSITLGWSKPEYDGGSEITSYVVEKKIGEEGEWTVISHKGEVRTTEYVASDLKPDVDYYFRVSAINCAGRGDPIEMEEPVQAKDILEEAQVDTDVAMRTHYIVKAGKDVEIMVPLKGRPAPSVSWKKEDQSIDNDPKYVIHNTNTLSCLLMTQVTRNDTAENENGIGDPCETAEPVKATETPGPIKDLAMKDSTKTSVTLQWNKPDYDGGSIITDFIIEKKQGEEEWAPAGTSKHCEFEIKKLKELTEMFFRVCSKNEKGNSDFTEIGPIKVKDYIIPPEAYLDDYPDGQISVRLGHNVHIELPYRGKPRPTIIWLKDNLPLKESEKVRFKKTENKAMLMIKNVEKENGGKYTLTLDNRSSRKSFHIQVITLGPPSKPIGPIHLDEVRAESITISWDEPNDDGGGEMSCYTVEKRDTSQTEWKMACSRVIGTTFKVPNLIKGTQYQFRVCAENRYGASEPLVSQNVIAKHEFRPPGPPGMPFVYNITNDGMTIQWDAPIFDGGCPILGYHVEKKEKNSVMWQKVNTILVKDREFRVLGLIEGLEYQFRVYAQNDSGYSRMSDASKLNMAVSPVDPPGTLDYVDVTSESVKLKWEAPKRDGGSKIVAYDVEKRQGKGRWLKSNFSNVNDTEFEVPGLTCGERYEFRVIARNAIGTVSPPSQSSGYVVIRDESFAPNIEFGLEYFEGVSVKAGENIRLKVTITGRPTPKVAWFRDDTPGEPVGPVMFSDISEGKVTLSWNPPENDGCSEVTHYNVEKRETSKISWALVTDECLKCTYNATKLIKTNEYQFRVSAVNRFGVSRPLESAPVIAQLQYTVPDSPGTPDGTDVDGESITINWAPPTNDGGNPIKYYIVERREKKTGRWLKVLTRKPIVEAAHRVTHLIENVEYEFRVYAVNDAGIGTPSNISLPIKCAEPTEEPDAPSIVNVTDTTNTSVSLEWTRPASDGGMEVHGYIIEMCKGSEETWNRVNEDLCAVTKYTVTGLETGAEYKFRICAVNSVGKGEAKEISEPVQAVDRLLAPEIDIDATFKQTHIVKSGGSVFLRIGFKGKPTPTASWTKVDGELGVMADITITETFTALMLENCTRNDTGKYTLALENSSGSKSVTVTVKVLDTPGMPSTFSIKEVTRGALSLVWEPPINDGGARVHHYVVEKREASRRTWTEAAPKTNQTSLRISDLLEGVPYFFKVMAENQYGFGEAYEMPDPIVATAEPAAPKRVDIIDTTDTTATLAWLKPEHDGGSRITGYCVESKVIGIDKWVVCGTTKNLTIVIEGLIENSEYEFRVKAKNDAGLSVPREAFSSVIIKEPRIEPTADLSGITNQLITCRIGDSFEIDVPISGRPAPKVIWKLEEMRLNETDRVSIKTTKTRTILTLKESMRGDGGSYFLTLENVTGSKTFTVNVNVIGRPSPPEGPIEISSITSESCVVTWNPPEDDGGTDITNYIVEKRESGSTTWQLINSSVKHTSLHVSNLTKYMQYTFRICAENRFGVSKPTESETIVAEHPFVPPGPPARPELFSVTANSMSIRWEEPYHDGGSKISGYWIEKKERNTILWVRENKIPCFECYYKVEDLVEGLEYQFRVYAMNSAGLSKASEATKRAVAQNPVDPPGKSEVTGVSRSTVSIKWSVPLNDGGSPITGYIVERKPYTLTGEGRWLKCNYTNVTDTRFTVTALGEGEEYEFRVIAKNANGVLSTPSLSTGPVTCKAEYSPPKAELDSKLLVDTVTIRAGSDLVLDAAVGGKPEPKVSWAKETKELELCEKYSLQYSSTRALAIIKFCDRDDTGKYVLTVKNASGTKTAEVNVKVLDTPGPCQEITVINVSKDKCTVSWKEPQEDGGDTITHYTVERRDTNRLNWVIMEAECKALTCNITRLFKNNEYIFRVRGVNKYGAGVAVQSNPIIARNSFTVPLPPGGPEILAVGKDFATIEWMKPESDGGSEVTNYLIEMRERKSARWIKVNRDSLLKDTSFKVTGLQEGNIYQFRITAINAAGDSEPSEVSMYAVCREPTGTPDAPSIPRVTDTHHDSISLAWTRPVEDGGADVFGYIFEMQEVGSEEWTKVHEKNLRVTEHTVTGLAAGKKYCFRVAAVNVNGTGDFSEPCAETEPVERIEIPDLELPDDLLKTICLRAGSSLRLHVTVTGRPIPTITWTKPDVDLQNRGFIEVTNTATTLIIDKVHRYDADKPDEPQGPIRFDEIDEIAVTISWDPPRRDGGAPVSNYVVEQRDAHRPGWVPVSESVSRPTFKFDRLTEGDEYVFRVAAANRYGTGEYLQSEIVMCKSSKSIPGPPGRPIIFDVSRDGMTVAWETPDEDGGLEVSGYIIERKEVRSDRWIRANKNPVTMTRYRSTGLIEGLEYEHRVTAINARGVGKPSLLSKTAVATDPVDPPGSPQNPRVTDTTKSSVSLAWSPPDEEGGAKVTGYLIEMQKVGSVTWLKCNTTPSLICEYTLTQMPQGEEFKFRVMACNAGGPGEPAEVPGVVTITEMLDPPSYDLEAKYKDVLVVRSGGVIRLSVPIKGKPTPTCKWTKDGAEVTNSALLASNEDGTELVIKDAERSDSGIYNLQLENKCGKKMLSIKVKVIGRSSAPEGPLGIDDIQAHSVRLSWKPPTDDGASEIIGYIVERREVAKAAWYTVDSRVVDTSFVVKGLQENVEYHFKVTAENTFGISNSLKSKEPVVPKTPICVPEPSGTPPEIMDVTKSSAALAWTKPKDDGGSCITGYFIDYKEVSSDKWIRHETKIASTMYTLSGLTTDAEYQFRVIVVNEIGQSEPGPASDSVICKDPYDKPSQPGEIDVVTVTKDYIKIHWEAPECDGGKPVLGYWIEYRKSGESAWKKCNKERTKDKENTQGALQEATEYEFRVFAENETGISRPRRTATTIKTKLGIGAKPALRKEMDELTAKLGQTATLKCQIIGRPVPEIKWYKGGKEIKEGRKYAATSDGRNHTLTISTDQQEDEGLYTCKAVNEAGECETSGTLVLEAAPQFPMQLKDKYFATCGSTVRIHAVYIGRPQPKIMWLYGAKALEPSENVVVENTEHYTHLILKNVQRRVHGGKYRIRINNHFGSADTVTQVEILDKPAVPEGPLVLDALLKNSVIISWKAPKDDGGSMITNYIVEKREDKENVEWELVSSSITGTSCRIPNLVENEGYYFRVSAQNRYGNSDLLETPFAILIKSQLERPGAPLKPAVSGLTKNSCVVSWKPPLNDGGSKIKNYCLEKRDKKKGEWALVTTDEIHQTVYSVKGLTEGVEHEFRVKCENLGGQSDFSEVSDPVIPKTDIEIRAPAFKEDLRNMSVKFKSNATFVCKITGQPKPVIKWFKRGKEVQGENTKIKIQEFKGGYHQLVIADCDAEDSTVYQIRATNQGGSISATVSLDVEVPAKIHLPTNLQGKEAIPALRGEVVNIKIPFSGKPDPVITWQKGQDLIDNNGHYQVIVTRSFTSLVFVNGVERNDAGFYIVCAKNRFGIDQQRVELDVADVPDPPRGIIASDVSRDSVTLHWLAPANDGGSRVTNYIIEKCATTAERWIRVGQSRDTHYTVVNLFGKTSYQFRVIAENKFGQSAPSESSGPVLTKEDKSRVLNYDEEVDDTRPVSKSKAPHSEATNLHDKYMIAEELGRGQFGIVHRCIETRSEKTYMAKFVKIRGADQALVKKEIATLNVARHKNFLLLHESFDSPEEIVMVYEFLSGVDVLERLGTANFELNECVIVNYIRQVCEALEFLHSKSYGHFDIRPENIVYTTRRGTNVKIIELGQARHLTPGEQIKIQYTTAEFAAPEIHQNEMVSTVTDMWSVGVLVYVLLSGLNPFAAETNQQMIESISNAEYSFDDESFKDVSVEALDFLDRLLTKERKHRMTAAEALNHPWLTMNTEELSTRSITITRHKRYYQAMVKKEWNTVVSSARVANGGAIRGQRGVTASKVKIAPFEHGPVAGQIKHNLADENDDIKFICNIDNYDSCTEVTWYCGVRQLEESSRYEITYEDGLATITIKGITRTDDGTYRCKVVNEYGEDSAYAELFVKGVRSYREFFTSRVVKKVKRRVDTTRLLQRPPEFTLPLCNRTAYIGEDLRFGVTITVHPEPRVMWLKTGQKIVPGDDDKKYTFITDKGLYQLVIHNLDPDDDAEYTVLARNRFGEDSCKARLTVVPRPAPADNTLRPMFKRLLANLGCREGQSVRFEMRVSGHPSLKWEKDGMPLAFGPQIEVVHEGLDYYVLHVRDTLPEDSGIYRVIATNSAGSASCQSTLKVERVTHVKKEIESVDEKKKKPDHDQQEMDKKVRLTQILAGGDVTSLTPVAQQALREAATMFKPAIVTKKVKSEAEEADEKEEKRKRAEEKRLRMPYVVPPPRVVAPTALEEDMEIKHFVPFSDMKWYKKLRDQYEFPEPMEKFPQKRLKRIRLSRWDQFYEVPLPRIKDQYKPRWHIPSVSQDDLETVRPARHRTPSPELEAYYRIRRRSLGDLSDEELLLPVNEYLSMKRTEEERLKLEDELELGYSASPPRLSPVRFELSALQHPSPKRAAYNEEEGEEIPTYDSYRIPSKYEAGPSYVDLRHRHDRATYRPPRQKQRLYEEKEDQELLRSVSTTTRLTSYKTRLQQIEFEEKTKGKRKDKTRVSVPAISEGVATHIPTSFSSGYVKVTRAKSEKLSAAVVEKEVVSVRTSSLEKAHPRSPSLGSSEKVSTQDLSVKVDYMSRYESKKKALKTDRKFEIVSQQPFSLDHAPRVTVRMRSHRVAVGQNTKFTLNVQSKPVAQIKWYHNGQQIEESRKYRMFNMSGVLSLQIIDCQEEDSGTYRVVSSNAKGEASDYATLDVSEGAFSAYASQRKDEEPPTPFVPEMTKSDVFHVSTTKAATALETVVSEKVAVSETRSETKETVVKEYATSEIKLEAMEVTRVEEVVVEKTSETRLEASEVTTVEEVVLEKKKPTLPATILTKPQSVTVSEGESVKFTCDVDGEPAPTVTWQREGLILVSSHRQHITSVEYKSTFEITQVEISDGGNYTVVVENPEGKQEAQFSLTVRKPTPVKKVVASPPRVKSPESSRIKSPMGIRSPLRMKSPEPIKSPQRVKSPPTVKSPTPKEKTSKPIFSSELKDISASTDSITKLTVKMTGEPKPVITWMKDGKTLSQGGKYEIFEEDGLAHLEIYDSDVTDSGVYTCVAKNIAGSVTTNSTVTIKAQTAAVAELTEQIVKKEIAYEEEQSFREIKASKTQMTMTEGQTVTLRASIPGASDVKWILNGFKLSNSENYRYGLSSNDHTLTIKSVSHEDQGILTCEAKTEHGVVKCQFDMTISEMVFDAPSFLVQPRSQNVNEGQDVTFSCEITGEPSPEVEWLKDNAVILITSNMKLSRSKNVYKLEIHNAAIEDSGKYTIKAKNKFGQSSATASLNVLRESFTRNEYPVKPETKRNYVPQHTFIVVLRADDEVKVEVTFLPENCTQKAKRGDMLNAHYDGYLAKDRSQFYCSRSTKTGHPHWFQLGVGSVIKGLDLGLRDMCPGEKRKITIPPSLAYGEHGKVSKLFYGAIGPVPADATVIFEVELLYITRGPRSIEAFSEIDTDNNKVLTKEEIKTYLKKEAKKLNSQKDESYFDDVVADVFLKNDNNVDGTLSLQEYNVYNHDEL</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

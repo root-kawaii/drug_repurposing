@@ -1,0 +1,2514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1996-10-01" modified="2021-09-29" version="223">
+<accession>P49810</accession>
+<accession>A8K8D4</accession>
+<accession>B1AP21</accession>
+<accession>Q96P32</accession>
+<name>PSN2_HUMAN</name>
+<protein>
+<recommendedName>
+<fullName>Presenilin-2</fullName>
+<shortName>PS-2</shortName>
+<ecNumber>3.4.23.-</ecNumber>
+</recommendedName>
+<alternativeName>
+<fullName>AD3LP</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>AD5</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>E5-1</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>STM-2</fullName>
+</alternativeName>
+<component>
+<recommendedName>
+<fullName>Presenilin-2 NTF subunit</fullName>
+</recommendedName>
+</component>
+<component>
+<recommendedName>
+<fullName>Presenilin-2 CTF subunit</fullName>
+</recommendedName>
+</component>
+</protein>
+<gene>
+<name type="primary">PSEN2</name>
+<name type="synonym">AD4</name>
+<name type="synonym">PS2</name>
+<name type="synonym">PSNL2</name>
+<name type="synonym">STM2</name>
+</gene>
+<organism>
+<name type="scientific">Homo sapiens</name>
+<name type="common">Human</name>
+<dbReference type="NCBI Taxonomy" id="9606"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Primates</taxon>
+<taxon>Haplorrhini</taxon>
+<taxon>Catarrhini</taxon>
+<taxon>Hominidae</taxon>
+<taxon>Homo</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1995" name="Science" volume="269" first="973" last="977">
+<title>Candidate gene for the chromosome 1 familial Alzheimer's disease locus.</title>
+<authorList>
+<person name="Levy-Lahad E."/>
+<person name="Wasco W."/>
+<person name="Poorkaj P."/>
+<person name="Romano D.M."/>
+<person name="Oshima J."/>
+<person name="Pettingell W.H. Jr."/>
+<person name="Yu C.-E."/>
+<person name="Jondro P.D."/>
+<person name="Schmidt S.D."/>
+<person name="Wang K."/>
+<person name="Crowley A.C."/>
+<person name="Fu Y.-H."/>
+<person name="Guenette S.Y."/>
+<person name="Galas D."/>
+<person name="Nemens E."/>
+<person name="Wijsman E.M."/>
+<person name="Bird T.D."/>
+<person name="Schellenberg G.D."/>
+<person name="Tanzi R.E."/>
+</authorList>
+<dbReference type="PubMed" id="7638622"/>
+<dbReference type="DOI" id="10.1126/science.7638622"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<scope>VARIANT AD4 ILE-141</scope>
+</reference>
+<reference key="2">
+<citation type="journal article" date="1995" name="Nature" volume="376" first="775" last="778">
+<title>Familial Alzheimer's disease in kindreds with missense mutations in a gene on chromosome 1 related to the Alzheimer's disease type 3 gene.</title>
+<authorList>
+<person name="Rogaev E.I."/>
+<person name="Sherrington R."/>
+<person name="Rogaeva E.A."/>
+<person name="Levesque G."/>
+<person name="Ikeda M."/>
+<person name="Liang Y."/>
+<person name="Chi H."/>
+<person name="Lin C."/>
+<person name="Holman K."/>
+<person name="Tsuda T."/>
+<person name="Mar L."/>
+<person name="Sorbi S."/>
+<person name="Nacmias B."/>
+<person name="Piacentini S."/>
+<person name="Amaducci L."/>
+<person name="Chumakov I."/>
+<person name="Cohen D."/>
+<person name="Lannfelt L."/>
+<person name="Fraser P.E."/>
+<person name="Rommens J.M."/>
+<person name="St George-Hyslop P.H."/>
+</authorList>
+<dbReference type="PubMed" id="7651536"/>
+<dbReference type="DOI" id="10.1038/376775a0"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<scope>VARIANTS AD4 ILE-141 AND VAL-239</scope>
+<source>
+<tissue>Brain</tissue>
+<tissue>Colon</tissue>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="1995" name="Proc. Natl. Acad. Sci. U.S.A." volume="92" first="12180" last="12184">
+<title>Identification and expression analysis of a potential familial Alzheimer disease gene on chromosome 1 related to AD3.</title>
+<authorList>
+<person name="Li J."/>
+<person name="Ma J."/>
+<person name="Potter H."/>
+</authorList>
+<dbReference type="PubMed" id="8618867"/>
+<dbReference type="DOI" id="10.1073/pnas.92.26.12180"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+</reference>
+<reference key="4">
+<citation type="journal article" date="1996" name="Genomics" volume="34" first="198" last="204">
+<title>Genomic structure and expression of STM2, the chromosome 1 familial Alzheimer disease gene.</title>
+<authorList>
+<person name="Levy-Lahad E."/>
+<person name="Poorkaj P."/>
+<person name="Wang K."/>
+<person name="Fu Y.H."/>
+<person name="Oshima J."/>
+<person name="Mulligan J."/>
+<person name="Schellenberg G.D."/>
+</authorList>
+<dbReference type="PubMed" id="8661049"/>
+<dbReference type="DOI" id="10.1006/geno.1996.0266"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+</reference>
+<reference key="5">
+<citation type="submission" date="2003-05" db="EMBL/GenBank/DDBJ databases">
+<title>Cloning of human full-length CDSs in BD Creator(TM) system donor vector.</title>
+<authorList>
+<person name="Kalnine N."/>
+<person name="Chen X."/>
+<person name="Rolfs A."/>
+<person name="Halleck A."/>
+<person name="Hines L."/>
+<person name="Eisenstein S."/>
+<person name="Koundinya M."/>
+<person name="Raphael J."/>
+<person name="Moreira D."/>
+<person name="Kelley T."/>
+<person name="LaBaer J."/>
+<person name="Lin Y."/>
+<person name="Phelan M."/>
+<person name="Farmer A."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]</scope>
+</reference>
+<reference key="6">
+<citation type="journal article" date="2004" name="Nat. Genet." volume="36" first="40" last="45">
+<title>Complete sequencing and characterization of 21,243 full-length human cDNAs.</title>
+<authorList>
+<person name="Ota T."/>
+<person name="Suzuki Y."/>
+<person name="Nishikawa T."/>
+<person name="Otsuki T."/>
+<person name="Sugiyama T."/>
+<person name="Irie R."/>
+<person name="Wakamatsu A."/>
+<person name="Hayashi K."/>
+<person name="Sato H."/>
+<person name="Nagai K."/>
+<person name="Kimura K."/>
+<person name="Makita H."/>
+<person name="Sekine M."/>
+<person name="Obayashi M."/>
+<person name="Nishi T."/>
+<person name="Shibahara T."/>
+<person name="Tanaka T."/>
+<person name="Ishii S."/>
+<person name="Yamamoto J."/>
+<person name="Saito K."/>
+<person name="Kawai Y."/>
+<person name="Isono Y."/>
+<person name="Nakamura Y."/>
+<person name="Nagahari K."/>
+<person name="Murakami K."/>
+<person name="Yasuda T."/>
+<person name="Iwayanagi T."/>
+<person name="Wagatsuma M."/>
+<person name="Shiratori A."/>
+<person name="Sudo H."/>
+<person name="Hosoiri T."/>
+<person name="Kaku Y."/>
+<person name="Kodaira H."/>
+<person name="Kondo H."/>
+<person name="Sugawara M."/>
+<person name="Takahashi M."/>
+<person name="Kanda K."/>
+<person name="Yokoi T."/>
+<person name="Furuya T."/>
+<person name="Kikkawa E."/>
+<person name="Omura Y."/>
+<person name="Abe K."/>
+<person name="Kamihara K."/>
+<person name="Katsuta N."/>
+<person name="Sato K."/>
+<person name="Tanikawa M."/>
+<person name="Yamazaki M."/>
+<person name="Ninomiya K."/>
+<person name="Ishibashi T."/>
+<person name="Yamashita H."/>
+<person name="Murakawa K."/>
+<person name="Fujimori K."/>
+<person name="Tanai H."/>
+<person name="Kimata M."/>
+<person name="Watanabe M."/>
+<person name="Hiraoka S."/>
+<person name="Chiba Y."/>
+<person name="Ishida S."/>
+<person name="Ono Y."/>
+<person name="Takiguchi S."/>
+<person name="Watanabe S."/>
+<person name="Yosida M."/>
+<person name="Hotuta T."/>
+<person name="Kusano J."/>
+<person name="Kanehori K."/>
+<person name="Takahashi-Fujii A."/>
+<person name="Hara H."/>
+<person name="Tanase T.-O."/>
+<person name="Nomura Y."/>
+<person name="Togiya S."/>
+<person name="Komai F."/>
+<person name="Hara R."/>
+<person name="Takeuchi K."/>
+<person name="Arita M."/>
+<person name="Imose N."/>
+<person name="Musashino K."/>
+<person name="Yuuki H."/>
+<person name="Oshima A."/>
+<person name="Sasaki N."/>
+<person name="Aotsuka S."/>
+<person name="Yoshikawa Y."/>
+<person name="Matsunawa H."/>
+<person name="Ichihara T."/>
+<person name="Shiohata N."/>
+<person name="Sano S."/>
+<person name="Moriya S."/>
+<person name="Momiyama H."/>
+<person name="Satoh N."/>
+<person name="Takami S."/>
+<person name="Terashima Y."/>
+<person name="Suzuki O."/>
+<person name="Nakagawa S."/>
+<person name="Senoh A."/>
+<person name="Mizoguchi H."/>
+<person name="Goto Y."/>
+<person name="Shimizu F."/>
+<person name="Wakebe H."/>
+<person name="Hishigaki H."/>
+<person name="Watanabe T."/>
+<person name="Sugiyama A."/>
+<person name="Takemoto M."/>
+<person name="Kawakami B."/>
+<person name="Yamazaki M."/>
+<person name="Watanabe K."/>
+<person name="Kumagai A."/>
+<person name="Itakura S."/>
+<person name="Fukuzumi Y."/>
+<person name="Fujimori Y."/>
+<person name="Komiyama M."/>
+<person name="Tashiro H."/>
+<person name="Tanigami A."/>
+<person name="Fujiwara T."/>
+<person name="Ono T."/>
+<person name="Yamada K."/>
+<person name="Fujii Y."/>
+<person name="Ozaki K."/>
+<person name="Hirao M."/>
+<person name="Ohmori Y."/>
+<person name="Kawabata A."/>
+<person name="Hikiji T."/>
+<person name="Kobatake N."/>
+<person name="Inagaki H."/>
+<person name="Ikema Y."/>
+<person name="Okamoto S."/>
+<person name="Okitani R."/>
+<person name="Kawakami T."/>
+<person name="Noguchi S."/>
+<person name="Itoh T."/>
+<person name="Shigeta K."/>
+<person name="Senba T."/>
+<person name="Matsumura K."/>
+<person name="Nakajima Y."/>
+<person name="Mizuno T."/>
+<person name="Morinaga M."/>
+<person name="Sasaki M."/>
+<person name="Togashi T."/>
+<person name="Oyama M."/>
+<person name="Hata H."/>
+<person name="Watanabe M."/>
+<person name="Komatsu T."/>
+<person name="Mizushima-Sugano J."/>
+<person name="Satoh T."/>
+<person name="Shirai Y."/>
+<person name="Takahashi Y."/>
+<person name="Nakagawa K."/>
+<person name="Okumura K."/>
+<person name="Nagase T."/>
+<person name="Nomura N."/>
+<person name="Kikuchi H."/>
+<person name="Masuho Y."/>
+<person name="Yamashita R."/>
+<person name="Nakai K."/>
+<person name="Yada T."/>
+<person name="Nakamura Y."/>
+<person name="Ohara O."/>
+<person name="Isogai T."/>
+<person name="Sugano S."/>
+</authorList>
+<dbReference type="PubMed" id="14702039"/>
+<dbReference type="DOI" id="10.1038/ng1285"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 3)</scope>
+<source>
+<tissue>Testis</tissue>
+</source>
+</reference>
+<reference key="7">
+<citation type="journal article" date="2006" name="Nature" volume="441" first="315" last="321">
+<title>The DNA sequence and biological annotation of human chromosome 1.</title>
+<authorList>
+<person name="Gregory S.G."/>
+<person name="Barlow K.F."/>
+<person name="McLay K.E."/>
+<person name="Kaul R."/>
+<person name="Swarbreck D."/>
+<person name="Dunham A."/>
+<person name="Scott C.E."/>
+<person name="Howe K.L."/>
+<person name="Woodfine K."/>
+<person name="Spencer C.C.A."/>
+<person name="Jones M.C."/>
+<person name="Gillson C."/>
+<person name="Searle S."/>
+<person name="Zhou Y."/>
+<person name="Kokocinski F."/>
+<person name="McDonald L."/>
+<person name="Evans R."/>
+<person name="Phillips K."/>
+<person name="Atkinson A."/>
+<person name="Cooper R."/>
+<person name="Jones C."/>
+<person name="Hall R.E."/>
+<person name="Andrews T.D."/>
+<person name="Lloyd C."/>
+<person name="Ainscough R."/>
+<person name="Almeida J.P."/>
+<person name="Ambrose K.D."/>
+<person name="Anderson F."/>
+<person name="Andrew R.W."/>
+<person name="Ashwell R.I.S."/>
+<person name="Aubin K."/>
+<person name="Babbage A.K."/>
+<person name="Bagguley C.L."/>
+<person name="Bailey J."/>
+<person name="Beasley H."/>
+<person name="Bethel G."/>
+<person name="Bird C.P."/>
+<person name="Bray-Allen S."/>
+<person name="Brown J.Y."/>
+<person name="Brown A.J."/>
+<person name="Buckley D."/>
+<person name="Burton J."/>
+<person name="Bye J."/>
+<person name="Carder C."/>
+<person name="Chapman J.C."/>
+<person name="Clark S.Y."/>
+<person name="Clarke G."/>
+<person name="Clee C."/>
+<person name="Cobley V."/>
+<person name="Collier R.E."/>
+<person name="Corby N."/>
+<person name="Coville G.J."/>
+<person name="Davies J."/>
+<person name="Deadman R."/>
+<person name="Dunn M."/>
+<person name="Earthrowl M."/>
+<person name="Ellington A.G."/>
+<person name="Errington H."/>
+<person name="Frankish A."/>
+<person name="Frankland J."/>
+<person name="French L."/>
+<person name="Garner P."/>
+<person name="Garnett J."/>
+<person name="Gay L."/>
+<person name="Ghori M.R.J."/>
+<person name="Gibson R."/>
+<person name="Gilby L.M."/>
+<person name="Gillett W."/>
+<person name="Glithero R.J."/>
+<person name="Grafham D.V."/>
+<person name="Griffiths C."/>
+<person name="Griffiths-Jones S."/>
+<person name="Grocock R."/>
+<person name="Hammond S."/>
+<person name="Harrison E.S.I."/>
+<person name="Hart E."/>
+<person name="Haugen E."/>
+<person name="Heath P.D."/>
+<person name="Holmes S."/>
+<person name="Holt K."/>
+<person name="Howden P.J."/>
+<person name="Hunt A.R."/>
+<person name="Hunt S.E."/>
+<person name="Hunter G."/>
+<person name="Isherwood J."/>
+<person name="James R."/>
+<person name="Johnson C."/>
+<person name="Johnson D."/>
+<person name="Joy A."/>
+<person name="Kay M."/>
+<person name="Kershaw J.K."/>
+<person name="Kibukawa M."/>
+<person name="Kimberley A.M."/>
+<person name="King A."/>
+<person name="Knights A.J."/>
+<person name="Lad H."/>
+<person name="Laird G."/>
+<person name="Lawlor S."/>
+<person name="Leongamornlert D.A."/>
+<person name="Lloyd D.M."/>
+<person name="Loveland J."/>
+<person name="Lovell J."/>
+<person name="Lush M.J."/>
+<person name="Lyne R."/>
+<person name="Martin S."/>
+<person name="Mashreghi-Mohammadi M."/>
+<person name="Matthews L."/>
+<person name="Matthews N.S.W."/>
+<person name="McLaren S."/>
+<person name="Milne S."/>
+<person name="Mistry S."/>
+<person name="Moore M.J.F."/>
+<person name="Nickerson T."/>
+<person name="O'Dell C.N."/>
+<person name="Oliver K."/>
+<person name="Palmeiri A."/>
+<person name="Palmer S.A."/>
+<person name="Parker A."/>
+<person name="Patel D."/>
+<person name="Pearce A.V."/>
+<person name="Peck A.I."/>
+<person name="Pelan S."/>
+<person name="Phelps K."/>
+<person name="Phillimore B.J."/>
+<person name="Plumb R."/>
+<person name="Rajan J."/>
+<person name="Raymond C."/>
+<person name="Rouse G."/>
+<person name="Saenphimmachak C."/>
+<person name="Sehra H.K."/>
+<person name="Sheridan E."/>
+<person name="Shownkeen R."/>
+<person name="Sims S."/>
+<person name="Skuce C.D."/>
+<person name="Smith M."/>
+<person name="Steward C."/>
+<person name="Subramanian S."/>
+<person name="Sycamore N."/>
+<person name="Tracey A."/>
+<person name="Tromans A."/>
+<person name="Van Helmond Z."/>
+<person name="Wall M."/>
+<person name="Wallis J.M."/>
+<person name="White S."/>
+<person name="Whitehead S.L."/>
+<person name="Wilkinson J.E."/>
+<person name="Willey D.L."/>
+<person name="Williams H."/>
+<person name="Wilming L."/>
+<person name="Wray P.W."/>
+<person name="Wu Z."/>
+<person name="Coulson A."/>
+<person name="Vaudin M."/>
+<person name="Sulston J.E."/>
+<person name="Durbin R.M."/>
+<person name="Hubbard T."/>
+<person name="Wooster R."/>
+<person name="Dunham I."/>
+<person name="Carter N.P."/>
+<person name="McVean G."/>
+<person name="Ross M.T."/>
+<person name="Harrow J."/>
+<person name="Olson M.V."/>
+<person name="Beck S."/>
+<person name="Rogers J."/>
+<person name="Bentley D.R."/>
+</authorList>
+<dbReference type="PubMed" id="16710414"/>
+<dbReference type="DOI" id="10.1038/nature04727"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+</reference>
+<reference key="8">
+<citation type="submission" date="2005-07" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Mural R.J."/>
+<person name="Istrail S."/>
+<person name="Sutton G.G."/>
+<person name="Florea L."/>
+<person name="Halpern A.L."/>
+<person name="Mobarry C.M."/>
+<person name="Lippert R."/>
+<person name="Walenz B."/>
+<person name="Shatkay H."/>
+<person name="Dew I."/>
+<person name="Miller J.R."/>
+<person name="Flanigan M.J."/>
+<person name="Edwards N.J."/>
+<person name="Bolanos R."/>
+<person name="Fasulo D."/>
+<person name="Halldorsson B.V."/>
+<person name="Hannenhalli S."/>
+<person name="Turner R."/>
+<person name="Yooseph S."/>
+<person name="Lu F."/>
+<person name="Nusskern D.R."/>
+<person name="Shue B.C."/>
+<person name="Zheng X.H."/>
+<person name="Zhong F."/>
+<person name="Delcher A.L."/>
+<person name="Huson D.H."/>
+<person name="Kravitz S.A."/>
+<person name="Mouchard L."/>
+<person name="Reinert K."/>
+<person name="Remington K.A."/>
+<person name="Clark A.G."/>
+<person name="Waterman M.S."/>
+<person name="Eichler E.E."/>
+<person name="Adams M.D."/>
+<person name="Hunkapiller M.W."/>
+<person name="Myers E.W."/>
+<person name="Venter J.C."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+</reference>
+<reference key="9">
+<citation type="journal article" date="2004" name="Genome Res." volume="14" first="2121" last="2127">
+<title>The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).</title>
+<authorList>
+<consortium name="The MGC Project Team"/>
+</authorList>
+<dbReference type="PubMed" id="15489334"/>
+<dbReference type="DOI" id="10.1101/gr.2596504"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]</scope>
+<source>
+<tissue>Muscle</tissue>
+</source>
+</reference>
+<reference key="10">
+<citation type="submission" date="2001-09" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Xu Y."/>
+<person name="Hu X."/>
+<person name="Zhou Y."/>
+<person name="Peng X."/>
+<person name="Yuan J."/>
+<person name="Qiang B."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE OF 1-390</scope>
+</reference>
+<reference key="11">
+<citation type="journal article" date="1996" name="Nat. Med." volume="2" first="224" last="229">
+<title>Alzheimer-associated presenilins 1 and 2: neuronal expression in brain and localization to intracellular membranes in mammalian cells.</title>
+<authorList>
+<person name="Kovacs D.M."/>
+<person name="Fausett H.J."/>
+<person name="Page K.J."/>
+<person name="Kim T.-W."/>
+<person name="Moir R.D."/>
+<person name="Merriam D.E."/>
+<person name="Hollister R.D."/>
+<person name="Hallmark O.G."/>
+<person name="Mancini R."/>
+<person name="Felsenstein K.M."/>
+<person name="Hyman B.T."/>
+<person name="Tanzi R.E."/>
+<person name="Wasco W."/>
+</authorList>
+<dbReference type="PubMed" id="8574969"/>
+<dbReference type="DOI" id="10.1038/nm0296-224"/>
+</citation>
+<scope>SUBCELLULAR LOCATION</scope>
+<scope>TISSUE SPECIFICITY</scope>
+</reference>
+<reference key="12">
+<citation type="journal article" date="1998" name="J. Neurosci." volume="18" first="914" last="922">
+<title>Interaction of presenilins with the filamin family of actin-binding proteins.</title>
+<authorList>
+<person name="Zhang W."/>
+<person name="Han S.W."/>
+<person name="McKeel D.W."/>
+<person name="Goate A."/>
+<person name="Wu J.Y."/>
+</authorList>
+<dbReference type="PubMed" id="9437013"/>
+<dbReference type="DOI" id="10.1523/jneurosci.18-03-00914.1998"/>
+</citation>
+<scope>INTERACTION WITH FLNA AND FLNB</scope>
+</reference>
+<reference key="13">
+<citation type="journal article" date="1999" name="J. Biol. Chem." volume="274" first="28669" last="28673">
+<title>A loss of function mutation of presenilin-2 interferes with amyloid beta-peptide production and notch signaling.</title>
+<authorList>
+<person name="Steiner H."/>
+<person name="Duff K."/>
+<person name="Capell A."/>
+<person name="Romig H."/>
+<person name="Grim M.G."/>
+<person name="Lincoln S."/>
+<person name="Hardy J."/>
+<person name="Yu X."/>
+<person name="Picciano M."/>
+<person name="Fechteler K."/>
+<person name="Citron M."/>
+<person name="Kopan R."/>
+<person name="Pesold B."/>
+<person name="Keck S."/>
+<person name="Baader M."/>
+<person name="Tomita T."/>
+<person name="Iwatsubo T."/>
+<person name="Baumeister R."/>
+<person name="Haass C."/>
+</authorList>
+<dbReference type="PubMed" id="10497236"/>
+<dbReference type="DOI" id="10.1074/jbc.274.40.28669"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>ACTIVE SITE ASP-366</scope>
+<scope>MUTAGENESIS OF ASP-366</scope>
+</reference>
+<reference key="14">
+<citation type="journal article" date="2000" name="J. Biol. Chem." volume="275" first="3173" last="3178">
+<title>The transmembrane aspartates in presenilin 1 and 2 are obligatory for gamma-secretase activity and amyloid beta-protein generation.</title>
+<authorList>
+<person name="Kimberly W.T."/>
+<person name="Xia W."/>
+<person name="Rahmati T."/>
+<person name="Wolfe M.S."/>
+<person name="Selkoe D.J."/>
+</authorList>
+<dbReference type="PubMed" id="10652302"/>
+<dbReference type="DOI" id="10.1074/jbc.275.5.3173"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>ACTIVE SITES ASP-263 AND ASP-366</scope>
+<scope>MUTAGENESIS OF ASP-263 AND ASP-366</scope>
+</reference>
+<reference key="15">
+<citation type="journal article" date="2002" name="J. Biol. Chem." volume="277" first="12915" last="12920">
+<title>Endoplasmic reticulum stress-inducible protein, Herp, enhances presenilin-mediated generation of amyloid beta-protein.</title>
+<authorList>
+<person name="Sai X."/>
+<person name="Kawamura Y."/>
+<person name="Kokame K."/>
+<person name="Yamaguchi H."/>
+<person name="Shiraishi H."/>
+<person name="Suzuki R."/>
+<person name="Suzuki T."/>
+<person name="Kawaichi M."/>
+<person name="Miyata T."/>
+<person name="Kitamura T."/>
+<person name="De Strooper B."/>
+<person name="Yanagisawa K."/>
+<person name="Komano H."/>
+</authorList>
+<dbReference type="PubMed" id="11799129"/>
+<dbReference type="DOI" id="10.1074/jbc.m112372200"/>
+</citation>
+<scope>INTERACTION WITH HERPUD1</scope>
+</reference>
+<reference key="16">
+<citation type="journal article" date="1998" name="Hum. Mutat." volume="11" first="183" last="190">
+<title>Presenilin mutations in Alzheimer's disease.</title>
+<authorList>
+<person name="Cruts M."/>
+<person name="van Broeckhoven C."/>
+</authorList>
+<dbReference type="PubMed" id="9521418"/>
+<dbReference type="DOI" id="10.1002/(sici)1098-1004(1998)11:3&lt;183::aid-humu1&gt;3.0.co;2-j"/>
+</citation>
+<scope>REVIEW ON VARIANTS</scope>
+</reference>
+<reference key="17">
+<citation type="journal article" date="2004" name="J. Biol. Chem." volume="279" first="50790" last="50798">
+<title>Consensus analysis of signal peptide peptidase and homologous human aspartic proteases reveals opposite topology of catalytic domains compared with presenilins.</title>
+<authorList>
+<person name="Friedmann E."/>
+<person name="Lemberg M.K."/>
+<person name="Weihofen A."/>
+<person name="Dev K.K."/>
+<person name="Dengler U."/>
+<person name="Rovelli G."/>
+<person name="Martoglio B."/>
+</authorList>
+<dbReference type="PubMed" id="15385547"/>
+<dbReference type="DOI" id="10.1074/jbc.m407898200"/>
+</citation>
+<scope>TOPOLOGY</scope>
+</reference>
+<reference key="18">
+<citation type="journal article" date="2006" name="Cell" volume="126" first="981" last="993">
+<title>Presenilins form ER Ca2+ leak channels, a function disrupted by familial Alzheimer's disease-linked mutations.</title>
+<authorList>
+<person name="Tu H."/>
+<person name="Nelson O."/>
+<person name="Bezprozvanny A."/>
+<person name="Wang Z."/>
+<person name="Lee S.F."/>
+<person name="Hao Y.H."/>
+<person name="Serneels L."/>
+<person name="De Strooper B."/>
+<person name="Yu G."/>
+<person name="Bezprozvanny I."/>
+</authorList>
+<dbReference type="PubMed" id="16959576"/>
+<dbReference type="DOI" id="10.1016/j.cell.2006.06.059"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>CHARACTERIZATION OF VARIANT AD4 ILE-141</scope>
+</reference>
+<reference key="19">
+<citation type="journal article" date="2008" name="Proc. Natl. Acad. Sci. U.S.A." volume="105" first="10762" last="10767">
+<title>A quantitative atlas of mitotic phosphorylation.</title>
+<authorList>
+<person name="Dephoure N."/>
+<person name="Zhou C."/>
+<person name="Villen J."/>
+<person name="Beausoleil S.A."/>
+<person name="Bakalarski C.E."/>
+<person name="Elledge S.J."/>
+<person name="Gygi S.P."/>
+</authorList>
+<dbReference type="PubMed" id="18669648"/>
+<dbReference type="DOI" id="10.1073/pnas.0805139105"/>
+</citation>
+<scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+<source>
+<tissue>Cervix carcinoma</tissue>
+</source>
+</reference>
+<reference key="20">
+<citation type="journal article" date="2009" name="Anal. Chem." volume="81" first="4493" last="4501">
+<title>Lys-N and trypsin cover complementary parts of the phosphoproteome in a refined SCX-based approach.</title>
+<authorList>
+<person name="Gauci S."/>
+<person name="Helbig A.O."/>
+<person name="Slijper M."/>
+<person name="Krijgsveld J."/>
+<person name="Heck A.J."/>
+<person name="Mohammed S."/>
+</authorList>
+<dbReference type="PubMed" id="19413330"/>
+<dbReference type="DOI" id="10.1021/ac9004309"/>
+</citation>
+<scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+</reference>
+<reference key="21">
+<citation type="journal article" date="2010" name="Sci. Signal." volume="3" first="RA3" last="RA3">
+<title>Quantitative phosphoproteomics reveals widespread full phosphorylation site occupancy during mitosis.</title>
+<authorList>
+<person name="Olsen J.V."/>
+<person name="Vermeulen M."/>
+<person name="Santamaria A."/>
+<person name="Kumar C."/>
+<person name="Miller M.L."/>
+<person name="Jensen L.J."/>
+<person name="Gnad F."/>
+<person name="Cox J."/>
+<person name="Jensen T.S."/>
+<person name="Nigg E.A."/>
+<person name="Brunak S."/>
+<person name="Mann M."/>
+</authorList>
+<dbReference type="PubMed" id="20068231"/>
+<dbReference type="DOI" id="10.1126/scisignal.2000475"/>
+</citation>
+<scope>PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-22 AND SER-25</scope>
+<scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+<source>
+<tissue>Cervix carcinoma</tissue>
+</source>
+</reference>
+<reference key="22">
+<citation type="journal article" date="2011" name="Proc. Natl. Acad. Sci. U.S.A." volume="108" first="2777" last="2782">
+<title>Presenilin 2 modulates endoplasmic reticulum (ER)-mitochondria interactions and Ca2+ cross-talk.</title>
+<authorList>
+<person name="Zampese E."/>
+<person name="Fasolato C."/>
+<person name="Kipanyula M.J."/>
+<person name="Bortolozzi M."/>
+<person name="Pozzan T."/>
+<person name="Pizzo P."/>
+</authorList>
+<dbReference type="PubMed" id="21285369"/>
+<dbReference type="DOI" id="10.1073/pnas.1100735108"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>CHARACTERIZATION OF VARIANTS AD4 ARG-122 AND ILE-141</scope>
+<scope>MUTAGENESIS OF ASP-366</scope>
+</reference>
+<reference key="23">
+<citation type="journal article" date="2013" name="J. Proteome Res." volume="12" first="260" last="271">
+<title>Toward a comprehensive characterization of a human cancer cell phosphoproteome.</title>
+<authorList>
+<person name="Zhou H."/>
+<person name="Di Palma S."/>
+<person name="Preisinger C."/>
+<person name="Peng M."/>
+<person name="Polat A.N."/>
+<person name="Heck A.J."/>
+<person name="Mohammed S."/>
+</authorList>
+<dbReference type="PubMed" id="23186163"/>
+<dbReference type="DOI" id="10.1021/pr300630k"/>
+</citation>
+<scope>PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-22 AND SER-25</scope>
+<scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+<source>
+<tissue>Cervix carcinoma</tissue>
+<tissue>Erythroleukemia</tissue>
+</source>
+</reference>
+<reference key="24">
+<citation type="journal article" date="2014" name="J. Proteomics" volume="96" first="253" last="262">
+<title>An enzyme assisted RP-RPLC approach for in-depth analysis of human liver phosphoproteome.</title>
+<authorList>
+<person name="Bian Y."/>
+<person name="Song C."/>
+<person name="Cheng K."/>
+<person name="Dong M."/>
+<person name="Wang F."/>
+<person name="Huang J."/>
+<person name="Sun D."/>
+<person name="Wang L."/>
+<person name="Ye M."/>
+<person name="Zou H."/>
+</authorList>
+<dbReference type="PubMed" id="24275569"/>
+<dbReference type="DOI" id="10.1016/j.jprot.2013.11.014"/>
+</citation>
+<scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+<source>
+<tissue>Liver</tissue>
+</source>
+</reference>
+<reference key="25">
+<citation type="journal article" date="1998" name="Hum. Mol. Genet." volume="7" first="43" last="51">
+<title>Estimation of the genetic contribution of presenilin-1 and -2 mutations in a population-based study of presenile Alzheimer disease.</title>
+<authorList>
+<person name="Cruts M."/>
+<person name="van Duijn C.M."/>
+<person name="Backhovens H."/>
+<person name="van den Broeck M."/>
+<person name="Wehnert A."/>
+<person name="Serneels S."/>
+<person name="Sherrington R."/>
+<person name="Hutton M."/>
+<person name="Hardy J."/>
+<person name="St George-Hyslop P.H."/>
+<person name="Hofman A."/>
+<person name="van Broeckhoven C."/>
+</authorList>
+<dbReference type="PubMed" id="9384602"/>
+<dbReference type="DOI" id="10.1093/hmg/7.1.43"/>
+</citation>
+<scope>VARIANT AD4 HIS-62</scope>
+</reference>
+<reference key="26">
+<citation type="journal article" date="1998" name="Neurogenetics" volume="1" first="293" last="296">
+<title>A novel mutation in the predicted TM2 domain of the presenilin 2 gene in Spanish patient with late-onset Alzheimer's disease.</title>
+<authorList>
+<person name="Lao J.I."/>
+<person name="Beyer K."/>
+<person name="Fernandez-Novoa L."/>
+<person name="Cacabelos R."/>
+</authorList>
+<dbReference type="PubMed" id="10732806"/>
+<dbReference type="DOI" id="10.1007/s100480050044"/>
+</citation>
+<scope>VARIANT AD4 ILE-148</scope>
+</reference>
+<reference key="27">
+<citation type="journal article" date="2000" name="Am. J. Hum. Genet." volume="66" first="110" last="117">
+<title>High prevalence of pathogenic mutations in patients with early-onset dementia detected by sequence analyses of four different genes.</title>
+<authorList>
+<person name="Finckh U."/>
+<person name="Mueller-Thomsen T."/>
+<person name="Mann U."/>
+<person name="Eggers C."/>
+<person name="Marksteiner J."/>
+<person name="Meins W."/>
+<person name="Binetti G."/>
+<person name="Alberici A."/>
+<person name="Hock C."/>
+<person name="Nitsch R.M."/>
+<person name="Gal A."/>
+</authorList>
+<dbReference type="PubMed" id="10631141"/>
+<dbReference type="DOI" id="10.1086/302702"/>
+</citation>
+<scope>VARIANTS AD4 PRO-122 AND ILE-239</scope>
+</reference>
+<reference key="28">
+<citation type="journal article" date="2003" name="Ann. Neurol." volume="54" first="832" last="836">
+<title>Atypical dementia associated with a novel presenilin-2 mutation.</title>
+<authorList>
+<person name="Binetti G."/>
+<person name="Signorini S."/>
+<person name="Squitti R."/>
+<person name="Alberici A."/>
+<person name="Benussi L."/>
+<person name="Cassetta E."/>
+<person name="Frisoni G.B."/>
+<person name="Barbiero L."/>
+<person name="Feudatari E."/>
+<person name="Nicosia F."/>
+<person name="Testa C."/>
+<person name="Zanetti O."/>
+<person name="Gennarelli M."/>
+<person name="Perani D."/>
+<person name="Anchisi D."/>
+<person name="Ghidoni R."/>
+<person name="Rossini P.M."/>
+</authorList>
+<dbReference type="PubMed" id="14681895"/>
+<dbReference type="DOI" id="10.1002/ana.10760"/>
+</citation>
+<scope>VARIANT AD4 ARG-122</scope>
+</reference>
+<reference key="29">
+<citation type="journal article" date="2006" name="Am. J. Hum. Genet." volume="79" first="1030" last="1039">
+<title>Mutations of presenilin genes in dilated cardiomyopathy and heart failure.</title>
+<authorList>
+<person name="Li D."/>
+<person name="Parks S.B."/>
+<person name="Kushner J.D."/>
+<person name="Nauman D."/>
+<person name="Burgess D."/>
+<person name="Ludwigsen S."/>
+<person name="Partain J."/>
+<person name="Nixon R.R."/>
+<person name="Allen C.N."/>
+<person name="Irwin R.P."/>
+<person name="Jakobs P.M."/>
+<person name="Litt M."/>
+<person name="Hershberger R.E."/>
+</authorList>
+<dbReference type="PubMed" id="17186461"/>
+<dbReference type="DOI" id="10.1086/509900"/>
+</citation>
+<scope>VARIANT CMD1V LEU-130</scope>
+</reference>
+<reference key="30">
+<citation type="journal article" date="2006" name="Hum. Mutat." volume="27" first="686" last="695">
+<title>Mean age-of-onset of familial alzheimer disease caused by presenilin mutations correlates with both increased Abeta42 and decreased Abeta40.</title>
+<authorList>
+<person name="Kumar-Singh S."/>
+<person name="Theuns J."/>
+<person name="Van Broeck B."/>
+<person name="Pirici D."/>
+<person name="Vennekens K."/>
+<person name="Corsmit E."/>
+<person name="Cruts M."/>
+<person name="Dermaut B."/>
+<person name="Wang R."/>
+<person name="Van Broeckhoven C."/>
+</authorList>
+<dbReference type="PubMed" id="16752394"/>
+<dbReference type="DOI" id="10.1002/humu.20336"/>
+</citation>
+<scope>CHARACTERIZATION OF VARIANT AD4 ILE-141</scope>
+</reference>
+<reference key="31">
+<citation type="journal article" date="2011" name="J. Neurol." volume="258" first="2043" last="2047">
+<title>Presenilin 2 mutation R71W in an Italian early-onset sporadic Alzheimer's disease case.</title>
+<authorList>
+<person name="Piscopo P."/>
+<person name="Talarico G."/>
+<person name="Malvezzi-Campeggi L."/>
+<person name="Crestini A."/>
+<person name="Rivabene R."/>
+<person name="Gasparini M."/>
+<person name="Tosto G."/>
+<person name="Vanacore N."/>
+<person name="Lenzi G.L."/>
+<person name="Bruno G."/>
+<person name="Confaloni A."/>
+</authorList>
+<dbReference type="PubMed" id="21544564"/>
+<dbReference type="DOI" id="10.1007/s00415-011-6066-1"/>
+</citation>
+<scope>VARIANT AD4 TRP-71</scope>
+</reference>
+<reference key="32">
+<citation type="journal article" date="2012" name="Neurobiol. Aging" volume="33" first="1850.E17" last="1850.E27">
+<title>Identification of PSEN1 and PSEN2 gene mutations and variants in Turkish dementia patients.</title>
+<authorList>
+<person name="Lohmann E."/>
+<person name="Guerreiro R.J."/>
+<person name="Erginel-Unaltuna N."/>
+<person name="Gurunlian N."/>
+<person name="Bilgic B."/>
+<person name="Gurvit H."/>
+<person name="Hanagasi H.A."/>
+<person name="Luu N."/>
+<person name="Emre M."/>
+<person name="Singleton A."/>
+</authorList>
+<dbReference type="PubMed" id="22503161"/>
+<dbReference type="DOI" id="10.1016/j.neurobiolaging.2012.02.020"/>
+</citation>
+<scope>VARIANTS AD4 HIS-62; TRP-71 AND LEU-130</scope>
+</reference>
+<reference key="33">
+<citation type="journal article" date="2014" name="J. Alzheimers Dis." volume="42" first="109" last="113">
+<title>Previously unrecognized missense mutation E126K of PSEN2 segregates with early onset Alzheimer's disease in a family.</title>
+<authorList>
+<person name="Mueller U."/>
+<person name="Winter P."/>
+<person name="Bolender C."/>
+<person name="Nolte D."/>
+</authorList>
+<dbReference type="PubMed" id="24844686"/>
+<dbReference type="DOI" id="10.3233/jad-140399"/>
+</citation>
+<scope>VARIANT AD4 LYS-126</scope>
+</reference>
+<reference key="34">
+<citation type="journal article" date="2014" name="Neurobiol. Aging" volume="35" first="E1" last="E5">
+<title>Novel mutation in the PSEN2 gene (N141Y) associated with early-onset autosomal dominant Alzheimer's disease in a Chinese Han family.</title>
+<authorList>
+<person name="Niu F."/>
+<person name="Yu S."/>
+<person name="Zhang Z."/>
+<person name="Yi X."/>
+<person name="Ye L."/>
+<person name="Tang W."/>
+<person name="Qiu C."/>
+<person name="Wen H."/>
+<person name="Sun Y."/>
+<person name="Gao J."/>
+<person name="Guo Y."/>
+</authorList>
+<dbReference type="PubMed" id="24838186"/>
+<dbReference type="DOI" id="10.1016/j.neurobiolaging.2014.04.011"/>
+</citation>
+<scope>VARIANT AD4 TYR-141</scope>
+</reference>
+<comment type="function">
+<text evidence="5 7 12 14">Probable catalytic subunit of the gamma-secretase complex, an endoprotease complex that catalyzes the intramembrane cleavage of integral membrane proteins such as Notch receptors and APP (amyloid-beta precursor protein). Requires the other members of the gamma-secretase complex to have a protease activity. May play a role in intracellular signaling and gene expression or in linking chromatin to the nuclear membrane. May function in the cytoplasmic partitioning of proteins. The holoprotein functions as a calcium-leak channel that allows the passive movement of calcium from endoplasmic reticulum to cytosol and is involved in calcium homeostasis (PubMed:16959576). Is a regulator of mitochondrion-endoplasmic reticulum membrane tethering and modulates calcium ions shuttling between ER and mitochondria (PubMed:21285369).</text>
+</comment>
+<comment type="subunit">
+<text evidence="1 9 23">Interacts with DOCK3 (By similarity). Homodimer. Component of the gamma-secretase complex, a complex composed of a presenilin homodimer (PSEN1 or PSEN2), nicastrin (NCSTN), APH1 (APH1A or APH1B) and PEN2. Such minimal complex is sufficient for secretase activity, although other components may exist. Interacts with HERPUD1, FLNA, FLNB and PARL.</text>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-2010251">
+<id>P49810</id>
+</interactant>
+<interactant intactId="EBI-1056291">
+<id>P54819</id>
+<label>AK2</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>3</experiments>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-2010251">
+<id>P49810</id>
+</interactant>
+<interactant intactId="EBI-77613">
+<id>P05067</id>
+<label>APP</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>4</experiments>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-2010251">
+<id>P49810</id>
+</interactant>
+<interactant intactId="EBI-10186132">
+<id>Q0P5N6</id>
+<label>ARL16</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>3</experiments>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-2010251">
+<id>P49810</id>
+</interactant>
+<interactant intactId="EBI-519866">
+<id>Q16611</id>
+<label>BAK1</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>3</experiments>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-2010251">
+<id>P49810</id>
+</interactant>
+<interactant intactId="EBI-12248206">
+<id>P29466-3</id>
+<label>CASP1</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>3</experiments>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-2010251">
+<id>P49810</id>
+</interactant>
+<interactant intactId="EBI-10260134">
+<id>Q86WV2</id>
+<label>COX4I1</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>3</experiments>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-2010251">
+<id>P49810</id>
+</interactant>
+<interactant intactId="EBI-356015">
+<id>Q14204</id>
+<label>DYNC1H1</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>3</experiments>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-2010251">
+<id>P49810</id>
+</interactant>
+<interactant intactId="EBI-712452">
+<id>Q9BQ95</id>
+<label>ECSIT</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>4</experiments>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-2010251">
+<id>P49810</id>
+</interactant>
+<interactant intactId="EBI-395274">
+<id>O00472</id>
+<label>ELL2</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>3</experiments>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-2010251">
+<id>P49810</id>
+</interactant>
+<interactant intactId="EBI-6425864">
+<id>Q3SYB3</id>
+<label>FOXD4L6</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>3</experiments>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-2010251">
+<id>P49810</id>
+</interactant>
+<interactant intactId="EBI-713279">
+<id>P02792</id>
+<label>FTL</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>3</experiments>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-2010251">
+<id>P49810</id>
+</interactant>
+<interactant intactId="EBI-79722">
+<id>P68431</id>
+<label>H3C12</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>3</experiments>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-2010251">
+<id>P49810</id>
+</interactant>
+<interactant intactId="EBI-25845242">
+<id>Q8WVV9-3</id>
+<label>HNRNPLL</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>3</experiments>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-2010251">
+<id>P49810</id>
+</interactant>
+<interactant intactId="EBI-4397720">
+<id>Q8TDB4</id>
+<label>MGARP</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>3</experiments>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-2010251">
+<id>P49810</id>
+</interactant>
+<interactant intactId="EBI-2804835">
+<id>O94851</id>
+<label>MICAL2</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>3</experiments>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-2010251">
+<id>P49810</id>
+</interactant>
+<interactant intactId="EBI-21250407">
+<id>A4FUJ8</id>
+<label>MKL1</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>3</experiments>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-2010251">
+<id>P49810</id>
+</interactant>
+<interactant intactId="EBI-2829677">
+<id>P41218</id>
+<label>MNDA</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>3</experiments>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-2010251">
+<id>P49810</id>
+</interactant>
+<interactant intactId="EBI-748896">
+<id>Q96HT8</id>
+<label>MRFAP1L1</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>3</experiments>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-2010251">
+<id>P49810</id>
+</interactant>
+<interactant intactId="EBI-2880203">
+<id>O76041</id>
+<label>NEBL</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>3</experiments>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-2010251">
+<id>P49810</id>
+</interactant>
+<interactant intactId="EBI-935824">
+<id>Q53EL6</id>
+<label>PDCD4</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>3</experiments>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-2010251">
+<id>P49810</id>
+</interactant>
+<interactant intactId="EBI-716063">
+<id>Q13113</id>
+<label>PDZK1IP1</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>3</experiments>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-2010251">
+<id>P49810</id>
+</interactant>
+<interactant intactId="EBI-9090282">
+<id>P27986-2</id>
+<label>PIK3R1</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>3</experiments>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-2010251">
+<id>P49810</id>
+</interactant>
+<interactant intactId="EBI-722416">
+<id>Q99496</id>
+<label>RNF2</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>3</experiments>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-2010251">
+<id>P49810</id>
+</interactant>
+<interactant intactId="EBI-752324">
+<id>Q8N488</id>
+<label>RYBP</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>3</experiments>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-2010251">
+<id>P49810</id>
+</interactant>
+<interactant intactId="EBI-10182463">
+<id>Q2NKQ1-4</id>
+<label>SGSM1</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>3</experiments>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-2010251">
+<id>P49810</id>
+</interactant>
+<interactant intactId="EBI-25831241">
+<id>Q9NSD5-3</id>
+<label>SLC6A13</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>3</experiments>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-2010251">
+<id>P49810</id>
+</interactant>
+<interactant intactId="EBI-9087806">
+<id>O95416</id>
+<label>SOX14</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>3</experiments>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-2010251">
+<id>P49810</id>
+</interactant>
+<interactant intactId="EBI-11175533">
+<id>Q3SY56</id>
+<label>SP6</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>3</experiments>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-2010251">
+<id>P49810</id>
+</interactant>
+<interactant intactId="EBI-749370">
+<id>Q9BSL1</id>
+<label>UBAC1</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>3</experiments>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-2010251">
+<id>P49810</id>
+</interactant>
+<interactant intactId="EBI-358545">
+<id>Q9GZS3</id>
+<label>WDR61</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>3</experiments>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-2010251">
+<id>P49810</id>
+</interactant>
+<interactant intactId="EBI-2682299">
+<id>Q96NC0</id>
+<label>ZMAT2</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>3</experiments>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-2010251">
+<id>P49810</id>
+</interactant>
+<interactant intactId="EBI-2813661">
+<id>Q8N895</id>
+<label>ZNF366</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>3</experiments>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-2010251">
+<id>P49810</id>
+</interactant>
+<interactant intactId="EBI-12021938">
+<id>Q8NBB4-2</id>
+<label>ZSCAN1</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>3</experiments>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-2010251">
+<id>P49810</id>
+</interactant>
+<interactant intactId="EBI-1538838">
+<id>Q2QGD7</id>
+<label>ZXDC</label>
+</interactant>
+<organismsDiffer>false</organismsDiffer>
+<experiments>3</experiments>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="21">Endoplasmic reticulum membrane</location>
+<topology evidence="21">Multi-pass membrane protein</topology>
+</subcellularLocation>
+<subcellularLocation>
+<location evidence="21">Golgi apparatus membrane</location>
+<topology evidence="21">Multi-pass membrane protein</topology>
+</subcellularLocation>
+</comment>
+<comment type="alternative products">
+<event type="alternative splicing"/>
+<isoform>
+<id>P49810-1</id>
+<name>1</name>
+<sequence type="displayed"/>
+</isoform>
+<isoform>
+<id>P49810-2</id>
+<name>2</name>
+<sequence type="described" ref="VSP_005194"/>
+</isoform>
+<isoform>
+<id>P49810-3</id>
+<name>3</name>
+<sequence type="described" ref="VSP_043648"/>
+</isoform>
+</comment>
+<comment type="tissue specificity">
+<text evidence="21">Isoform 1 is seen in the placenta, skeletal muscle and heart while isoform 2 is seen in the heart, brain, placenta, liver, skeletal muscle and kidney.</text>
+</comment>
+<comment type="domain">
+<text evidence="1">The PAL motif is required for normal active site conformation.</text>
+</comment>
+<comment type="PTM">
+<text>Heterogeneous proteolytic processing generates N-terminal and C-terminal fragments.</text>
+</comment>
+<comment type="PTM">
+<text>Phosphorylated on serine residues.</text>
+</comment>
+<comment type="disease" evidence="6 8 10 11 12 14 15 16 17 18 19 20 22">
+<disease id="DI-00087">
+<name>Alzheimer disease 4</name>
+<acronym>AD4</acronym>
+<description>A familial early-onset form of Alzheimer disease. Alzheimer disease is a neurodegenerative disorder characterized by progressive dementia, loss of cognitive abilities, and deposition of fibrillar amyloid proteins as intraneuronal neurofibrillary tangles, extracellular amyloid plaques and vascular amyloid deposits. The major constituents of these plaques are neurotoxic amyloid-beta protein 40 and amyloid-beta protein 42, that are produced by the proteolysis of the transmembrane APP protein. The cytotoxic C-terminal fragments (CTFs) and the caspase-cleaved products, such as C31, are also implicated in neuronal death.</description>
+<dbReference type="MIM" id="606889"/>
+</disease>
+<text>The disease is caused by variants affecting the gene represented in this entry.</text>
+</comment>
+<comment type="disease" evidence="13">
+<disease id="DI-02968">
+<name>Cardiomyopathy, dilated 1V</name>
+<acronym>CMD1V</acronym>
+<description>A disorder characterized by ventricular dilation and impaired systolic function, resulting in congestive heart failure and arrhythmia. Patients are at risk of premature death.</description>
+<dbReference type="MIM" id="613697"/>
+</disease>
+<text>The disease is caused by variants affecting the gene represented in this entry.</text>
+</comment>
+<comment type="similarity">
+<text evidence="25">Belongs to the peptidase A22A family.</text>
+</comment>
+<comment type="online information" name="Alzheimer Research Forum">
+<link uri="https://www.alzforum.org/mutations/search?genes%255B%255D=348"/>
+<text>Presenilins mutations</text>
+</comment>
+<comment type="online information" name="Atlas of Genetics and Cytogenetics in Oncology and Haematology">
+<link uri="http://atlasgeneticsoncology.org/Genes/PSEN2ID41883ch1q42.html"/>
+</comment>
+<dbReference type="EC" id="3.4.23.-"/>
+<dbReference type="EMBL" id="L43964">
+<property type="protein sequence ID" value="AAB59557.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="L44577">
+<property type="protein sequence ID" value="AAC42012.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U34349">
+<property type="protein sequence ID" value="AAC50290.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="U50871">
+<property type="protein sequence ID" value="AAB50054.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BT006984">
+<property type="protein sequence ID" value="AAP35630.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AK292299">
+<property type="protein sequence ID" value="BAF84988.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AL391628">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="CH471098">
+<property type="protein sequence ID" value="EAW69798.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="CH471098">
+<property type="protein sequence ID" value="EAW69800.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BC006365">
+<property type="protein sequence ID" value="AAH06365.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AF416718">
+<property type="protein sequence ID" value="AAL16812.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="CCDS" id="CCDS1556.1">
+<molecule id="P49810-1"/>
+</dbReference>
+<dbReference type="CCDS" id="CCDS44324.1">
+<molecule id="P49810-3"/>
+</dbReference>
+<dbReference type="PIR" id="A56993">
+<property type="entry name" value="A56993"/>
+</dbReference>
+<dbReference type="PIR" id="I39174">
+<property type="entry name" value="I39174"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_000438.2">
+<molecule id="P49810-1"/>
+<property type="nucleotide sequence ID" value="NM_000447.2"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_036618.2">
+<molecule id="P49810-3"/>
+<property type="nucleotide sequence ID" value="NM_012486.2"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_005273256.1">
+<molecule id="P49810-1"/>
+<property type="nucleotide sequence ID" value="XM_005273199.3"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_016857324.1">
+<molecule id="P49810-1"/>
+<property type="nucleotide sequence ID" value="XM_017001835.1"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_016857325.1">
+<molecule id="P49810-3"/>
+<property type="nucleotide sequence ID" value="XM_017001836.1"/>
+</dbReference>
+<dbReference type="PCDDB" id="P49810"/>
+<dbReference type="BioGRID" id="111643">
+<property type="interactions" value="68"/>
+</dbReference>
+<dbReference type="ComplexPortal" id="CPX-4231">
+<property type="entry name" value="Gamma-secretase complex, APH1A-PSEN2 variant"/>
+</dbReference>
+<dbReference type="ComplexPortal" id="CPX-4232">
+<property type="entry name" value="Gamma-secretase complex, APH1B-PSEN2 variant"/>
+</dbReference>
+<dbReference type="CORUM" id="P49810"/>
+<dbReference type="IntAct" id="P49810">
+<property type="interactions" value="61"/>
+</dbReference>
+<dbReference type="STRING" id="9606.ENSP00000355747"/>
+<dbReference type="BindingDB" id="P49810"/>
+<dbReference type="ChEMBL" id="CHEMBL3708"/>
+<dbReference type="MEROPS" id="A22.002"/>
+<dbReference type="TCDB" id="1.A.54.1.2">
+<property type="family name" value="the presenilin er ca(2+) leak channel (presenilin) family"/>
+</dbReference>
+<dbReference type="iPTMnet" id="P49810"/>
+<dbReference type="PhosphoSitePlus" id="P49810"/>
+<dbReference type="SwissPalm" id="P49810"/>
+<dbReference type="BioMuta" id="PSEN2"/>
+<dbReference type="DMDM" id="1709858"/>
+<dbReference type="EPD" id="P49810"/>
+<dbReference type="jPOST" id="P49810"/>
+<dbReference type="MassIVE" id="P49810"/>
+<dbReference type="MaxQB" id="P49810"/>
+<dbReference type="PaxDb" id="P49810"/>
+<dbReference type="PeptideAtlas" id="P49810"/>
+<dbReference type="PRIDE" id="P49810"/>
+<dbReference type="ProteomicsDB" id="56139">
+<molecule id="P49810-1"/>
+</dbReference>
+<dbReference type="ProteomicsDB" id="56140">
+<molecule id="P49810-2"/>
+</dbReference>
+<dbReference type="ProteomicsDB" id="56141">
+<molecule id="P49810-3"/>
+</dbReference>
+<dbReference type="Antibodypedia" id="4424">
+<property type="antibodies" value="437 antibodies"/>
+</dbReference>
+<dbReference type="DNASU" id="5664"/>
+<dbReference type="Ensembl" id="ENST00000366782">
+<molecule id="P49810-1"/>
+<property type="protein sequence ID" value="ENSP00000355746"/>
+<property type="gene ID" value="ENSG00000143801"/>
+</dbReference>
+<dbReference type="Ensembl" id="ENST00000366783">
+<molecule id="P49810-1"/>
+<property type="protein sequence ID" value="ENSP00000355747"/>
+<property type="gene ID" value="ENSG00000143801"/>
+</dbReference>
+<dbReference type="Ensembl" id="ENST00000422240">
+<molecule id="P49810-3"/>
+<property type="protein sequence ID" value="ENSP00000403737"/>
+<property type="gene ID" value="ENSG00000143801"/>
+</dbReference>
+<dbReference type="Ensembl" id="ENST00000524196">
+<molecule id="P49810-1"/>
+<property type="protein sequence ID" value="ENSP00000429036"/>
+<property type="gene ID" value="ENSG00000143801"/>
+</dbReference>
+<dbReference type="Ensembl" id="ENST00000626989">
+<molecule id="P49810-1"/>
+<property type="protein sequence ID" value="ENSP00000486498"/>
+<property type="gene ID" value="ENSG00000143801"/>
+</dbReference>
+<dbReference type="Ensembl" id="ENST00000677414">
+<molecule id="P49810-1"/>
+<property type="protein sequence ID" value="ENSP00000503116"/>
+<property type="gene ID" value="ENSG00000143801"/>
+</dbReference>
+<dbReference type="Ensembl" id="ENST00000678233">
+<molecule id="P49810-1"/>
+<property type="protein sequence ID" value="ENSP00000504728"/>
+<property type="gene ID" value="ENSG00000143801"/>
+</dbReference>
+<dbReference type="Ensembl" id="ENST00000679088">
+<molecule id="P49810-1"/>
+<property type="protein sequence ID" value="ENSP00000504727"/>
+<property type="gene ID" value="ENSG00000143801"/>
+</dbReference>
+<dbReference type="Ensembl" id="ENST00000679098">
+<molecule id="P49810-1"/>
+<property type="protein sequence ID" value="ENSP00000504303"/>
+<property type="gene ID" value="ENSG00000143801"/>
+</dbReference>
+<dbReference type="GeneID" id="5664"/>
+<dbReference type="KEGG" id="hsa:5664"/>
+<dbReference type="UCSC" id="uc009xeo.2">
+<molecule id="P49810-1"/>
+<property type="organism name" value="human"/>
+</dbReference>
+<dbReference type="CTD" id="5664"/>
+<dbReference type="DisGeNET" id="5664"/>
+<dbReference type="GeneCards" id="PSEN2"/>
+<dbReference type="GeneReviews" id="PSEN2"/>
+<dbReference type="HGNC" id="HGNC:9509">
+<property type="gene designation" value="PSEN2"/>
+</dbReference>
+<dbReference type="HPA" id="ENSG00000143801">
+<property type="expression patterns" value="Low tissue specificity"/>
+</dbReference>
+<dbReference type="MalaCards" id="PSEN2"/>
+<dbReference type="MIM" id="600759">
+<property type="type" value="gene"/>
+</dbReference>
+<dbReference type="MIM" id="606889">
+<property type="type" value="phenotype"/>
+</dbReference>
+<dbReference type="MIM" id="613697">
+<property type="type" value="phenotype"/>
+</dbReference>
+<dbReference type="neXtProt" id="NX_P49810"/>
+<dbReference type="NIAGADS" id="ENSG00000143801"/>
+<dbReference type="OpenTargets" id="ENSG00000143801"/>
+<dbReference type="Orphanet" id="1020">
+<property type="disease" value="Early-onset autosomal dominant Alzheimer disease"/>
+</dbReference>
+<dbReference type="Orphanet" id="154">
+<property type="disease" value="Familial isolated dilated cardiomyopathy"/>
+</dbReference>
+<dbReference type="PharmGKB" id="PA33856"/>
+<dbReference type="VEuPathDB" id="HostDB:ENSG00000143801"/>
+<dbReference type="eggNOG" id="KOG2736">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="GeneTree" id="ENSGT00940000157923"/>
+<dbReference type="HOGENOM" id="CLU_022975_3_1_1"/>
+<dbReference type="InParanoid" id="P49810"/>
+<dbReference type="OMA" id="MYYQDID"/>
+<dbReference type="OrthoDB" id="797738at2759"/>
+<dbReference type="PhylomeDB" id="P49810"/>
+<dbReference type="TreeFam" id="TF315040"/>
+<dbReference type="PathwayCommons" id="P49810"/>
+<dbReference type="Reactome" id="R-HSA-1251985">
+<property type="pathway name" value="Nuclear signaling by ERBB4"/>
+</dbReference>
+<dbReference type="Reactome" id="R-HSA-193692">
+<property type="pathway name" value="Regulated proteolysis of p75NTR"/>
+</dbReference>
+<dbReference type="Reactome" id="R-HSA-205043">
+<property type="pathway name" value="NRIF signals cell death from the nucleus"/>
+</dbReference>
+<dbReference type="Reactome" id="R-HSA-2122948">
+<property type="pathway name" value="Activated NOTCH1 Transmits Signal to the Nucleus"/>
+</dbReference>
+<dbReference type="Reactome" id="R-HSA-2644606">
+<property type="pathway name" value="Constitutive Signaling by NOTCH1 PEST Domain Mutants"/>
+</dbReference>
+<dbReference type="Reactome" id="R-HSA-2894862">
+<property type="pathway name" value="Constitutive Signaling by NOTCH1 HD+PEST Domain Mutants"/>
+</dbReference>
+<dbReference type="Reactome" id="R-HSA-2979096">
+<property type="pathway name" value="NOTCH2 Activation and Transmission of Signal to the Nucleus"/>
+</dbReference>
+<dbReference type="Reactome" id="R-HSA-3928665">
+<property type="pathway name" value="EPH-ephrin mediated repulsion of cells"/>
+</dbReference>
+<dbReference type="Reactome" id="R-HSA-9013507">
+<property type="pathway name" value="NOTCH3 Activation and Transmission of Signal to the Nucleus"/>
+</dbReference>
+<dbReference type="Reactome" id="R-HSA-9013700">
+<property type="pathway name" value="NOTCH4 Activation and Transmission of Signal to the Nucleus"/>
+</dbReference>
+<dbReference type="Reactome" id="R-HSA-9017802">
+<property type="pathway name" value="Noncanonical activation of NOTCH3"/>
+</dbReference>
+<dbReference type="SignaLink" id="P49810"/>
+<dbReference type="SIGNOR" id="P49810"/>
+<dbReference type="BioGRID-ORCS" id="5664">
+<property type="hits" value="6 hits in 1017 CRISPR screens"/>
+</dbReference>
+<dbReference type="ChiTaRS" id="PSEN2">
+<property type="organism name" value="human"/>
+</dbReference>
+<dbReference type="GeneWiki" id="PSEN2"/>
+<dbReference type="GenomeRNAi" id="5664"/>
+<dbReference type="Pharos" id="P49810">
+<property type="development level" value="Tchem"/>
+</dbReference>
+<dbReference type="PRO" id="PR:P49810"/>
+<dbReference type="Proteomes" id="UP000005640">
+<property type="component" value="Chromosome 1"/>
+</dbReference>
+<dbReference type="RNAct" id="P49810">
+<property type="molecule type" value="protein"/>
+</dbReference>
+<dbReference type="Bgee" id="ENSG00000143801">
+<property type="expression patterns" value="Expressed in pancreas and 173 other tissues"/>
+</dbReference>
+<dbReference type="ExpressionAtlas" id="P49810">
+<property type="expression patterns" value="baseline and differential"/>
+</dbReference>
+<dbReference type="Genevisible" id="P49810">
+<property type="organism ID" value="HS"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016324">
+<property type="term" value="C:apical plasma membrane"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005938">
+<property type="term" value="C:cell cortex"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009986">
+<property type="term" value="C:cell surface"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005813">
+<property type="term" value="C:centrosome"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0035253">
+<property type="term" value="C:ciliary rootlet"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0043198">
+<property type="term" value="C:dendritic shaft"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005783">
+<property type="term" value="C:endoplasmic reticulum"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="HGNC-UCL"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005789">
+<property type="term" value="C:endoplasmic reticulum membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0070765">
+<property type="term" value="C:gamma-secretase complex"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="ARUK-UCL"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005794">
+<property type="term" value="C:Golgi apparatus"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="HGNC-UCL"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000139">
+<property type="term" value="C:Golgi membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0030426">
+<property type="term" value="C:growth cone"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005887">
+<property type="term" value="C:integral component of plasma membrane"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="HGNC-UCL"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000776">
+<property type="term" value="C:kinetochore"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005765">
+<property type="term" value="C:lysosomal membrane"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016020">
+<property type="term" value="C:membrane"/>
+<property type="evidence" value="ECO:0007005"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0045121">
+<property type="term" value="C:membrane raft"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005743">
+<property type="term" value="C:mitochondrial inner membrane"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0031594">
+<property type="term" value="C:neuromuscular junction"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0043025">
+<property type="term" value="C:neuronal cell body"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005637">
+<property type="term" value="C:nuclear inner membrane"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005634">
+<property type="term" value="C:nucleus"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0048471">
+<property type="term" value="C:perinuclear region of cytoplasm"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005886">
+<property type="term" value="C:plasma membrane"/>
+<property type="evidence" value="ECO:0000304"/>
+<property type="project" value="Reactome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0032991">
+<property type="term" value="C:protein-containing complex"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0030018">
+<property type="term" value="C:Z disc"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042500">
+<property type="term" value="F:aspartic endopeptidase activity, intramembrane cleaving"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0004175">
+<property type="term" value="F:endopeptidase activity"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042987">
+<property type="term" value="P:amyloid precursor protein catabolic process"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="ARUK-UCL"/>
+</dbReference>
+<dbReference type="GO" id="GO:0034205">
+<property type="term" value="P:amyloid-beta formation"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="ARUK-UCL"/>
+</dbReference>
+<dbReference type="GO" id="GO:0050435">
+<property type="term" value="P:amyloid-beta metabolic process"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006816">
+<property type="term" value="P:calcium ion transport"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0035556">
+<property type="term" value="P:intracellular signal transduction"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006509">
+<property type="term" value="P:membrane protein ectodomain proteolysis"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="HGNC-UCL"/>
+</dbReference>
+<dbReference type="GO" id="GO:1990456">
+<property type="term" value="P:mitochondrion-endoplasmic reticulum membrane tethering"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0043066">
+<property type="term" value="P:negative regulation of apoptotic process"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007220">
+<property type="term" value="P:Notch receptor processing"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007219">
+<property type="term" value="P:Notch signaling pathway"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0043085">
+<property type="term" value="P:positive regulation of catalytic activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="HGNC-UCL"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016485">
+<property type="term" value="P:protein processing"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="HGNC-UCL"/>
+</dbReference>
+<dbReference type="GO" id="GO:0110097">
+<property type="term" value="P:regulation of calcium import into the mitochondrion"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.472.100">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001493">
+<property type="entry name" value="Pept_A22A_PS2"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001108">
+<property type="entry name" value="Peptidase_A22A"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006639">
+<property type="entry name" value="Preselin/SPP"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR042524">
+<property type="entry name" value="Presenilin_C"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR10202">
+<property type="entry name" value="PTHR10202"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01080">
+<property type="entry name" value="Presenilin"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR01072">
+<property type="entry name" value="PRESENILIN"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR01074">
+<property type="entry name" value="PRESENILIN2"/>
+</dbReference>
+<dbReference type="SMART" id="SM00730">
+<property type="entry name" value="PSN"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0025">Alternative splicing</keyword>
+<keyword id="KW-0026">Alzheimer disease</keyword>
+<keyword id="KW-1008">Amyloidosis</keyword>
+<keyword id="KW-0122">Cardiomyopathy</keyword>
+<keyword id="KW-0225">Disease variant</keyword>
+<keyword id="KW-0256">Endoplasmic reticulum</keyword>
+<keyword id="KW-0333">Golgi apparatus</keyword>
+<keyword id="KW-0378">Hydrolase</keyword>
+<keyword id="KW-0472">Membrane</keyword>
+<keyword id="KW-0523">Neurodegeneration</keyword>
+<keyword id="KW-0914">Notch signaling pathway</keyword>
+<keyword id="KW-0597">Phosphoprotein</keyword>
+<keyword id="KW-0645">Protease</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0812">Transmembrane</keyword>
+<keyword id="KW-1133">Transmembrane helix</keyword>
+<feature type="chain" description="Presenilin-2 NTF subunit" id="PRO_0000025603" evidence="1">
+<location>
+<begin position="1"/>
+<end position="297"/>
+</location>
+</feature>
+<feature type="chain" description="Presenilin-2 CTF subunit" id="PRO_0000025604" evidence="1">
+<location>
+<begin position="298"/>
+<end position="448"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="3">
+<location>
+<begin position="1"/>
+<end position="87"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="3">
+<location>
+<begin position="88"/>
+<end position="108"/>
+</location>
+</feature>
+<feature type="topological domain" description="Lumenal" evidence="3">
+<location>
+<begin position="109"/>
+<end position="138"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="3">
+<location>
+<begin position="139"/>
+<end position="159"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="3">
+<location>
+<begin position="160"/>
+<end position="166"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="3">
+<location>
+<begin position="167"/>
+<end position="187"/>
+</location>
+</feature>
+<feature type="topological domain" description="Lumenal" evidence="3">
+<location>
+<begin position="188"/>
+<end position="200"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="3">
+<location>
+<begin position="201"/>
+<end position="221"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="3">
+<location>
+<begin position="222"/>
+<end position="223"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="3">
+<location>
+<begin position="224"/>
+<end position="244"/>
+</location>
+</feature>
+<feature type="topological domain" description="Lumenal" evidence="3">
+<location>
+<begin position="245"/>
+<end position="249"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="3">
+<location>
+<begin position="250"/>
+<end position="270"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="3">
+<location>
+<begin position="271"/>
+<end position="361"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="3">
+<location>
+<begin position="362"/>
+<end position="382"/>
+</location>
+</feature>
+<feature type="topological domain" description="Lumenal" evidence="3">
+<location>
+<begin position="383"/>
+<end position="388"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="3">
+<location>
+<begin position="389"/>
+<end position="409"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="3">
+<location>
+<begin position="410"/>
+<end position="413"/>
+</location>
+</feature>
+<feature type="intramembrane region" description="Helical" evidence="3">
+<location>
+<begin position="414"/>
+<end position="434"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="3">
+<location>
+<begin position="435"/>
+<end position="448"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="4">
+<location>
+<begin position="1"/>
+<end position="70"/>
+</location>
+</feature>
+<feature type="short sequence motif" description="PAL">
+<location>
+<begin position="414"/>
+<end position="416"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polar residues" evidence="4">
+<location>
+<begin position="20"/>
+<end position="45"/>
+</location>
+</feature>
+<feature type="active site" evidence="27">
+<location>
+<position position="263"/>
+</location>
+</feature>
+<feature type="active site" evidence="26 27">
+<location>
+<position position="366"/>
+</location>
+</feature>
+<feature type="modified residue" description="Phosphoserine" evidence="28 29">
+<location>
+<position position="22"/>
+</location>
+</feature>
+<feature type="modified residue" description="Phosphoserine" evidence="28 29">
+<location>
+<position position="25"/>
+</location>
+</feature>
+<feature type="modified residue" description="Phosphoserine" evidence="2">
+<location>
+<position position="30"/>
+</location>
+</feature>
+<feature type="splice variant" description="In isoform 2." id="VSP_005194" evidence="25">
+<location>
+<begin position="263"/>
+<end position="296"/>
+</location>
+</feature>
+<feature type="splice variant" description="In isoform 3." id="VSP_043648" evidence="24">
+<location>
+<position position="324"/>
+</location>
+</feature>
+<feature type="sequence variant" description="In AD4; likely benign variant; dbSNP:rs58973334." id="VAR_006461" evidence="16 22">
+<original>R</original>
+<variation>H</variation>
+<location>
+<position position="62"/>
+</location>
+</feature>
+<feature type="sequence variant" description="In AD4; unknown pathological significance; dbSNP:rs140501902." id="VAR_070027" evidence="15 16">
+<original>R</original>
+<variation>W</variation>
+<location>
+<position position="71"/>
+</location>
+</feature>
+<feature type="sequence variant" description="In AD4; dbSNP:rs63749851." id="VAR_009214" evidence="6">
+<original>T</original>
+<variation>P</variation>
+<location>
+<position position="122"/>
+</location>
+</feature>
+<feature type="sequence variant" description="In AD4; increased mitochondrion-endoplasmic reticulum membrane tethering resulting in increased calcium transfer to mitochondria; dbSNP:rs28936380." id="VAR_081261" evidence="10 14">
+<original>T</original>
+<variation>R</variation>
+<location>
+<position position="122"/>
+</location>
+</feature>
+<feature type="sequence variant" description="In AD4; unknown pathological significance." id="VAR_081262" evidence="18">
+<original>E</original>
+<variation>K</variation>
+<location>
+<position position="126"/>
+</location>
+</feature>
+<feature type="sequence variant" description="In CMD1V and AD4; unknown pathological significance; dbSNP:rs63750197." id="VAR_064903" evidence="13 16">
+<original>S</original>
+<variation>L</variation>
+<location>
+<position position="130"/>
+</location>
+</feature>
+<feature type="sequence variant" description="In AD4; results in altered amyloid-beta production and increased amyloid-beta 42/amyloid-beta 40 ratio; loss of function as calcium-leak channel; results in calcium overload in the endoplasmic reticulum; increased mitochondrion-endoplasmic reticulum membrane tethering resulting in increased calcium transfer to mitochondria; dbSNP:rs63750215." id="VAR_006462" evidence="11 12 14 19 20">
+<original>N</original>
+<variation>I</variation>
+<location>
+<position position="141"/>
+</location>
+</feature>
+<feature type="sequence variant" description="In AD4; dbSNP:rs61761208." id="VAR_081263" evidence="17">
+<original>N</original>
+<variation>Y</variation>
+<location>
+<position position="141"/>
+</location>
+</feature>
+<feature type="sequence variant" description="In AD4; late-onset Alzheimer disease; dbSNP:rs63750812." id="VAR_007958" evidence="8">
+<original>V</original>
+<variation>I</variation>
+<location>
+<position position="148"/>
+</location>
+</feature>
+<feature type="sequence variant" description="In AD4; dbSNP:rs63749884." id="VAR_009215" evidence="6">
+<original>M</original>
+<variation>I</variation>
+<location>
+<position position="239"/>
+</location>
+</feature>
+<feature type="sequence variant" description="In AD4; dbSNP:rs28936379." id="VAR_006463" evidence="20">
+<original>M</original>
+<variation>V</variation>
+<location>
+<position position="239"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Reduces production of amyloid-beta in APP processing." evidence="7">
+<original>D</original>
+<variation>A</variation>
+<location>
+<position position="263"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Reduces production of amyloid-beta in APP processing and of NICD in NOTCH1 processing. Increased mitochondrion-endoplasmic reticulum membrane tethering resulting in increased calcium transfer to mitochondria." evidence="5 7 14">
+<original>D</original>
+<variation>A</variation>
+<location>
+<position position="366"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 1 and 10." ref="1 10" evidence="25">
+<original>P</original>
+<variation>T</variation>
+<location>
+<position position="123"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 10; AAL16812." ref="10" evidence="25">
+<original>S</original>
+<variation>L</variation>
+<location>
+<position position="295"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 3; AAC50290." ref="3" evidence="25">
+<location>
+<position position="325"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 3; AAC50290." ref="3" evidence="25">
+<original>R</original>
+<variation>SQG</variation>
+<location>
+<position position="358"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 3." ref="3" evidence="25">
+<original>NLVRPFMDTLASHQLYI</original>
+<variation>RKHSRFIQMN</variation>
+<location>
+<begin position="432"/>
+<end position="448"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="Q61144"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000255"/>
+<evidence key="4" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="MobiDB-lite"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="10497236"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="10631141"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="10652302"/>
+</source>
+</evidence>
+<evidence key="8" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="10732806"/>
+</source>
+</evidence>
+<evidence key="9" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="11799129"/>
+</source>
+</evidence>
+<evidence key="10" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="14681895"/>
+</source>
+</evidence>
+<evidence key="11" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="16752394"/>
+</source>
+</evidence>
+<evidence key="12" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="16959576"/>
+</source>
+</evidence>
+<evidence key="13" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="17186461"/>
+</source>
+</evidence>
+<evidence key="14" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="21285369"/>
+</source>
+</evidence>
+<evidence key="15" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="21544564"/>
+</source>
+</evidence>
+<evidence key="16" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="22503161"/>
+</source>
+</evidence>
+<evidence key="17" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="24838186"/>
+</source>
+</evidence>
+<evidence key="18" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="24844686"/>
+</source>
+</evidence>
+<evidence key="19" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="7638622"/>
+</source>
+</evidence>
+<evidence key="20" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="7651536"/>
+</source>
+</evidence>
+<evidence key="21" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="8574969"/>
+</source>
+</evidence>
+<evidence key="22" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="9384602"/>
+</source>
+</evidence>
+<evidence key="23" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="9437013"/>
+</source>
+</evidence>
+<evidence key="24" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="14702039"/>
+</source>
+</evidence>
+<evidence key="25" type="ECO:0000305"/>
+<evidence key="26" type="ECO:0000305">
+<source>
+<dbReference type="PubMed" id="10497236"/>
+</source>
+</evidence>
+<evidence key="27" type="ECO:0000305">
+<source>
+<dbReference type="PubMed" id="10652302"/>
+</source>
+</evidence>
+<evidence key="28" type="ECO:0007744">
+<source>
+<dbReference type="PubMed" id="20068231"/>
+</source>
+</evidence>
+<evidence key="29" type="ECO:0007744">
+<source>
+<dbReference type="PubMed" id="23186163"/>
+</source>
+</evidence>
+<sequence length="448" mass="50140" checksum="A927EEC623468116" modified="1996-10-01" version="1">MLTFMASDSEEEVCDERTSLMSAESPTPRSCQEGRQGPEDGENTAQWRSQENEEDGEEDPDRYVCSGVPGRPPGLEEELTLKYGAKHVIMLFVPVTLCMIVVVATIKSVRFYTEKNGQLIYTPFTEDTPSVGQRLLNSVLNTLIMISVIVVMTIFLVVLYKYRCYKFIHGWLIMSSLMLLFLFTYIYLGEVLKTYNVAMDYPTLLLTVWNFGAVGMVCIHWKGPLVLQQAYLIMISALMALVFIKYLPEWSAWVILGAISVYDLVAVLCPKGPLRMLVETAQERNEPIFPALIYSSAMVWTVGMAKLDPSSQGALQLPYDPEMEEDSYDSFGEPSYPEVFEPPLTGYPGEELEEEEERGVKLGLGDFIFYSVLVGKAAATGSGDWNTTLACFVAILIGLCLTLLLLAVFKKALPALPISITFGLIFYFSTDNLVRPFMDTLASHQLYI</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

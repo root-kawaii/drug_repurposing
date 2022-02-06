@@ -1,0 +1,25 @@
+
+.DS_Store
+
+# No upload heavy DB
+DataBase/
+
+# Skip PyCharm Stuff
+.idea/
+venv/
+__pycache__/
+
+# No upload of Pre Processing Result
+Result_PreProcessing/
+
+# No upload of KG
+KnowledgeGraph/
+
+# No upload Unison file
+Others/necst.prf
+
+*.hdf5
+
+OpenKE/res/
+
+OpenKE/examples/
