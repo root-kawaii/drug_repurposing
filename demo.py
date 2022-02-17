@@ -5,6 +5,13 @@ import pandas as pd
 import yaml
 import io
 import numpy as np
+import xml.etree.ElementTree as Tree
+
+import argparse
+import os.path as check
+from Triple import Triple
+from dbVocabulary import DrugBankVocabulary
+
 
 #Specify the column for the ID of the database
 ID_COLUMN = "Entry"
@@ -29,17 +36,19 @@ for i in relations:
 #print(only_relations)
 
 #create comfortable columns for iterations and searches
-col = only_relations
-col.append(ID_COLUMN)
-df = pd.read_csv(dataset_file)
-col_query = np.intersect1d(df.columns,col)
+for files in dataset_file:
+    col = only_relations
+    col.append(ID_COLUMN)
+    df = pd.read_csv(files)
+    col_query = np.intersect1d(df.columns,col)
 
-#read and remove NaN
-df = pd.read_csv(dataset_file, usecols=col_query)
-df = df.dropna()
+    #read and remove NaN
+    df = pd.read_csv(files, usecols=col_query)
+    df = df.dropna()
 
 #remove column entry for iteration over other columns
-col_iter = np.delete(col_query,0)
+if(col_query.size != 0):
+    col_iter = np.delete(col_query,0)
 
 #Actually find the relations and create Triples and store them
 for i in range(len(df)):
@@ -52,7 +61,8 @@ for i in range(len(df)):
 
 #print(triple_list)
 
-
+DrugVocabulary = DrugBankVocabulary('drugbank vocabulary.csv')
+print(DrugBankVocabulary.dict_id_to_name)
 
 
 

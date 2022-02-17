@@ -1,13 +1,14 @@
  {
   'file':[
-       'swissprot.csv'
+       'swissprot.csv',
+       'drugbank vocabulary.csv'
      ],
  'entities': [
      'drug',
      'protein'
      ],
   'relations':[
-    ['protein', 'Interacts withss', 'gene'],
+    ['protein', 'Interacts withs', 'gene'],
     ['protein', 'Interacts with', protein']
       ]
 }
