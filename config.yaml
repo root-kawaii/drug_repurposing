@@ -1,14 +1,18 @@
- {
-  'file':[
-       'swissprot.csv',
-       'drugbank vocabulary.csv'
-     ],
- 'entities': [
-     'drug',
-     'protein'
-     ],
-  'relations':[
-    ['protein', 'Interacts withs', 'gene'],
-    ['protein', 'Interacts with', protein']
-      ]
+{
+'file':[
+      'swissprot.csv',
+      'DrugBank.xml'
+   ],
+'Vocabulary':[
+      ['drugbank vocabulary.csv',drug]
+   ],
+'entities':[
+   ['drug','DrugBank.xml','ID'],
+   ['protein','swissprot.csv','Entry']
+],
+'relations':[
+   ['protein','Codified by','gene'],
+   ['protein','Interacts with','protein']
+   ]
 }
+#maybe change relation because i can find many with same name

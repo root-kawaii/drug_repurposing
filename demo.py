@@ -1,3 +1,4 @@
+from html import entities
 import os.path
 import csv
 from Triple import Triple
@@ -10,59 +11,79 @@ import xml.etree.ElementTree as Tree
 import argparse
 import os.path as check
 from Triple import Triple
-from dbVocabulary import DrugBankVocabulary
+from Vocabulary import Vocabulary
+from parseCSV import parseCSV
+from parseXML import parseXML
+
+
 
 
 #Specify the column for the ID of the database
 ID_COLUMN = "Entry"
-#list of the triples for graphs
+#SetUp
 triple_list = []
-
+entities = []
+col = []
 #Specify config file
 a_yaml_file = open("config.yaml")
 parsed_yaml_file = yaml.load(a_yaml_file, Loader=yaml.FullLoader)
 
 #read into data structures
-entities = []
 entities = parsed_yaml_file['entities']
 relations = parsed_yaml_file['relations']
 dataset_file = parsed_yaml_file['file']
-only_relations = []
-for i in relations:
-    only_relations.append(i[1])
 
-#print(entities)
-#print(relations)
-#print(only_relations)
 
-#create comfortable columns for iterations and searches
-for files in dataset_file:
-    col = only_relations
-    col.append(ID_COLUMN)
-    df = pd.read_csv(files)
-    col_query = np.intersect1d(df.columns,col)
+#select relation from YAML
+for w in range(len(relations)):
+    col.append(relations[w][1])
+col.append(ID_COLUMN)
 
-    #read and remove NaN
-    df = pd.read_csv(files, usecols=col_query)
-    df = df.dropna()
-
-#remove column entry for iteration over other columns
-if(col_query.size != 0):
-    col_iter = np.delete(col_query,0)
-
-#Actually find the relations and create Triples and store them
-for i in range(len(df)):
-    for j in col_iter:
-        res = df.iloc[i][j]
-        for w in res:
-            a = Triple(df[ID_COLUMN].iloc[i],j,res)
-            triple_list.append(a)
+#Could generalize Vocabulary
+#This can be streamlined but right now reads into config file and creats a dicitonary of vocabularies
+#Entity is the key and the vocabulary is the value
+paths = parsed_yaml_file['Vocabulary']
+Vocabularies = {}
+if(paths):
+    for i in range(len(paths)):
+        step = paths[i]
+        checkz = Vocabulary(step[0])
+        Vocabularies[step[1]] = checkz
         
 
-#print(triple_list)
+#print(drugBankVocabulary.dict_id_to_name)
 
-DrugVocabulary = DrugBankVocabulary('drugbank vocabulary.csv')
-print(DrugBankVocabulary.dict_id_to_name)
+for entity in entities:
+    if(entity[1].endswith('.csv')):
+        syn_1 = parseCSV(entity,triple_list,ID_COLUMN,col,Vocabularies)
+    if(entity[1].endswith('.xml')):
+        syn_2 = parseXML(entity,relations,triple_list,Vocabularies)  
+
+
+
+
+    '''
+    
+        if (create_interaction):
+                    targets = drug.findall("targets")
+                    interactions = parse_target(targets, ids, drugVocabulary)
+                    list_inter += interactions
+        
+        # Pharmaceutical Indication Drug <--> Disease
+        if (create_indication_disease):
+            indication = drug.findall("indication")
+            #disease_vocabulary_name_code = DiseaseVocabularyNameCode(ctd_disease_vocabulary_path, omim_vocabulary_path)
+            #indications = parse_indication_disease(indication, ids, nlp, disease_vocabulary_name_code)
+            list_indication += indications
+        
+
+    save_list_triple(interaction_file, list_inter, "") if create_interaction else 0
+    save_list_triple(indication_file, list_indication, "") if create_indication_disease else 0
+    save_vocabulary(dictionary_file, dict_syn) if create_dictionary else 0
+    '''
+
+print('...')
+
 
 
 
