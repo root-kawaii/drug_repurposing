@@ -55,9 +55,9 @@ if(paths):
 
 for entity in entities:
     if(entity[1].endswith('.csv')):
-        syn_1 = parseCSV(entity,triple_list,ID_COLUMN,col,Vocabularies)
+        parseCSV(entity,triple_list,ID_COLUMN,col,Vocabularies)
     if(entity[1].endswith('.xml')):
-        syn_2 = parseXML(entity,relations,triple_list,Vocabularies)  
+        parseXML(entity,relations,triple_list,Vocabularies)  
 
 
 
