@@ -64,7 +64,9 @@ def parseCSV(entity,triple_list,ID_COLUMN,col,Vocabularies):
         col_syn = []
         col_syn.append(entity[2])
         #NEED TO SET THIS AS PARAMETER
-        #col_syn.append("synonyms")
+        col_syn.append("Entry name")
+        dh = pd.read_csv(entity[1])
+        print(dh.columns)
         df = pd.read_csv(entity[1], usecols=col_syn)
         df = df.dropna()
         if(col_query.size != 0):
@@ -75,7 +77,7 @@ def parseCSV(entity,triple_list,ID_COLUMN,col,Vocabularies):
         sinonimi = []
         for row in range(len(df)):
             name.append(df.iloc[row]["Entry"])
-            sinonimi.append(df.iloc[row]["Entry"])
+            sinonimi.append(df.iloc[row]["Entry name"])
             sinonimi2 = create_synonyms(name, sinonimi)#, products)
             #products = elements.findall("products")
             id = df.iloc[row]["Entry"]
@@ -83,11 +85,11 @@ def parseCSV(entity,triple_list,ID_COLUMN,col,Vocabularies):
             
             if('protein' in Vocabularies):
                 w = Vocabularies[entity[0]]
-                w.dict_id_to_name[id].append(sinonimi2)
+                w.dict_id_to_name[id] = sinonimi2
             else:
                 Vocabularies[entity[0]] = Vocabulary(None)
                 w = Vocabularies[entity[0]]
-                w.dict_id_to_name[id].append(sinonimi2)
+                w.dict_id_to_name[id] = sinonimi2
 
 
 

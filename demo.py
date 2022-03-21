@@ -57,7 +57,7 @@ for entity in entities:
     if(entity[1].endswith('.csv')):
         parseCSV(entity,triple_list,ID_COLUMN,col,Vocabularies)
     if(entity[1].endswith('.xml')):
-        parseXML(entity,relations,triple_list,Vocabularies)  
+            parseXML(entity,relations,triple_list,Vocabularies)  
 
 
 
