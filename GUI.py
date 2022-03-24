@@ -37,3 +37,10 @@ def getInput():
 Button(root, text = "submit",font=("Arial", 15),command = getInput).grid(row = 5, sticky = W)
 
 root.mainloop()
+
+#here i need to edit params in order to put commas in between values and 
+#handle multiple inputs in same field
+
+f = open("config2.yaml",'a')
+f.write("{\n\'file\':[\n" + str(params[0]) + "\n],\n\'Vocabulary\':[" + str(params[1])
+ + "\n],\n\'entities\':[" + str(params[2]) + "\n],\n\'relations\':[" + str(params[3]) + "]\n}" )
