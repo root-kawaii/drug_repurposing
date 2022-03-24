@@ -2,41 +2,38 @@ from html import entities
 from tkinter import *
 from functools import partial
 
-
-def validateLogin(fields, vocabulary,entities1,relations):
-	print("entered :", fields.get())
-	print("entered :", vocabulary.get())
-	print("entered :", relations.get())
-
-	return
-
-#window
-tkWindow = Tk()  
-tkWindow.geometry('900x700')  
-tkWindow.title('Configure your Graph')
-
-#username label and text entry box
-usernameLabel = Label(tkWindow, text="Fields").grid(row=6, column=5)
-fields = StringVar()
-usernameEntry = Entry(tkWindow, textvariable=fields).grid(row=6, column=6) 
+root = Tk()
+root.geometry('500x250')  
+root.title('Configure your Graph')
+Label(root, text = "Fields",font=("Arial", 15)).grid(row = 0, sticky = W)
+Label(root, text = "Vocabulary",font=("Arial", 15)).grid(row = 1, sticky = W)
+Label(root, text = "Entities",font=("Arial", 15)).grid(row = 2, sticky = W)
+Label(root, text = "Relations",font=("Arial", 15)).grid(row = 3, sticky = W)
 
 
-#password label and password entry box
-passwordLabel = Label(tkWindow,text="Vocabulary").grid(row=7, column=5)  
-vocabulary = StringVar()
-passwordEntry = Entry(tkWindow, textvariable=vocabulary,).grid(row=7, column=6)  
+fields = Entry(root,font=("Arial", 15))
+voc = Entry(root,font=("Arial", 15))
+ent = Entry(root,font=("Arial", 15))
+rel = Entry(root,font=("Arial", 15))
 
-passwordLabel = Label(tkWindow,text="Entities").grid(row=8, column=5)  
-entities = StringVar()
-passwordEntry = Entry(tkWindow, textvariable=entities,).grid(row=8, column=6)  
 
-passwordLabel = Label(tkWindow,text="Relations").grid(row=9, column=5)  
-relations = StringVar()
-passwordEntry = Entry(tkWindow, textvariable=relations,).grid(row=9, column=6)  
+fields.grid(row = 0, column = 1)
+voc.grid(row = 1, column = 1)
+ent.grid(row = 3, column = 1)
+rel.grid(row = 2, column = 1)
 
-validateLogin = partial(validateLogin, fields, vocabulary,entities,relations)
 
-#login button
-loginButton = Button(tkWindow, text="Enter", command=validateLogin).grid(row=0, column=0)  
+def getInput():
 
-tkWindow.mainloop()
+    a = fields.get()
+    b = voc.get()
+    c = ent.get()
+    d = rel.get()
+    
+    global params
+    params = [a,b,c,d]
+    print(params)
+
+Button(root, text = "submit",font=("Arial", 15),command = getInput).grid(row = 5, sticky = W)
+
+root.mainloop()
