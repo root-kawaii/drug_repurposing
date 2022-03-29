@@ -11,6 +11,7 @@
    ['protein','swissprot.csv','Entry']
 ],
 'relations':[
+   ['drug',products','gene'],
    ['protein','Codified by','gene'],
    ['protein','Interacts with','protein']
    ]

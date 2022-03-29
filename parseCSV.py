@@ -55,9 +55,8 @@ def parseCSV(entity,triple_list,ID_COLUMN,col,Vocabularies):
     for i in range(len(df)):
         for j in col_iter:
             res = df.iloc[i][j]
-            for w in res:
-                a = Triple(df[ID_COLUMN].iloc[i],j,res)
-                triple_list.append(a)
+            a = Triple(df[ID_COLUMN].iloc[i],j,res)
+            triple_list.append(a)
     #CONDITION
     if (1):
         #name = elements.findall(entity[0])

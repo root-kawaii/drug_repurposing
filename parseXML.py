@@ -50,27 +50,31 @@ def parseXML(entity,relations,triple_list,Vocabularies):
     #dict_syn = {}
     #list_inter = []
 
-    #print('yyy')
     for element in elements:
-        ids = element.findall(entity[2])
+        #ids = element.findall('products')
+        '''
         for i in ids:
                 if i.attrib.get("primary") == "true":
                     i.text.upper().strip()
                 else:
                     raise ValueError("Error...")
-        for i in ids:
-            for j in range(len(relations)):
-                if(entity[0] in relations[j][0]):
-                    rel = i.findall(relations[j][1])
-                    for bb in rel:
-                        a = Triple(i,'INTERACTS WITH',bb)
-                        triple_list.append(a)
-                        #print(a.tail)
+        '''
+        #for i in ids:
+        for j in range(len(relations)):
+            if(entity[0] in relations[j][0]):
+                rel = element.findall(relations[j][1])
+                #print(len(rel))
+                for bb in rel:
+                    #print(bb)
+                    a = Triple(element,'INTERACTS WITH',bb)
+                    triple_list.append(a)
+                    print(a.__str__())
+        
     #CONDITION
     if (1):
         name = elements#.findall(entity[0])
         for el in name:
-            id2 = el.find("ID")
+            id2 = el.find("ID") 
             synonyms = el.findall("synonyms")
             #products = elements.findall("products")
             sinonimi = create_synonyms(id2, synonyms)#, products)

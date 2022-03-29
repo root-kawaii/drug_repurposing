@@ -54,12 +54,16 @@ if(paths):
 #print(drugBankVocabulary.dict_id_to_name)
 
 for entity in entities:
+
     if(entity[1].endswith('.csv')):
         parseCSV(entity,triple_list,ID_COLUMN,col,Vocabularies)
     if(entity[1].endswith('.xml')):
             parseXML(entity,relations,triple_list,Vocabularies)  
-
-
+    print(entity[1])
+    print("wwwwwwwww")
+log = open("transcript.txt",'a')
+for elemo in triple_list:
+    log.write(elemo.__str__())
 
 
     '''

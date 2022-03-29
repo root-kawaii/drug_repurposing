@@ -15,13 +15,11 @@ fields = Entry(root,font=("Arial", 15))
 voc = Entry(root,font=("Arial", 15))
 ent = Entry(root,font=("Arial", 15))
 rel = Entry(root,font=("Arial", 15))
-
-
+#positions
 fields.grid(row = 0, column = 1)
 voc.grid(row = 1, column = 1)
 ent.grid(row = 3, column = 1)
 rel.grid(row = 2, column = 1)
-
 
 def getInput():
 
