@@ -14,6 +14,7 @@ from Triple import Triple
 from Vocabulary import Vocabulary
 from parseCSV import parseCSV
 from parseXML import parseXML
+from parseTSV import parseTSV
 
 
 
@@ -23,7 +24,8 @@ ID_COLUMN = "Entry"
 #SetUp
 triple_list = []
 entities = []
-col = []
+colP = []
+colD = []
 #Specify config file
 a_yaml_file = open("config.yaml")
 parsed_yaml_file = yaml.load(a_yaml_file, Loader=yaml.FullLoader)
@@ -33,11 +35,15 @@ entities = parsed_yaml_file['entities']
 relations = parsed_yaml_file['relations']
 dataset_file = parsed_yaml_file['file']
 
-
+#NEED TO ADDRESS DIFFERENT ENTITIES SUCH AS DRUGS AND PROTEINS
 #select relation from YAML
 for w in range(len(relations)):
-    col.append(relations[w][1])
-col.append(ID_COLUMN)
+    if(relations[w][0]=='protein'):
+        colD.append(relations[w][1])
+    if(relations[w][0]=='protein'):
+        colP.append(relations[w][1])
+colP.append(ID_COLUMN)
+#colD.append(ID_COLUMN)
 
 #Could generalize Vocabulary
 #This can be streamlined but right now reads into config file and creats a dicitonary of vocabularies
@@ -56,11 +62,11 @@ if(paths):
 for entity in entities:
 
     if(entity[1].endswith('.csv')):
-        parseCSV(entity,triple_list,ID_COLUMN,col,Vocabularies)
+        parseCSV(entity,triple_list,ID_COLUMN,colP,Vocabularies)
     if(entity[1].endswith('.xml')):
-            parseXML(entity,relations,triple_list,Vocabularies)  
-    print(entity[1])
-    print("wwwwwwwww")
+        parseXML(entity,relations,triple_list,Vocabularies)  
+    if(entity[1].endswith('.tsv')):
+        parseTSV(entity,relations,triple_list,colD,Vocabularies)  
 log = open("transcript.txt",'a')
 for elemo in triple_list:
     log.write(elemo.__str__())
