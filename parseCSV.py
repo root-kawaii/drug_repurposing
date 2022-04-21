@@ -41,23 +41,7 @@ def create_synonyms(name, synonyms) -> ([]):
 
 
 def parseCSV(entity,triple_list,ID_COLUMN,col,Vocabularies):
-    syn = {}
-    df = pd.read_csv(entity[1])
-    col_query = np.intersect1d(df.columns,col)
-    #read and remove NaN
-    df = pd.read_csv(entity[1], usecols=col_query)
-    df = df.dropna()
-    #remove column entry for iteration over other columns
-    if(col_query.size != 0):
-        col_iter = np.delete(col_query,0)
-    else:
-        col_iter = col_query
-    for i in range(len(df)):
-        for j in col_iter:
-            res = df.iloc[i][j]
-            a = Triple(df[ID_COLUMN].iloc[i],j,res)
-            triple_list.append(a)
-    #CONDITION
+        #CONDITION
     if (1):
         #name = elements.findall(entity[0])
         col_syn = []
@@ -89,6 +73,23 @@ def parseCSV(entity,triple_list,ID_COLUMN,col,Vocabularies):
                 Vocabularies[entity[0]] = Vocabulary(None)
                 w = Vocabularies[entity[0]]
                 w.dict_id_to_name[id] = sinonimi2
+    syn = {}
+    df = pd.read_csv(entity[1])
+    col_query = np.intersect1d(df.columns,col)
+    #read and remove NaN
+    df = pd.read_csv(entity[1], usecols=col_query)
+    df = df.dropna()
+    #remove column entry for iteration over other columns
+    if(col_query.size != 0):
+        col_iter = np.delete(col_query,0)
+    else:
+        col_iter = col_query
+    for i in range(len(df)):
+        for j in col_iter:
+            res = df.iloc[i][j]
+            a = Triple(df[ID_COLUMN].iloc[i],j,res)
+            triple_list.append(a)
+
 
 
 

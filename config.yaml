@@ -5,6 +5,7 @@
    ],
 'Vocabulary':[
       ['drugbank vocabulary.csv',drug]
+      ['diseaseVOcabulary.csv','disease']
    ],
 'entities':[
    ['drug','DrugBank.xml','ID'],

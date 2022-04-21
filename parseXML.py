@@ -41,6 +41,17 @@ def create_synonyms(name, synonyms) -> ([]):
 
 
 def parseXML(entity,relations,triple_list,Vocabularies):
+    if (1):
+        name = elements#.findall(entity[0])
+        for el in name:
+            id2 = el.find("ID") 
+            synonyms = el.findall("synonyms")
+            #products = elements.findall("products")
+            sinonimi = create_synonyms(id2, synonyms)#, products)
+            #HANDLE THE VOCABULARIES INDEX
+            w = Vocabularies[entity[0]]
+            if(sinonimi and id2):
+                w.dict_id_to_name[id2].append(sinonimi)
     #print('yyy')
     syn = {}
     tree = Tree.parse(entity[1])
@@ -71,16 +82,6 @@ def parseXML(entity,relations,triple_list,Vocabularies):
                     print(a.__str__())
         
     #CONDITION
-    if (1):
-        name = elements#.findall(entity[0])
-        for el in name:
-            id2 = el.find("ID") 
-            synonyms = el.findall("synonyms")
-            #products = elements.findall("products")
-            sinonimi = create_synonyms(id2, synonyms)#, products)
-            #HANDLE THE VOCABULARIES INDEX
-            w = Vocabularies[entity[0]]
-            if(sinonimi and id2):
-                w.dict_id_to_name[id2].append(sinonimi)
+
 
     return syn

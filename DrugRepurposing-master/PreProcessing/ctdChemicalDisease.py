@@ -6,7 +6,7 @@ from Triple import Triple
 from support_function import save_list_triple, check_dir
 
 
-def process_chemical_disease(chemical_vocabulary_path, chemical_disease_path, output_path, threshold):
+def process_chemical_disease( , chemical_disease_path, output_path, threshold):
     chemical_vocabulary = ChemicalVocabulary(chemical_vocabulary_path)
     list_triple_chemical_disease = []
 

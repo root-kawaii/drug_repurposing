@@ -1,4 +1,5 @@
 import csv
+from xmlrpc.client import Boolean
 
 
 class Vocabulary:
@@ -22,3 +23,11 @@ class Vocabulary:
                         self.dict_name_to_id[name] = id
                     self.dict_id_to_name[id] = final
 
+
+def lookUpVocabulary(entity,Vocabularies,entityType) -> Boolean:
+    select = Vocabularies[entityType]
+    if(select.dict_name_to_id[entity]):
+        print("found!")
+        return True
+    else:
+         return False
