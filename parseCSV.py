@@ -42,6 +42,7 @@ def create_synonyms(name, synonyms) -> ([]):
 
 def parseCSV(entity,triple_list,ID_COLUMN,col,Vocabularies):
         #CONDITION
+        #git check
     if (1):
         #name = elements.findall(entity[0])
         col_syn = []
