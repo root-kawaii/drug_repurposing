@@ -1,6 +1,6 @@
 # drug_repurposing
 
-Everything in the folders was not made by be but by fellow Edoardo for his Thesis.
+Based on the work Edoardo for his Thesis.
 
 x.py is a trash file where i had silly ideas.
 demo.py is main file.
