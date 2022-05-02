@@ -4,8 +4,8 @@
       'DrugBank.xml'
    ],
 'Vocabulary':[
-      ['drugbank vocabulary.csv',drug]
-      ['diseaseVOcabulary.csv','disease']
+      ['drugbank vocabulary.csv',drug,'ID']
+      ['diseaseVOcabulary.csv','disease','ID']
    ],
 'entities':[
    ['drug','DrugBank.xml','ID'],

@@ -7,14 +7,14 @@ class Vocabulary:
     dict_name_to_id = {}
    
 
-    def __init__(self, path):
+    def __init__(self, path,vocabulary):
         if(path != None):
             print(path)
             with open(path) as csvfile:
                 reader = csv.DictReader(csvfile, delimiter=',')
                 for row in reader:
                     #Need to improve this, field have to be expressed in config file
-                    id = row['DrugBank ID']
+                    id = row[vocabulary[2]]
                     syn = row['Synonyms']
                     final = []
                     for item in syn.split("|"):
@@ -24,10 +24,15 @@ class Vocabulary:
                     self.dict_id_to_name[id] = final
 
 
-def lookUpVocabulary(entity,Vocabularies,entityType) -> Boolean:
+def lookUpVocabulary(Triple,Vocabularies,entityType,pendingList) -> Boolean:
     select = Vocabularies[entityType]
-    if(select.dict_name_to_id[entity]):
+    #We check only if the id is present
+    if(select.dict_name_to_id[Triple.tail]):
         print("found!")
         return True
     else:
-         return False
+        #we add to a pending list hoping one day we will have found that ID
+        listo = pendingList[entityType]
+        listo.append(Triple)
+        pendingList[entityType] = listo
+        return False

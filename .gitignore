@@ -1,4 +1,9 @@
-
+./Bash
+./DrugRepurposing-master
+./Embedding
+./OpenKE
+./Others
+./PreProcessing
 .DS_Store
 
 # No upload heavy DB

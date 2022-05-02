@@ -11,9 +11,10 @@ import xml.etree.ElementTree as Tree
 import argparse
 import os.path as check
 from Triple import Triple
-from Vocabulary import Vocabulary
+from Vocabulary import Vocabulary, lookUpVocabulary
 from parseCSV import parseCSV
 from parseXML import parseXML
+#from disease import parseTSV
 from parseTSV import parseTSV
 
 
@@ -31,7 +32,7 @@ a_yaml_file = open("config.yaml")
 parsed_yaml_file = yaml.load(a_yaml_file, Loader=yaml.FullLoader)
 
 #read into data structures
-entities = parsed_yaml_file['entities']
+entitiess = parsed_yaml_file['entities']
 relations = parsed_yaml_file['relations']
 dataset_file = parsed_yaml_file['file']
 
@@ -53,20 +54,32 @@ Vocabularies = {}
 if(paths):
     for i in range(len(paths)):
         step = paths[i]
-        checkz = Vocabulary(step[0])
+        checkz = Vocabulary(step[0],step[2])
         Vocabularies[step[1]] = checkz
+
+#we create a pending dictionary for the Triples whose tails are missing IDs
+#sorted by the type of entity
+#At the end of the program we look again in every dictionary looking for the ID and if successful we add triple
+pendingList = {}
+for w in range(len(entitiess)):
+    steppo = entitiess[w]
+    listo = []
+    pendingList[steppo(0)] = listo
         
 
 #print(drugBankVocabulary.dict_id_to_name)
-
-for entity in entities:
-
+cont = 0
+for entity in entitiess:
+    cont += 1
     if(entity[1].endswith('.csv')):
         parseCSV(entity,triple_list,ID_COLUMN,colP,Vocabularies)
     if(entity[1].endswith('.xml')):
         parseXML(entity,relations,triple_list,Vocabularies)  
     if(entity[1].endswith('.tsv')):
-        parseTSV(entity,relations,triple_list,colD,Vocabularies)  
+        csv_table=pd.read_table(entity[1],sep='\t')
+        csv_table.to_csv('valid'+ cont + '.csv',index=False)
+        dfT = pd.read_csv(entity[1])
+        parseTSV(entity,relations,triple_list,colD,Vocabularies,cont)  
 log = open("transcript.txt",'a')
 for elemo in triple_list:
     log.write(elemo.__str__())
@@ -91,6 +104,10 @@ for elemo in triple_list:
     save_list_triple(indication_file, list_indication, "") if create_indication_disease else 0
     save_vocabulary(dictionary_file, dict_syn) if create_dictionary else 0
     '''
+
+for i in pendingList.values:
+    if(lookUpVocabulary(i)):
+        triple_list.append(i)
 
 print('...')
 
