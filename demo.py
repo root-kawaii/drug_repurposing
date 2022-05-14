@@ -71,18 +71,9 @@ for w in range(len(entitiess)):
 cont = 0
 for entity in entitiess:
     cont += 1
-    if(entity[1].endswith('.csv')):
-        parseCSV(entity,triple_list,ID_COLUMN,colP,Vocabularies)
-    if(entity[1].endswith('.xml')):
-        parseXML(entity,relations,triple_list,Vocabularies)  
-    if(entity[1].endswith('.tsv')):
-        csv_table=pd.read_table(entity[1],sep='\t')
-        csv_table.to_csv('valid'+ cont + '.csv',index=False)
-        dfT = pd.read_csv(entity[1])
-        parseTSV(entity,relations,triple_list,colD,Vocabularies,cont)  
-log = open("transcript.txt",'a')
-for elemo in triple_list:
-    log.write(elemo.__str__())
+    ## need to set threshold
+    parseCSV(entity,triple_list,ID_COLUMN,colP,Vocabularies,pendingList,thresholdTSV=0)
+
 
 
     '''
@@ -110,6 +101,11 @@ for i in pendingList.values:
         triple_list.append(i)
 
 print('...')
+
+
+log = open("transcript.txt",'a')
+for elemo in triple_list:
+    log.write(elemo.__str__())
 
 
 

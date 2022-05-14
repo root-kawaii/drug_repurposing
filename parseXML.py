@@ -42,7 +42,7 @@ def create_synonyms(name, synonyms) -> ([]):
 
 def parseXML(entity,relations,triple_list,Vocabularies):
     if (1):
-        name = elements#.findall(entity[0])
+        name = tree.getroot().findall(entity[0])
         for el in name:
             id2 = el.find("ID") 
             synonyms = el.findall("synonyms")
