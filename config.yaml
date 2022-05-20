@@ -10,6 +10,7 @@
 'entities':[
    ['drug','DrugBank.xml','ID'],
    ['protein','swissprot.csv','Entry']
+   ##['disease','disease.tsv','ID']
 ],
 'relations':[
    ['drug',products','gene'],

@@ -86,7 +86,7 @@ def parse(entitiess,triple_list,ID_COLUMN,col,Vocabularies,relations,tree,pendin
             name = tree.getroot().findall(entity[0])
             for el in name:
                 #set this as parameter
-                id2 = el.find("ID") 
+                id2 = el.find(entity[2]) 
                 synonyms = el.findall("synonyms")
                 #products = elements.findall("products")
                 sinonimiXML = create_synonyms(id2, synonyms)#, products)
@@ -160,6 +160,11 @@ def parse(entitiess,triple_list,ID_COLUMN,col,Vocabularies,relations,tree,pendin
     #list_inter = []
 
     for element in elements:
+        indication = element.findall("indication")
+        drugID = element.find(entity[2])
+        if(indication):
+            indications = parse_indication_disease(indication, drugID,Vocabularies['disease'])
+            list_indication += indications
         #ids = element.findall('products')
         '''
         for i in ids:
@@ -175,7 +180,7 @@ def parse(entitiess,triple_list,ID_COLUMN,col,Vocabularies,relations,tree,pendin
                 #print(len(rel))
                 for bb in rel:
                     #print(bb)
-                    a = Triple(element,relations[j][1],bb)
+                    a = Triple(drugID,relations[j][1],bb)
                     if(lookUpVocabulary):
                         triple_list.append(a)
                     else:
@@ -210,7 +215,7 @@ def parse(entitiess,triple_list,ID_COLUMN,col,Vocabularies,relations,tree,pendin
             # TODO Use Inference relation name Marker/Mechanism or Therapeutic or Both
             if inference_score >= thresholdTSV:
                 triple_list.append(Triple(drugbank_id, "TREAT", disease_id))
-    
+
 
 
 
