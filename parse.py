@@ -1,9 +1,9 @@
 from html import entities
 import os.path
 import csv
+from re import L
 
 from nlp import parse_indication_disease
-from sqlalchemy import null
 from Triple import Triple
 import pandas as pd
 import yaml
@@ -15,6 +15,16 @@ import argparse
 import os.path as check
 from Triple import Triple
 from Vocabulary import Vocabulary, lookUpVocabulary
+import xml.etree.ElementTree as ET
+
+
+from simplified_scrapy import SimplifiedDoc
+
+doc = SimplifiedDoc()
+doc.loadFile('DrugBank.xml', lineByline=True)
+
+
+
 
 def create_synonyms(name, synonyms) -> ([]):
 
@@ -26,7 +36,7 @@ def create_synonyms(name, synonyms) -> ([]):
 
     # Synonyms
     for syn in synonyms:#[0].findall("synonym"):
-        sinonimi.add(syn.upper().strip()) if not (syn is None or syn == "") else 0
+        sinonimi.add(syn) if not (syn is None or syn == "") else 0
     '''
     # Products
     if len(products) > 1:
@@ -41,36 +51,64 @@ def create_synonyms(name, synonyms) -> ([]):
     return sinonimi
 
 
-def parse(entitiess,triple_list,ID_COLUMN,col,Vocabularies,relations,tree,pendingList,thresholdTSV):
+
+def parse_target(targets, drug_id, dictionary,relations) -> []:
+    """
+    Identify targets of a drug. If no action is present for a target. The interaction is not saved.
+    :param targets: list of <target>
+    :param drug_id: current DrugBankID
+    :param dictionary: dictionary to resolve association name <-> DrugBankID
+    :return: Triple of interaction Drug -> Protein/DrugBank ID/etc.
+    """
+    interactions = []
+    if len(targets) > 1:
+        raise ValueError("More <targets>: Expected one.")
+
+    for target in targets[0]:
+        actions = set([])
+        inter = target.findall(relations[3])
+        for i in range(4,len(relations)-1):
+            inter = inter.findall(relations[i])
+            '''
+        azioni = target.findall("actions")[0]
+        for action in azioni.findall("action"):
+            actions.add(action.text.upper().strip()) if not (action.text is None or action.text == "") else 0
+        for item in actions:
+            '''
+        interactions.append(Triple(drug_id, relations[len(relations)], inter))
+
+    return interactions
+
+
+def parse(entitiess,triple_list,ID_COLUMN,col,Vocabularies,relations,pendingList,thresholdTSV):
         #CONDITION
-    for entity in entitiess:
-        cont += 1
+    for entity in entitiess:    
         if(entity[1].endswith('.csv')):
+            #continue
             #name = elements.findall(entity[0])
             col_syn = []
             col_syn.append(entity[2])
             #NEED TO SET THIS AS PARAMETER
-            col_syn.append("Entry name")
-            dh = pd.read_csv(entity[1])
-            print(dh.columns)
+            #col_syn.append("Entry name")
             df = pd.read_csv(entity[1], usecols=col_syn)
-            df = df.dropna()
-            if(col_query.size != 0):
+            #check if DROPNA drops NA rows or rows with missing features (axis=1 drops columns with NA)
+            df = df.dropna(axis=1)
+            if(len(col_syn) != 0):
                 col_iter = np.delete(col_syn,0)
             else:
-                col_iter = col_query
+                col_iter = col_syn
             name = []
             sinonimi = []
             for row in range(len(df)):
-                name.append(df.iloc[row]["Entry"]) 
+                name.append(df.iloc[row][entity[2]]) 
                 #NEED TO SET THIS AS PARAMETER
-                sinonimi.append(df.iloc[row]["Entry name"])
+                sinonimi.append(df.iloc[row][entity[3]])
                 sinonimi2 = create_synonyms(name, sinonimi)#, products)
                 #products = elements.findall("products")
-                id = df.iloc[row]["Entry"]
+                id = df.iloc[row][entity[2]]
                 #HANDLE THE VOCABULARIES INDEX
                 
-                if('protein' in Vocabularies):
+                if(entity[0] in Vocabularies):
                     w = Vocabularies[entity[0]]
                     w.dict_id_to_name[id] = sinonimi2
                     #think so
@@ -83,138 +121,152 @@ def parse(entitiess,triple_list,ID_COLUMN,col,Vocabularies,relations,tree,pendin
                     w.dict_name_to_id[sinonimi2] = id
         ## XML SYN ##
         if(entity[1].endswith('.xml')):
+            tree = ET.parse(entity[1])
             name = tree.getroot().findall(entity[0])
             for el in name:
                 #set this as parameter
-                id2 = el.find(entity[2]) 
-                synonyms = el.findall("synonyms")
+                id2 = el.find(entity[2])
+                id2 = id2.text.upper().strip()
+                print(id2)
+                synonyms = el.findall(entity[3])
                 #products = elements.findall("products")
                 sinonimiXML = create_synonyms(id2, synonyms)#, products)
                 #HANDLE THE VOCABULARIES INDEX
                 w = Vocabularies[entity[0]]
-                if(sinonimiXML and id2):
+                if(sinonimiXML!=None and id2!=None):
                     w.dict_id_to_name[id2].append(sinonimiXML)
         ## TSV SYN ##
         if(entity[1].endswith('.tsv')):
+            #continue
+            #csv_table=pd.read_table(entity[1],sep='\t')
+            #csv_table.to_csv('validDisease.csv',index=False)
+            ##df = pd.read_csv('validDisease.csv')
             #name = elements.findall(entity[0])
             col_syn = []
             col_syn.append(entity[2])
             #NEED TO SET THIS AS PARAMETER
             ##col_syn.append("Entry name")
-            dh = pd.read_csv(entity[1])
-            print(dh.columns)
-            df = pd.read_csv(entity[1], usecols=col_syn)
-            df = df.dropna()
-            if(col_query.size != 0):
-                col_iter = np.delete(col_syn,0)
-            else:
-                col_iter = col_query
+            df = pd.read_csv(entity[1],sep='\t',usecols=col_syn)
+            ##print(df.columns)
             name = []
             sinonimi = []
+            print(len(df))
             for row in range(len(df)):
-                name.append(df.iloc[row]["Entry"]) 
+                name.append(df.iloc[row]) 
                 #NEED TO SET THIS AS PARAMETER
-                sinonimi.append(df.iloc[row]["Entry name"])
+                sinonimi.append(df.iloc[row][entity[3]])
                 sinonimi2 = create_synonyms(name, sinonimi)#, products)
                 #products = elements.findall("products")
-                id = df.iloc[row]["Entry"]
+                id = df.iloc[row][entity[2]]
                 #HANDLE THE VOCABULARIES INDEX
-                if('disease' in Vocabularies):
+                if(entity[0] in Vocabularies):
                     w = Vocabularies[entity[0]]
                     w.dict_id_to_name[id] = sinonimi2
                     #think so
-                    w.dict_name_to_id[sinonimi2] = id
+                    for i in sinonimi2:
+                        w.dict_name_to_id[i] = id
                 else:
-                    Vocabularies[entity[0]] = Vocabulary(None)
+                    Vocabularies[entity[0]] = Vocabulary(None,None)
                     w = Vocabularies[entity[0]]
                     w.dict_id_to_name[id] = sinonimi2
                     #think so
-                    w.dict_name_to_id[sinonimi2] = id
+                    for i in sinonimi2:
+                        w.dict_name_to_id[i] = id
 
-
-    df = pd.read_csv(entity[1])
-    col_query = np.intersect1d(df.columns,col)
-    #read and remove NaN
-    df = pd.read_csv(entity[1], usecols=col_query)
-    df = df.dropna()
-    #remove column entry for iteration over other columns
-    if(col_query.size != 0):
-        col_iter = np.delete(col_query,0)
-    else:
-        col_iter = col_query
-    for i in range(len(df)):
-        for j in col_iter:
-            res = df.iloc[i][j]
-            a = Triple(df[entity[2]].iloc[i],j,res)
-            if(lookUpVocabulary):
-                triple_list.append(a)
+    for entity in entitiess:
+        #print(entity[1])
+        if(entity[1].endswith('.csv')):
+            #continue
+            df = pd.read_csv(entity[1])
+            col_query = np.intersect1d(df.columns,col)
+            #read and remove NaN
+            df = pd.read_csv(entity[1], usecols=col_query)
+            #CHECK
+            df = df.dropna()
+            #remove column entry for iteration over other columns
+            if(col_query.size != 0):
+                col_iter = np.delete(col_query,0)
             else:
-                pendingList[entity[2]].append(a)
-                #add to pending
-    ## XML ##
-    tree = Tree.parse(entity[1])
-    #NEED TO GENERALIZE THIS PART
-    #ACCORDING TO CONFIG FILE
-    elements = tree.getroot().findall(entity[0])
-    #dict_syn = {}
-    #list_inter = []
-
-    for element in elements:
-        indication = element.findall("indication")
-        drugID = element.find(entity[2])
-        if(indication):
-            indications = parse_indication_disease(indication, drugID,Vocabularies['disease'])
-            list_indication += indications
-        #ids = element.findall('products')
-        '''
-        for i in ids:
-                if i.attrib.get("primary") == "true":
-                    i.text.upper().strip()
-                else:
-                    raise ValueError("Error...")
-        '''
-        #for i in ids:
-        for j in range(len(relations)):
-            if(entity[0] in relations[j][0]):
-                rel = element.findall(relations[j][1])
-                #print(len(rel))
-                for bb in rel:
-                    #print(bb)
-                    a = Triple(drugID,relations[j][1],bb)
-                    if(lookUpVocabulary):
+                col_iter = col_query
+            for i in range(len(df)):
+                for j in col_iter:
+                    res = df.iloc[i][j]
+                    a = Triple(df[entity[2]].iloc[i],j,res)
+                    if(lookUpVocabulary(bb,Vocabularies,entity[0],pendingList)):
                         triple_list.append(a)
                     else:
                         pendingList[entity[2]].append(a)
                         #add to pending
-    ## TSV ##
-    csv_table=pd.read_table(entity[1],sep='\t')
-    csv_table.to_csv('validDisease.csv',index=False)
-    df = pd.read_csv(entity[1])
-    col_query = np.intersect1d(df.columns,col)
-    chemical_vocabulary = Vocabularies['disease']
-    for line in df:
-            #print("\rChemical - Disease n. " + f"{count:,}", end='') if count % 100000 == 0 else 0
-            count += 1
-            if line.startswith('#'):
-                continue
-            sp_line = line.strip('\n').split('\t')
-
-            chemical_id = 'MESH:' + sp_line[1]
-            if chemical_id not in chemical_vocabulary.D_CHEMICAL:
-                continue
-
-            drugbank_id = chemical_vocabulary.D_CHEMICAL[chemical_id][0]
-            disease_id = sp_line[4]
-            inference_score = sp_line[7]
-
-            if inference_score == "":  # No inference --> direct evidence
-                triple_list.append(Triple(drugbank_id, "TREAT", disease_id))
-                continue
+        ## XML ##
+        if(entity[1].endswith('.xml')):        
+            ##tree = ET.parse(entity[1])
+            #doc = SimplifiedDoc()
+            #doc.loadFile('DrugBank.xml', lineByline=True)
+            #NEED TO GENERALIZE THIS PART
+            #ACCORDING TO CONFIG FILE
+            elements = tree.getroot().findall(entity[0])
+            for element in elements:
+            ##print(elements[0])
+            #dict_syn = {}
+            #list_inter = []
+                #indication = element.findall("indication")
+                #drugID = element.find(entity[2])
+                drugID = element.find(entity[2])
+                drugID = drugID.text.upper().strip()
+                print(drugID)
+                indication = element.findall("indication")
+                indications = parse_indication_disease(indication, drugID, None, Vocabularies)
+                #print(indications)
+                triple_list.append(indications)
+                
+                #if(indication):
+                ##    indications = parse_indication_disease(indication, drugID,Vocabularies['disease'])
+                ##    list_indication += indications
+                #ids = element.findall('products')
+                '''
+                for i in ids:
+                        if i.attrib.get("primary") == "true":
+                            i.text.upper().strip()
+                        else:
+                            raise ValueError("Error...")
+                '''
+                #for i in ids:
+                for j in range(len(relations)):
+                    if(entity[0] in relations[j][0]):
+                        rel = element.findall(relations[j][1])
+                        rel = parse_target(rel,drugID,Vocabularies[entity[0]],relations[j])
+                        for bb in rel:
+                            #print(bb)
+                            ##a = Triple(drugID,relations[j][1],bb)
+                            if(lookUpVocabulary(bb,Vocabularies,entity[0],pendingList)):
+                                triple_list.append(bb)
+                            else:
+                                pendingList[entity[0]].append(bb)
+                                #add to pending
+        ## TSV ##
+        if(entity[1].endswith('.tsv')):
+            col_syn = []
+            col_syn.append(entity[2])
+            #NEED TO SET THIS AS PARAMETER
+            ##col_syn.append("Entry name")
+            df = pd.read_csv(entity[1],sep='\t',usecols=col_syn)
+            df = df.dropna(axis=1)
+            #remove column entry for iteration over other columns
+            if(col_query.size != 0):
+                col_iter = np.delete(col_query,0)
             else:
-                inference_score = float(inference_score)
-            # TODO Use Inference relation name Marker/Mechanism or Therapeutic or Both
-            if inference_score >= thresholdTSV:
-                triple_list.append(Triple(drugbank_id, "TREAT", disease_id))
+                col_iter = col_query
+            for i in range(len(df)):
+                for j in col_iter:
+                    res = df.iloc[i][j]
+                    a = Triple(df[entity[2]].iloc[i],j,res)
+                    if(lookUpVocabulary(bb,Vocabularies,entity[0],pendingList)):
+                        triple_list.append(a)
+                    else:
+                        pendingList[entity[2]].append(a)
+                        #add to pending
+
+
 
 
 

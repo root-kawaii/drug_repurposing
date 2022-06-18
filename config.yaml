@@ -4,18 +4,18 @@
       'DrugBank.xml'
    ],
 'Vocabulary':[
-      ['drugbank vocabulary.csv',drug,'ID']
-      ['diseaseVOcabulary.csv','disease','ID']
+      ['drugbank vocabulary.csv','drug','DrugBank ID']
    ],
 'entities':[
-   ['drug','DrugBank.xml','ID'],
-   ['protein','swissprot.csv','Entry']
-   ##['disease','disease.tsv','ID']
+   ['drug','DrugBank.xml','drugbank-id','synonyms'],
+   ['protein','swissprot.tsv','Entry','synonyms']
 ],
 'relations':[
-   ['drug',products','gene'],
+   ['drug','targets','disease','polypeptide','id','actions'],
    ['protein','Codified by','gene'],
    ['protein','Interacts with','protein']
    ]
 }
 #maybe change relation because i can find many with same name
+
+   ##['protein','swissprot.csv','Entry']
