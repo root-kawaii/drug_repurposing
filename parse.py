@@ -65,17 +65,19 @@ def parse_target(targets, drug_id, dictionary,relations) -> []:
         raise ValueError("More <targets>: Expected one.")
 
     for target in targets[0]:
-        actions = set([])
-        inter = target.findall(relations[3])
-        for i in range(4,len(relations)-1):
-            inter = inter.findall(relations[i])
-            '''
-        azioni = target.findall("actions")[0]
-        for action in azioni.findall("action"):
-            actions.add(action.text.upper().strip()) if not (action.text is None or action.text == "") else 0
-        for item in actions:
-            '''
-        interactions.append(Triple(drug_id, relations[len(relations)], inter))
+        if(len(relations)==3):
+            inter = target
+        else:
+            inter = target.findall(relations[3])
+            for i in range(3,len(relations)):
+                inter = inter.findall(relations[i])
+                '''
+            azioni = target.findall("actions")[0]
+            for action in azioni.findall("action"):
+                actions.add(action.text.upper().strip()) if not (action.text is None or action.text == "") else 0
+            for item in actions:
+                '''
+        interactions.append(Triple(drug_id, relations[1], inter))
 
     return interactions
 
@@ -178,11 +180,11 @@ def parse(entitiess,triple_list,ID_COLUMN,col,Vocabularies,relations,pendingList
         if(entity[1].endswith('.csv')):
             #continue
             df = pd.read_csv(entity[1])
-            col_query = np.intersect1d(df.columns,col)
+            col_query = np.intersect1d(df.columns,col[entity[0]])
             #read and remove NaN
             df = pd.read_csv(entity[1], usecols=col_query)
             #CHECK
-            df = df.dropna()
+            df = df.dropna(axis=1)
             #remove column entry for iteration over other columns
             if(col_query.size != 0):
                 col_iter = np.delete(col_query,0)
@@ -245,11 +247,11 @@ def parse(entitiess,triple_list,ID_COLUMN,col,Vocabularies,relations,pendingList
                                 #add to pending
         ## TSV ##
         if(entity[1].endswith('.tsv')):
-            col_syn = []
-            col_syn.append(entity[2])
+            df = pd.read_csv(entity[1],sep='\t')
+            col_query = np.intersect1d(df.columns,col[entity[0]])
             #NEED TO SET THIS AS PARAMETER
             ##col_syn.append("Entry name")
-            df = pd.read_csv(entity[1],sep='\t',usecols=col_syn)
+            df = pd.read_csv(entity[1],sep='\t',usecols=col_query)
             df = df.dropna(axis=1)
             #remove column entry for iteration over other columns
             if(col_query.size != 0):

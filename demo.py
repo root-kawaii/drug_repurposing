@@ -36,12 +36,12 @@ dataset_file = parsed_yaml_file['file']
 
 #NEED TO ADDRESS DIFFERENT ENTITIES SUCH AS DRUGS AND PROTEINS
 #select relation from YAML
-for w in range(len(relations)):
-    if(relations[w][0]=='protein'):
-        colD.append(relations[w][1])
-    if(relations[w][0]=='protein'):
-        colP.append(relations[w][1])
-colP.append(ID_COLUMN)
+col = parsed_yaml_file['Relations']
+Columns = {}
+if(col):
+    for i in range(len(col)):
+        step = col[i]
+        Columns[step[0]] = step[1] 
 #colD.append(ID_COLUMN)
 
 #Could generalize Vocabulary
@@ -67,7 +67,7 @@ for w in range(len(entitiess)):
 #print(drugBankVocabulary.dict_id_to_name)
 
 ## need to set threshold
-parse(entitiess,triple_list,ID_COLUMN,colP,Vocabularies,relations,pendingList,thresholdTSV=0)
+parse(entitiess,triple_list,ID_COLUMN,Columns,Vocabularies,relations,pendingList,thresholdTSV=0)
 
 
 ##for i in pendingList.values:
@@ -77,9 +77,15 @@ parse(entitiess,triple_list,ID_COLUMN,colP,Vocabularies,relations,pendingList,th
 print('...')
 
 ##print(Vocabularies['drug'].dict_id_to_name)
-log = open("transcript.txt",'a')
-for elemo in triple_list:
-    print(elemo.__str__())
-    log.write(elemo.__str__())
 
 
+with open("transcript.tsv", mode='a') as file:
+    for element in triple_list:
+        for i in range(len(col)):
+            step = col[i]
+            checkk = step[1]
+            if(checkk == element.relation):
+                file.write(element.relation)
+                file.write(element.head)
+                file.write(element.tail)
+                file.write('\n')
